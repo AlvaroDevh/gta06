@@ -53,6 +53,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Cookies do YouTube (se houver o segredo YT_COOKIES)
+        env:
+          YT_COOKIES: ${{ secrets.YT_COOKIES }}
+        run: |
+          if [ -n "$YT_COOKIES" ]; then
+            printf '%s\n' "$YT_COOKIES" > "$RUNNER_TEMP/cookies.txt"
+            echo "YTDLP_COOKIES=$RUNNER_TEMP/cookies.txt" >> "$GITHUB_ENV"
+            echo "cookies do YouTube: sim"
+          fi
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

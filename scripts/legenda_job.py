@@ -66,7 +66,9 @@ def video_avulso(job, fonte, pasta="entrada"):
     elif re.search(r"\.(mp4|mov|mkv|webm)(\?|$)", fonte):
         subprocess.run(["curl", "-sSL", "--fail", "-o", destino, fonte], check=True)
     else:
-        subprocess.run(["yt-dlp", "-q", "--no-playlist", "-f", "bv*[height<=1920]+ba/b", "--merge-output-format",
+        ck = os.environ.get("YTDLP_COOKIES", "")
+        extra = ["--cookies", ck] if os.path.isfile(ck) else []
+        subprocess.run(["yt-dlp", "-q", "--no-playlist", *extra, "-f", "bv*[height<=1920]+ba/b", "--merge-output-format",
                         "mp4", "-o", destino, fonte], check=True)
     garantir_release(job)
     subir(job, destino)

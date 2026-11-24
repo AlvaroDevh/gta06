@@ -12,6 +12,15 @@ import argparse, glob, json, os, re, subprocess, sys
 
 import yt_dlp
 
+# Cookies do YouTube (segredo YT_COOKIES gravado em arquivo pelo workflow): evita o "confirme que não é um robô".
+COOKIES = os.environ.get("YTDLP_COOKIES") if os.path.isfile(os.environ.get("YTDLP_COOKIES", "")) else None
+
+
+def cookies(o):
+    if COOKIES:
+        o["cookiefile"] = COOKIES
+    return o
+
 
 def seg(v):
     if v in (None, ""):
@@ -36,7 +45,7 @@ def plataforma(url):
 
 
 def info(url, flat=False):
-    o = {"quiet": True, "skip_download": True, "extract_flat": "in_playlist" if flat else False}
+    o = cookies({"quiet": True, "skip_download": True, "extract_flat": "in_playlist" if flat else False})
     try:
         with yt_dlp.YoutubeDL(o) as y:
             return y.extract_info(url, download=False)
@@ -137,6 +146,8 @@ def cmd_audio(a):
 
     cmd = ["yt-dlp", "-q", "--no-warnings", "-N", "8", "-f", "ba/Audio_Only/audio_only/worst",
            "-o", os.path.join(pasta, "audio.%(ext)s"), url]
+    if COOKIES:
+        cmd[1:1] = ["--cookies", COOKIES]
     if ini is not None or fim is not None:
         cmd[1:1] = ["--download-sections", f"*{hms(ini or 0)}-{hms(fim) if fim else 'inf'}"]
     subprocess.run(cmd, check=True)
@@ -154,6 +165,7 @@ def cmd_trecho(a):
         return
     o = {"quiet": True, "no_warnings": True,
          "format": "bv*[height<=1080][vcodec^=avc]+ba/bv*[height<=1080]+ba/b[height<=1080]/b"}
+    o = cookies(o)
     with yt_dlp.YoutubeDL(o) as y:
         i = y.extract_info(a.url, download=False)
     fmts = i.get("requested_formats") or [i]
