@@ -1,0 +1,12 @@
+{
+ "formato": "vertical",
+ "layout": "auto",
+ "legenda": false,
+ "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, Arthur Morgan, caçamba, capota, polícia, chat, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:04:30", "fim": "0:05:22", "titulo": "ISSO LITERALMENTE NAO EXISTE"},
+  {"id": "02", "inicio": "0:14:06", "fim": "0:15:06", "titulo": "FALTOU VERBA"},
+  {"id": "03", "inicio": "0:05:48", "fim": "0:06:40", "titulo": "ELE DENUNCIOU MEU CARRO"}
+ ]
+}
