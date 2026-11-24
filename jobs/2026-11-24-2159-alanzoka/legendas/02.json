@@ -1,0 +1,1186 @@
+{
+ "segments": [
+  {
+   "start": 2.03,
+   "end": 3.25,
+   "text": "— \"Acelera⁠ isso⁠ aí⁠",
+   "words": [
+    {
+     "word": "— \"Acelera⁠",
+     "start": 2.03,
+     "end": 2.63
+    },
+    {
+     "word": "isso⁠",
+     "start": 2.63,
+     "end": 2.93
+    },
+    {
+     "word": "aí⁠",
+     "start": 2.93,
+     "end": 3.25
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 3.29,
+   "end": 4.45,
+   "text": "paizão.\"⁠ Ué,⁠ cara⁠",
+   "words": [
+    {
+     "word": "paizão.\"⁠",
+     "start": 3.29,
+     "end": 3.69
+    },
+    {
+     "word": "Ué,⁠",
+     "start": 3.69,
+     "end": 4.05
+    },
+    {
+     "word": "cara⁠",
+     "start": 4.21,
+     "end": 4.45
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 4.49,
+   "end": 5.13,
+   "text": "tô⁠ postando⁠ dois⁠",
+   "words": [
+    {
+     "word": "tô⁠",
+     "start": 4.49,
+     "end": 4.55
+    },
+    {
+     "word": "postando⁠",
+     "start": 4.55,
+     "end": 4.95
+    },
+    {
+     "word": "dois⁠",
+     "start": 4.95,
+     "end": 5.13
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 5.17,
+   "end": 6.15,
+   "text": "vídeos⁠ por⁠ dia,⁠ mano⁠",
+   "words": [
+    {
+     "word": "vídeos⁠",
+     "start": 5.17,
+     "end": 5.41
+    },
+    {
+     "word": "por⁠",
+     "start": 5.41,
+     "end": 5.63
+    },
+    {
+     "word": "dia,⁠",
+     "start": 5.63,
+     "end": 5.91
+    },
+    {
+     "word": "mano⁠",
+     "start": 6.01,
+     "end": 6.15
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 6.19,
+   "end": 6.94,
+   "text": "Não⁠ entendi,⁠ eu⁠ não⁠",
+   "words": [
+    {
+     "word": "Não⁠",
+     "start": 6.19,
+     "end": 6.41
+    },
+    {
+     "word": "entendi,⁠",
+     "start": 6.41,
+     "end": 6.75
+    },
+    {
+     "word": "eu⁠",
+     "start": 6.81,
+     "end": 6.89
+    },
+    {
+     "word": "não⁠",
+     "start": 6.89,
+     "end": 6.94
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 6.95,
+   "end": 7.59,
+   "text": "sou⁠ o⁠ David⁠ Jones⁠",
+   "words": [
+    {
+     "word": "sou⁠",
+     "start": 6.95,
+     "end": 7.09
+    },
+    {
+     "word": "o⁠",
+     "start": 7.09,
+     "end": 7.19
+    },
+    {
+     "word": "David⁠",
+     "start": 7.19,
+     "end": 7.33
+    },
+    {
+     "word": "Jones⁠",
+     "start": 7.33,
+     "end": 7.59
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 7.63,
+   "end": 8.25,
+   "text": "não⁠ pra⁠ postar⁠",
+   "words": [
+    {
+     "word": "não⁠",
+     "start": 7.63,
+     "end": 7.81
+    },
+    {
+     "word": "pra⁠",
+     "start": 7.81,
+     "end": 7.99
+    },
+    {
+     "word": "postar⁠",
+     "start": 7.99,
+     "end": 8.25
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 8.29,
+   "end": 9.45,
+   "text": "50⁠ vídeos⁠ por⁠ dia⁠",
+   "words": [
+    {
+     "word": "50⁠",
+     "start": 8.29,
+     "end": 8.59
+    },
+    {
+     "word": "vídeos⁠",
+     "start": 8.59,
+     "end": 9.03
+    },
+    {
+     "word": "por⁠",
+     "start": 9.03,
+     "end": 9.25
+    },
+    {
+     "word": "dia⁠",
+     "start": 9.25,
+     "end": 9.45
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 9.49,
+   "end": 10.15,
+   "text": "mano.⁠ Dois⁠ por⁠ dia⁠",
+   "words": [
+    {
+     "word": "mano.⁠",
+     "start": 9.49,
+     "end": 9.61
+    },
+    {
+     "word": "Dois⁠",
+     "start": 9.61,
+     "end": 9.89
+    },
+    {
+     "word": "por⁠",
+     "start": 9.89,
+     "end": 10.07
+    },
+    {
+     "word": "dia⁠",
+     "start": 10.07,
+     "end": 10.15
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 10.19,
+   "end": 10.86,
+   "text": "tá⁠ bom⁠",
+   "words": [
+    {
+     "word": "tá⁠",
+     "start": 10.19,
+     "end": 10.35
+    },
+    {
+     "word": "bom⁠",
+     "start": 10.35,
+     "end": 10.86
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 13.2,
+   "end": 13.8,
+   "text": "né?⁠",
+   "words": [
+    {
+     "word": "né?⁠",
+     "start": 13.2,
+     "end": 13.8
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 14.49,
+   "end": 15.73,
+   "text": "Dois⁠ por⁠ dia,⁠ pô⁠",
+   "words": [
+    {
+     "word": "Dois⁠",
+     "start": 14.49,
+     "end": 14.85
+    },
+    {
+     "word": "por⁠",
+     "start": 14.85,
+     "end": 15.17
+    },
+    {
+     "word": "dia,⁠",
+     "start": 15.17,
+     "end": 15.47
+    },
+    {
+     "word": "pô⁠",
+     "start": 15.53,
+     "end": 15.73
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 15.77,
+   "end": 16.44,
+   "text": "Até⁠",
+   "words": [
+    {
+     "word": "Até⁠",
+     "start": 15.77,
+     "end": 16.44
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 17.81,
+   "end": 18.91,
+   "text": "porque⁠ ninguém⁠ vai⁠ ter⁠ tempo⁠",
+   "words": [
+    {
+     "word": "porque⁠",
+     "start": 17.81,
+     "end": 18.11
+    },
+    {
+     "word": "ninguém⁠",
+     "start": 18.11,
+     "end": 18.41
+    },
+    {
+     "word": "vai⁠",
+     "start": 18.41,
+     "end": 18.59
+    },
+    {
+     "word": "ter⁠",
+     "start": 18.59,
+     "end": 18.75
+    },
+    {
+     "word": "tempo⁠",
+     "start": 18.75,
+     "end": 18.91
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 18.95,
+   "end": 20.03,
+   "text": "de⁠ assistir⁠ três⁠",
+   "words": [
+    {
+     "word": "de⁠",
+     "start": 18.95,
+     "end": 19.03
+    },
+    {
+     "word": "assistir⁠",
+     "start": 19.03,
+     "end": 19.43
+    },
+    {
+     "word": "três⁠",
+     "start": 19.43,
+     "end": 20.03
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 20.07,
+   "end": 20.65,
+   "text": "vídeos⁠ por⁠ dia⁠",
+   "words": [
+    {
+     "word": "vídeos⁠",
+     "start": 20.07,
+     "end": 20.39
+    },
+    {
+     "word": "por⁠",
+     "start": 20.39,
+     "end": 20.57
+    },
+    {
+     "word": "dia⁠",
+     "start": 20.57,
+     "end": 20.65
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 20.69,
+   "end": 21.98,
+   "text": "de⁠ duas⁠ horas,⁠ mano⁠",
+   "words": [
+    {
+     "word": "de⁠",
+     "start": 20.69,
+     "end": 20.85
+    },
+    {
+     "word": "duas⁠",
+     "start": 20.85,
+     "end": 21.15
+    },
+    {
+     "word": "horas,⁠",
+     "start": 21.15,
+     "end": 21.47
+    },
+    {
+     "word": "mano⁠",
+     "start": 21.51,
+     "end": 21.98
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 22.36,
+   "end": 22.98,
+   "text": "Quer⁠ dizer,⁠ alguém⁠",
+   "words": [
+    {
+     "word": "Quer⁠",
+     "start": 22.36,
+     "end": 22.66
+    },
+    {
+     "word": "dizer,⁠",
+     "start": 22.66,
+     "end": 22.74
+    },
+    {
+     "word": "alguém⁠",
+     "start": 22.78,
+     "end": 22.98
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 23.02,
+   "end": 23.93,
+   "text": "tem,⁠ né,⁠ mas⁠",
+   "words": [
+    {
+     "word": "tem,⁠",
+     "start": 23.02,
+     "end": 23.28
+    },
+    {
+     "word": "né,⁠",
+     "start": 23.34,
+     "end": 23.46
+    },
+    {
+     "word": "mas⁠",
+     "start": 23.46,
+     "end": 23.93
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 25.4,
+   "end": 26.82,
+   "text": "dois⁠ vídeos⁠ por⁠ dia⁠",
+   "words": [
+    {
+     "word": "dois⁠",
+     "start": 25.4,
+     "end": 25.92
+    },
+    {
+     "word": "vídeos⁠",
+     "start": 25.92,
+     "end": 26.32
+    },
+    {
+     "word": "por⁠",
+     "start": 26.32,
+     "end": 26.58
+    },
+    {
+     "word": "dia⁠",
+     "start": 26.58,
+     "end": 26.82
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 26.86,
+   "end": 27.59,
+   "text": "pô⁠",
+   "words": [
+    {
+     "word": "pô⁠",
+     "start": 26.86,
+     "end": 27.59
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 31.05,
+   "end": 31.86,
+   "text": "Pior",
+   "words": [
+    {
+     "word": "Pior",
+     "start": 31.05,
+     "end": 31.86
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 34.0,
+   "end": 34.67,
+   "text": "que, mano",
+   "words": [
+    {
+     "word": "que,",
+     "start": 34.0,
+     "end": 34.14
+    },
+    {
+     "word": "mano",
+     "start": 34.24,
+     "end": 34.67
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 35.26,
+   "end": 35.76,
+   "text": "Vai chegar",
+   "words": [
+    {
+     "word": "Vai",
+     "start": 35.26,
+     "end": 35.58
+    },
+    {
+     "word": "chegar",
+     "start": 35.58,
+     "end": 35.76
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 35.8,
+   "end": 36.35,
+   "text": "um momento que eu",
+   "words": [
+    {
+     "word": "um",
+     "start": 35.8,
+     "end": 35.9
+    },
+    {
+     "word": "momento",
+     "start": 35.9,
+     "end": 36.16
+    },
+    {
+     "word": "que",
+     "start": 36.16,
+     "end": 36.3
+    },
+    {
+     "word": "eu",
+     "start": 36.3,
+     "end": 36.35
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 36.36,
+   "end": 37.0,
+   "text": "vou ter tipo, 30",
+   "words": [
+    {
+     "word": "vou",
+     "start": 36.36,
+     "end": 36.46
+    },
+    {
+     "word": "ter",
+     "start": 36.46,
+     "end": 36.6
+    },
+    {
+     "word": "tipo,",
+     "start": 36.6,
+     "end": 36.74
+    },
+    {
+     "word": "30",
+     "start": 36.92,
+     "end": 37.0
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 37.04,
+   "end": 37.54,
+   "text": "vídeos de GTA",
+   "words": [
+    {
+     "word": "vídeos",
+     "start": 37.04,
+     "end": 37.32
+    },
+    {
+     "word": "de",
+     "start": 37.32,
+     "end": 37.42
+    },
+    {
+     "word": "GTA",
+     "start": 37.42,
+     "end": 37.54
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 37.58,
+   "end": 38.64,
+   "text": "guardado e eu vou",
+   "words": [
+    {
+     "word": "guardado",
+     "start": 37.58,
+     "end": 38.16
+    },
+    {
+     "word": "e",
+     "start": 38.16,
+     "end": 38.24
+    },
+    {
+     "word": "eu",
+     "start": 38.24,
+     "end": 38.32
+    },
+    {
+     "word": "vou",
+     "start": 38.48,
+     "end": 38.64
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 38.68,
+   "end": 39.36,
+   "text": "postar, vou precisar",
+   "words": [
+    {
+     "word": "postar,",
+     "start": 38.68,
+     "end": 39.02
+    },
+    {
+     "word": "vou",
+     "start": 39.02,
+     "end": 39.12
+    },
+    {
+     "word": "precisar",
+     "start": 39.12,
+     "end": 39.36
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 39.4,
+   "end": 40.76,
+   "text": "postar logo. Eu vou ter que postar",
+   "words": [
+    {
+     "word": "postar",
+     "start": 39.4,
+     "end": 39.74
+    },
+    {
+     "word": "logo.",
+     "start": 39.74,
+     "end": 40.0
+    },
+    {
+     "word": "Eu",
+     "start": 40.2,
+     "end": 40.32
+    },
+    {
+     "word": "vou",
+     "start": 40.32,
+     "end": 40.4
+    },
+    {
+     "word": "ter",
+     "start": 40.4,
+     "end": 40.48
+    },
+    {
+     "word": "que",
+     "start": 40.48,
+     "end": 40.56
+    },
+    {
+     "word": "postar",
+     "start": 40.56,
+     "end": 40.76
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 40.8,
+   "end": 41.76,
+   "text": "uns quatro por dia",
+   "words": [
+    {
+     "word": "uns",
+     "start": 40.8,
+     "end": 40.94
+    },
+    {
+     "word": "quatro",
+     "start": 40.94,
+     "end": 41.2
+    },
+    {
+     "word": "por",
+     "start": 41.2,
+     "end": 41.44
+    },
+    {
+     "word": "dia",
+     "start": 41.44,
+     "end": 41.76
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 41.8,
+   "end": 42.45,
+   "text": "Não",
+   "words": [
+    {
+     "word": "Não",
+     "start": 41.8,
+     "end": 42.45
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 44.03,
+   "end": 44.84,
+   "text": "chat, é bom, tá",
+   "words": [
+    {
+     "word": "chat,",
+     "start": 44.03,
+     "end": 44.21
+    },
+    {
+     "word": "é",
+     "start": 44.21,
+     "end": 44.41
+    },
+    {
+     "word": "bom,",
+     "start": 44.41,
+     "end": 44.65
+    },
+    {
+     "word": "tá",
+     "start": 44.79,
+     "end": 44.84
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 44.83,
+   "end": 46.15,
+   "text": "ligado, porque daí",
+   "words": [
+    {
+     "word": "ligado,",
+     "start": 44.83,
+     "end": 45.23
+    },
+    {
+     "word": "porque",
+     "start": 45.37,
+     "end": 45.61
+    },
+    {
+     "word": "daí",
+     "start": 45.61,
+     "end": 46.15
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 46.19,
+   "end": 47.31,
+   "text": "ó: quando eu terminar",
+   "words": [
+    {
+     "word": "ó:",
+     "start": 46.19,
+     "end": 46.25
+    },
+    {
+     "word": "quando",
+     "start": 46.25,
+     "end": 46.87
+    },
+    {
+     "word": "eu",
+     "start": 46.87,
+     "end": 47.01
+    },
+    {
+     "word": "terminar",
+     "start": 47.01,
+     "end": 47.31
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 47.35,
+   "end": 49.17,
+   "text": "o GTA 6, eu",
+   "words": [
+    {
+     "word": "o",
+     "start": 47.35,
+     "end": 47.73
+    },
+    {
+     "word": "GTA",
+     "start": 47.73,
+     "end": 47.97
+    },
+    {
+     "word": "6,",
+     "start": 47.97,
+     "end": 48.45
+    },
+    {
+     "word": "eu",
+     "start": 48.45,
+     "end": 49.17
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 49.21,
+   "end": 50.41,
+   "text": "vou tirar umas férias, mano",
+   "words": [
+    {
+     "word": "vou",
+     "start": 49.21,
+     "end": 49.37
+    },
+    {
+     "word": "tirar",
+     "start": 49.37,
+     "end": 49.55
+    },
+    {
+     "word": "umas",
+     "start": 49.55,
+     "end": 49.79
+    },
+    {
+     "word": "férias,",
+     "start": 49.79,
+     "end": 50.23
+    },
+    {
+     "word": "mano",
+     "start": 50.23,
+     "end": 50.41
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 50.45,
+   "end": 51.73,
+   "text": "de dois dias! Daí",
+   "words": [
+    {
+     "word": "de",
+     "start": 50.45,
+     "end": 50.69
+    },
+    {
+     "word": "dois",
+     "start": 50.69,
+     "end": 51.05
+    },
+    {
+     "word": "dias!",
+     "start": 51.05,
+     "end": 51.39
+    },
+    {
+     "word": "Daí",
+     "start": 51.55,
+     "end": 51.73
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 51.77,
+   "end": 52.41,
+   "text": "eu vou ter vídeo",
+   "words": [
+    {
+     "word": "eu",
+     "start": 51.77,
+     "end": 51.91
+    },
+    {
+     "word": "vou",
+     "start": 51.91,
+     "end": 52.05
+    },
+    {
+     "word": "ter",
+     "start": 52.05,
+     "end": 52.23
+    },
+    {
+     "word": "vídeo",
+     "start": 52.23,
+     "end": 52.41
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 52.45,
+   "end": 53.13,
+   "text": "por dois dias",
+   "words": [
+    {
+     "word": "por",
+     "start": 52.45,
+     "end": 52.63
+    },
+    {
+     "word": "dois",
+     "start": 52.63,
+     "end": 52.85
+    },
+    {
+     "word": "dias",
+     "start": 52.85,
+     "end": 53.13
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 53.17,
+   "end": 53.82,
+   "text": "pelo menos",
+   "words": [
+    {
+     "word": "pelo",
+     "start": 53.17,
+     "end": 53.27
+    },
+    {
+     "word": "menos",
+     "start": 53.27,
+     "end": 53.82
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 54.41,
+   "end": 55.12,
+   "text": "tá ligado?",
+   "words": [
+    {
+     "word": "tá",
+     "start": 54.41,
+     "end": 54.53
+    },
+    {
+     "word": "ligado?",
+     "start": 54.53,
+     "end": 55.12
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 57.8,
+   "end": 58.91,
+   "text": "pra postar, mano",
+   "words": [
+    {
+     "word": "pra",
+     "start": 57.8,
+     "end": 57.98
+    },
+    {
+     "word": "postar,",
+     "start": 57.98,
+     "end": 58.5
+    },
+    {
+     "word": "mano",
+     "start": 58.54,
+     "end": 58.91
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 63.17,
+   "end": 64.39,
+   "text": "né? Não, não vou me",
+   "words": [
+    {
+     "word": "né?",
+     "start": 63.17,
+     "end": 63.37
+    },
+    {
+     "word": "Não,",
+     "start": 63.95,
+     "end": 64.05
+    },
+    {
+     "word": "não",
+     "start": 64.05,
+     "end": 64.21
+    },
+    {
+     "word": "vou",
+     "start": 64.21,
+     "end": 64.31
+    },
+    {
+     "word": "me",
+     "start": 64.31,
+     "end": 64.39
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 64.43,
+   "end": 65.13,
+   "text": "aposentar, mano",
+   "words": [
+    {
+     "word": "aposentar,",
+     "start": 64.43,
+     "end": 64.89
+    },
+    {
+     "word": "mano",
+     "start": 64.91,
+     "end": 65.13
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 65.17,
+   "end": 66.06,
+   "text": "você é louco! Tem",
+   "words": [
+    {
+     "word": "você",
+     "start": 65.17,
+     "end": 65.33
+    },
+    {
+     "word": "é",
+     "start": 65.33,
+     "end": 65.43
+    },
+    {
+     "word": "louco!",
+     "start": 65.43,
+     "end": 65.65
+    },
+    {
+     "word": "Tem",
+     "start": 65.65,
+     "end": 66.06
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 67.56,
+   "end": 68.35,
+   "text": "que jogar Red Dead",
+   "words": [
+    {
+     "word": "que",
+     "start": 67.56,
+     "end": 67.66
+    },
+    {
+     "word": "jogar",
+     "start": 67.66,
+     "end": 67.98
+    },
+    {
+     "word": "Red",
+     "start": 67.98,
+     "end": 68.3
+    },
+    {
+     "word": "Dead",
+     "start": 68.3,
+     "end": 68.35
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 68.38,
+   "end": 69.36,
+   "text": "Redemption 3 ainda",
+   "words": [
+    {
+     "word": "Redemption",
+     "start": 68.38,
+     "end": 68.74
+    },
+    {
+     "word": "3",
+     "start": 68.74,
+     "end": 69.04
+    },
+    {
+     "word": "ainda",
+     "start": 69.04,
+     "end": 69.36
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 69.4,
+   "end": 70.0,
+   "text": "mano",
+   "words": [
+    {
+     "word": "mano",
+     "start": 69.4,
+     "end": 70.0
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}

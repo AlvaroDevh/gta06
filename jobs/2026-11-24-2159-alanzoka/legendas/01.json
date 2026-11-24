@@ -1,0 +1,997 @@
+{
+ "segments": [
+  {
+   "start": 0.04,
+   "end": 1.43,
+   "text": "Por que que ele cancelou o Jack?",
+   "words": [
+    {
+     "word": "Por",
+     "start": 0.04,
+     "end": 0.16
+    },
+    {
+     "word": "que",
+     "start": 0.16,
+     "end": 0.22
+    },
+    {
+     "word": "que",
+     "start": 0.22,
+     "end": 0.32
+    },
+    {
+     "word": "ele",
+     "start": 0.32,
+     "end": 0.4
+    },
+    {
+     "word": "cancelou",
+     "start": 0.4,
+     "end": 0.88
+    },
+    {
+     "word": "o",
+     "start": 0.88,
+     "end": 1.0
+    },
+    {
+     "word": "Jack?",
+     "start": 1.0,
+     "end": 1.43
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 2.24,
+   "end": 3.11,
+   "text": "Não entendi, pra",
+   "words": [
+    {
+     "word": "Não",
+     "start": 2.24,
+     "end": 2.46
+    },
+    {
+     "word": "entendi,",
+     "start": 2.46,
+     "end": 2.86
+    },
+    {
+     "word": "pra",
+     "start": 3.06,
+     "end": 3.11
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 3.14,
+   "end": 3.64,
+   "text": "que que tem esse",
+   "words": [
+    {
+     "word": "que",
+     "start": 3.14,
+     "end": 3.26
+    },
+    {
+     "word": "que",
+     "start": 3.26,
+     "end": 3.36
+    },
+    {
+     "word": "tem",
+     "start": 3.36,
+     "end": 3.46
+    },
+    {
+     "word": "esse",
+     "start": 3.46,
+     "end": 3.64
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 3.68,
+   "end": 4.34,
+   "text": "flamingo que ele",
+   "words": [
+    {
+     "word": "flamingo",
+     "start": 3.68,
+     "end": 4.18
+    },
+    {
+     "word": "que",
+     "start": 4.18,
+     "end": 4.28
+    },
+    {
+     "word": "ele",
+     "start": 4.28,
+     "end": 4.34
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 4.38,
+   "end": 5.1,
+   "text": "acende quando eu",
+   "words": [
+    {
+     "word": "acende",
+     "start": 4.38,
+     "end": 4.78
+    },
+    {
+     "word": "quando",
+     "start": 4.78,
+     "end": 5.0
+    },
+    {
+     "word": "eu",
+     "start": 5.0,
+     "end": 5.1
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 5.14,
+   "end": 5.76,
+   "text": "clico aqui, será",
+   "words": [
+    {
+     "word": "clico",
+     "start": 5.14,
+     "end": 5.36
+    },
+    {
+     "word": "aqui,",
+     "start": 5.36,
+     "end": 5.58
+    },
+    {
+     "word": "será",
+     "start": 5.68,
+     "end": 5.76
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 5.8,
+   "end": 6.46,
+   "text": "que você dá um tiro nele",
+   "words": [
+    {
+     "word": "que",
+     "start": 5.8,
+     "end": 5.88
+    },
+    {
+     "word": "você",
+     "start": 5.88,
+     "end": 5.96
+    },
+    {
+     "word": "dá",
+     "start": 5.96,
+     "end": 6.04
+    },
+    {
+     "word": "um",
+     "start": 6.04,
+     "end": 6.14
+    },
+    {
+     "word": "tiro",
+     "start": 6.14,
+     "end": 6.32
+    },
+    {
+     "word": "nele",
+     "start": 6.32,
+     "end": 6.46
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 6.5,
+   "end": 7.51,
+   "text": "e eu ganho alguma coisa?",
+   "words": [
+    {
+     "word": "e",
+     "start": 6.5,
+     "end": 6.58
+    },
+    {
+     "word": "eu",
+     "start": 6.58,
+     "end": 6.63
+    },
+    {
+     "word": "ganho",
+     "start": 6.63,
+     "end": 6.68
+    },
+    {
+     "word": "alguma",
+     "start": 6.68,
+     "end": 6.92
+    },
+    {
+     "word": "coisa?",
+     "start": 6.92,
+     "end": 7.51
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 12.45,
+   "end": 14.2,
+   "text": "— Flamingos⁠ de⁠ cocaína!⁠",
+   "words": [
+    {
+     "word": "— Flamingos⁠",
+     "start": 12.45,
+     "end": 12.83
+    },
+    {
+     "word": "de⁠",
+     "start": 12.83,
+     "end": 13.01
+    },
+    {
+     "word": "cocaína!⁠",
+     "start": 13.01,
+     "end": 14.2
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 16.84,
+   "end": 19.31,
+   "text": "— Deus⁠ do⁠ céu,⁠ mano!⁠",
+   "words": [
+    {
+     "word": "— Deus⁠",
+     "start": 16.84,
+     "end": 17.18
+    },
+    {
+     "word": "do⁠",
+     "start": 17.18,
+     "end": 17.8
+    },
+    {
+     "word": "céu,⁠",
+     "start": 17.98,
+     "end": 18.52
+    },
+    {
+     "word": "mano!⁠",
+     "start": 18.8,
+     "end": 19.31
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 20.95,
+   "end": 21.76,
+   "text": "— 125⁠",
+   "words": [
+    {
+     "word": "— 125⁠",
+     "start": 20.95,
+     "end": 21.76
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 23.91,
+   "end": 24.56,
+   "text": "esse daí eu vou",
+   "words": [
+    {
+     "word": "esse",
+     "start": 23.91,
+     "end": 24.25
+    },
+    {
+     "word": "daí",
+     "start": 24.25,
+     "end": 24.37
+    },
+    {
+     "word": "eu",
+     "start": 24.37,
+     "end": 24.51
+    },
+    {
+     "word": "vou",
+     "start": 24.51,
+     "end": 24.56
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 24.55,
+   "end": 25.59,
+   "text": "deixar o BRKS Edu",
+   "words": [
+    {
+     "word": "deixar",
+     "start": 24.55,
+     "end": 24.75
+    },
+    {
+     "word": "o",
+     "start": 24.75,
+     "end": 24.85
+    },
+    {
+     "word": "BRKS",
+     "start": 24.85,
+     "end": 25.27
+    },
+    {
+     "word": "Edu",
+     "start": 25.27,
+     "end": 25.59
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 25.63,
+   "end": 26.23,
+   "text": "mano",
+   "words": [
+    {
+     "word": "mano",
+     "start": 25.63,
+     "end": 26.23
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 28.21,
+   "end": 29.03,
+   "text": "pega o item, calma",
+   "words": [
+    {
+     "word": "pega",
+     "start": 28.21,
+     "end": 28.41
+    },
+    {
+     "word": "o",
+     "start": 28.41,
+     "end": 28.55
+    },
+    {
+     "word": "item,",
+     "start": 28.55,
+     "end": 28.79
+    },
+    {
+     "word": "calma",
+     "start": 28.93,
+     "end": 29.03
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 29.07,
+   "end": 30.04,
+   "text": "ele dropou um item?",
+   "words": [
+    {
+     "word": "ele",
+     "start": 29.07,
+     "end": 29.15
+    },
+    {
+     "word": "dropou",
+     "start": 29.15,
+     "end": 29.39
+    },
+    {
+     "word": "um",
+     "start": 29.39,
+     "end": 29.47
+    },
+    {
+     "word": "item?",
+     "start": 29.47,
+     "end": 30.04
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 30.43,
+   "end": 31.03,
+   "text": "Fake!",
+   "words": [
+    {
+     "word": "Fake!",
+     "start": 30.43,
+     "end": 31.03
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 31.37,
+   "end": 32.66,
+   "text": "Dropou porra nenhuma, pô",
+   "words": [
+    {
+     "word": "Dropou",
+     "start": 31.37,
+     "end": 31.63
+    },
+    {
+     "word": "porra",
+     "start": 31.63,
+     "end": 31.83
+    },
+    {
+     "word": "nenhuma,",
+     "start": 31.83,
+     "end": 32.03
+    },
+    {
+     "word": "pô",
+     "start": 32.25,
+     "end": 32.66
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 35.13,
+   "end": 35.94,
+   "text": "não dropou?",
+   "words": [
+    {
+     "word": "não",
+     "start": 35.13,
+     "end": 35.31
+    },
+    {
+     "word": "dropou?",
+     "start": 35.31,
+     "end": 35.94
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 36.46,
+   "end": 37.35,
+   "text": "Não dropou",
+   "words": [
+    {
+     "word": "Não",
+     "start": 36.46,
+     "end": 36.7
+    },
+    {
+     "word": "dropou",
+     "start": 36.7,
+     "end": 37.35
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 40.83,
+   "end": 41.97,
+   "text": "Ah, que merda, 600",
+   "words": [
+    {
+     "word": "Ah,",
+     "start": 40.83,
+     "end": 41.01
+    },
+    {
+     "word": "que",
+     "start": 41.09,
+     "end": 41.17
+    },
+    {
+     "word": "merda,",
+     "start": 41.17,
+     "end": 41.55
+    },
+    {
+     "word": "600",
+     "start": 41.65,
+     "end": 41.97
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 42.01,
+   "end": 42.91,
+   "text": "reais de cocaína",
+   "words": [
+    {
+     "word": "reais",
+     "start": 42.01,
+     "end": 42.23
+    },
+    {
+     "word": "de",
+     "start": 42.23,
+     "end": 42.35
+    },
+    {
+     "word": "cocaína",
+     "start": 42.35,
+     "end": 42.91
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 42.95,
+   "end": 43.55,
+   "text": "mano",
+   "words": [
+    {
+     "word": "mano",
+     "start": 42.95,
+     "end": 43.55
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 47.57,
+   "end": 48.74,
+   "text": "— Mano,⁠ e⁠ hoje⁠ o⁠",
+   "words": [
+    {
+     "word": "— Mano,⁠",
+     "start": 47.57,
+     "end": 47.79
+    },
+    {
+     "word": "e⁠",
+     "start": 47.93,
+     "end": 47.98
+    },
+    {
+     "word": "hoje⁠",
+     "start": 47.98,
+     "end": 48.17
+    },
+    {
+     "word": "o⁠",
+     "start": 48.17,
+     "end": 48.74
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 50.53,
+   "end": 51.43,
+   "text": "cara⁠ da⁠ academia⁠",
+   "words": [
+    {
+     "word": "cara⁠",
+     "start": 50.53,
+     "end": 50.67
+    },
+    {
+     "word": "da⁠",
+     "start": 50.67,
+     "end": 50.79
+    },
+    {
+     "word": "academia⁠",
+     "start": 50.79,
+     "end": 51.43
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 51.47,
+   "end": 52.05,
+   "text": "parceiro⁠ meu,⁠ tava⁠",
+   "words": [
+    {
+     "word": "parceiro⁠",
+     "start": 51.47,
+     "end": 51.77
+    },
+    {
+     "word": "meu,⁠",
+     "start": 51.77,
+     "end": 51.91
+    },
+    {
+     "word": "tava⁠",
+     "start": 51.97,
+     "end": 52.05
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 52.09,
+   "end": 52.85,
+   "text": "conversando⁠ de⁠ GTA⁠",
+   "words": [
+    {
+     "word": "conversando⁠",
+     "start": 52.09,
+     "end": 52.57
+    },
+    {
+     "word": "de⁠",
+     "start": 52.57,
+     "end": 52.69
+    },
+    {
+     "word": "GTA⁠",
+     "start": 52.69,
+     "end": 52.85
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 52.89,
+   "end": 53.57,
+   "text": "comigo,⁠ falando⁠",
+   "words": [
+    {
+     "word": "comigo,⁠",
+     "start": 52.89,
+     "end": 53.27
+    },
+    {
+     "word": "falando⁠",
+     "start": 53.45,
+     "end": 53.57
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 53.61,
+   "end": 54.37,
+   "text": "o⁠ que⁠ ele⁠ fez⁠",
+   "words": [
+    {
+     "word": "o⁠",
+     "start": 53.61,
+     "end": 53.75
+    },
+    {
+     "word": "que⁠",
+     "start": 53.75,
+     "end": 53.87
+    },
+    {
+     "word": "ele⁠",
+     "start": 53.87,
+     "end": 54.01
+    },
+    {
+     "word": "fez⁠",
+     "start": 54.01,
+     "end": 54.37
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 54.41,
+   "end": 55.19,
+   "text": "mano,⁠ eu⁠ fiquei⁠ só⁠",
+   "words": [
+    {
+     "word": "mano,⁠",
+     "start": 54.41,
+     "end": 54.53
+    },
+    {
+     "word": "eu⁠",
+     "start": 54.77,
+     "end": 54.95
+    },
+    {
+     "word": "fiquei⁠",
+     "start": 54.95,
+     "end": 55.09
+    },
+    {
+     "word": "só⁠",
+     "start": 55.09,
+     "end": 55.19
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 55.23,
+   "end": 56.15,
+   "text": "pensando:⁠ caras⁠",
+   "words": [
+    {
+     "word": "pensando:⁠",
+     "start": 55.23,
+     "end": 55.67
+    },
+    {
+     "word": "caras⁠",
+     "start": 55.87,
+     "end": 56.15
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 56.19,
+   "end": 57.97,
+   "text": "— ouvindo,⁠ ele⁠ tava⁠ me⁠",
+   "words": [
+    {
+     "word": "— ouvindo,⁠",
+     "start": 56.19,
+     "end": 56.47
+    },
+    {
+     "word": "ele⁠",
+     "start": 56.57,
+     "end": 57.23
+    },
+    {
+     "word": "tava⁠",
+     "start": 57.23,
+     "end": 57.69
+    },
+    {
+     "word": "me⁠",
+     "start": 57.69,
+     "end": 57.97
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 58.01,
+   "end": 59.05,
+   "text": "contando⁠ então⁠ daí⁠",
+   "words": [
+    {
+     "word": "contando⁠",
+     "start": 58.01,
+     "end": 58.41
+    },
+    {
+     "word": "então⁠",
+     "start": 58.41,
+     "end": 58.89
+    },
+    {
+     "word": "daí⁠",
+     "start": 58.89,
+     "end": 59.05
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 59.09,
+   "end": 59.69,
+   "text": "eu⁠ entrei⁠",
+   "words": [
+    {
+     "word": "eu⁠",
+     "start": 59.09,
+     "end": 59.29
+    },
+    {
+     "word": "entrei⁠",
+     "start": 59.29,
+     "end": 59.69
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 60.63,
+   "end": 61.97,
+   "text": "peguei⁠ a⁠ cocaína,⁠ Não⁠ sei⁠ o⁠",
+   "words": [
+    {
+     "word": "peguei⁠",
+     "start": 60.63,
+     "end": 60.81
+    },
+    {
+     "word": "a⁠",
+     "start": 60.81,
+     "end": 60.89
+    },
+    {
+     "word": "cocaína,⁠",
+     "start": 60.89,
+     "end": 61.43
+    },
+    {
+     "word": "Não⁠",
+     "start": 61.49,
+     "end": 61.75
+    },
+    {
+     "word": "sei⁠",
+     "start": 61.75,
+     "end": 61.89
+    },
+    {
+     "word": "o⁠",
+     "start": 61.89,
+     "end": 61.97
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 62.01,
+   "end": 63.2,
+   "text": "que⁠ eu⁠ falei,⁠ tá⁠",
+   "words": [
+    {
+     "word": "que⁠",
+     "start": 62.01,
+     "end": 62.13
+    },
+    {
+     "word": "eu⁠",
+     "start": 62.13,
+     "end": 62.21
+    },
+    {
+     "word": "falei,⁠",
+     "start": 62.21,
+     "end": 62.39
+    },
+    {
+     "word": "tá⁠",
+     "start": 62.49,
+     "end": 63.2
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 64.12,
+   "end": 65.4,
+   "text": "só⁠ ouvindo⁠ pensando⁠",
+   "words": [
+    {
+     "word": "só⁠",
+     "start": 64.12,
+     "end": 64.4
+    },
+    {
+     "word": "ouvindo⁠",
+     "start": 64.4,
+     "end": 64.78
+    },
+    {
+     "word": "pensando⁠",
+     "start": 64.78,
+     "end": 65.4
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 65.44,
+   "end": 66.28,
+   "text": "nas⁠ pessoas⁠ ouvindo⁠",
+   "words": [
+    {
+     "word": "nas⁠",
+     "start": 65.44,
+     "end": 65.68
+    },
+    {
+     "word": "pessoas⁠",
+     "start": 65.68,
+     "end": 66.02
+    },
+    {
+     "word": "ouvindo⁠",
+     "start": 66.02,
+     "end": 66.28
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 66.32,
+   "end": 67.05,
+   "text": "em⁠ volta⁠",
+   "words": [
+    {
+     "word": "em⁠",
+     "start": 66.32,
+     "end": 66.46
+    },
+    {
+     "word": "volta⁠",
+     "start": 66.46,
+     "end": 67.05
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 67.37,
+   "end": 69.94,
+   "text": "— Ah,⁠ era⁠ demais,⁠ era⁠",
+   "words": [
+    {
+     "word": "— Ah,⁠",
+     "start": 67.37,
+     "end": 68.13
+    },
+    {
+     "word": "era⁠",
+     "start": 68.55,
+     "end": 68.89
+    },
+    {
+     "word": "demais,⁠",
+     "start": 68.89,
+     "end": 69.37
+    },
+    {
+     "word": "era⁠",
+     "start": 69.37,
+     "end": 69.94
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 71.5,
+   "end": 72.1,
+   "text": "demais!⁠",
+   "words": [
+    {
+     "word": "demais!⁠",
+     "start": 71.5,
+     "end": 72.1
+    }
+   ],
+   "pos": 0.76
+  }
+ ]
+}
