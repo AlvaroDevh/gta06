@@ -1,0 +1,12 @@
+{
+ "formato": "vertical",
+ "layout": "auto",
+ "legenda": false,
+ "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, academia, cardio, estamina, seta, chat, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:01:26", "fim": "0:02:32", "titulo": "VOU DIRIGIR CERTINHO"},
+  {"id": "02", "inicio": "0:03:46", "fim": "0:04:32", "titulo": "NAO DURMO HA 5 DIAS"},
+  {"id": "03", "inicio": "0:09:04", "fim": "0:09:44", "titulo": "ACABOU A ESTAMINA"}
+ ]
+}
