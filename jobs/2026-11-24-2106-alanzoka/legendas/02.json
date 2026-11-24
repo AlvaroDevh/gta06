@@ -1,0 +1,462 @@
+{
+ "segments": [
+  {
+   "start": 3.18,
+   "end": 3.94,
+   "text": "Não é foda, mano?",
+   "words": [
+    {
+     "word": "Não",
+     "start": 3.18,
+     "end": 3.32
+    },
+    {
+     "word": "é",
+     "start": 3.32,
+     "end": 3.4
+    },
+    {
+     "word": "foda,",
+     "start": 3.4,
+     "end": 3.68
+    },
+    {
+     "word": "mano?",
+     "start": 3.86,
+     "end": 3.94
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 3.98,
+   "end": 5.39,
+   "text": "Eu sou, cara, acho",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 3.98,
+     "end": 4.12
+    },
+    {
+     "word": "sou,",
+     "start": 4.12,
+     "end": 4.3
+    },
+    {
+     "word": "cara,",
+     "start": 4.47,
+     "end": 5.01
+    },
+    {
+     "word": "acho",
+     "start": 5.23,
+     "end": 5.39
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 5.43,
+   "end": 6.43,
+   "text": "que eu sou pior",
+   "words": [
+    {
+     "word": "que",
+     "start": 5.43,
+     "end": 5.55
+    },
+    {
+     "word": "eu",
+     "start": 5.55,
+     "end": 5.79
+    },
+    {
+     "word": "sou",
+     "start": 5.79,
+     "end": 6.13
+    },
+    {
+     "word": "pior",
+     "start": 6.13,
+     "end": 6.43
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 6.47,
+   "end": 7.75,
+   "text": "no GPS do que em bater",
+   "words": [
+    {
+     "word": "no",
+     "start": 6.47,
+     "end": 6.65
+    },
+    {
+     "word": "GPS",
+     "start": 6.65,
+     "end": 7.17
+    },
+    {
+     "word": "do",
+     "start": 7.17,
+     "end": 7.39
+    },
+    {
+     "word": "que",
+     "start": 7.39,
+     "end": 7.53
+    },
+    {
+     "word": "em",
+     "start": 7.53,
+     "end": 7.58
+    },
+    {
+     "word": "bater",
+     "start": 7.58,
+     "end": 7.75
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 7.79,
+   "end": 8.66,
+   "text": "o carro, mano!",
+   "words": [
+    {
+     "word": "o",
+     "start": 7.79,
+     "end": 7.95
+    },
+    {
+     "word": "carro,",
+     "start": 7.95,
+     "end": 8.17
+    },
+    {
+     "word": "mano!",
+     "start": 8.27,
+     "end": 8.66
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 9.16,
+   "end": 12.31,
+   "text": "Sempre erro o caminho, mano",
+   "words": [
+    {
+     "word": "Sempre",
+     "start": 9.16,
+     "end": 9.94
+    },
+    {
+     "word": "erro",
+     "start": 11.08,
+     "end": 11.38
+    },
+    {
+     "word": "o",
+     "start": 11.38,
+     "end": 11.5
+    },
+    {
+     "word": "caminho,",
+     "start": 11.5,
+     "end": 11.8
+    },
+    {
+     "word": "mano",
+     "start": 12.0,
+     "end": 12.31
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 12.69,
+   "end": 13.98,
+   "text": "bater o carro não é sempre",
+   "words": [
+    {
+     "word": "bater",
+     "start": 12.69,
+     "end": 12.97
+    },
+    {
+     "word": "o",
+     "start": 12.97,
+     "end": 13.09
+    },
+    {
+     "word": "carro",
+     "start": 13.09,
+     "end": 13.29
+    },
+    {
+     "word": "não",
+     "start": 13.29,
+     "end": 13.39
+    },
+    {
+     "word": "é",
+     "start": 13.39,
+     "end": 13.51
+    },
+    {
+     "word": "sempre",
+     "start": 13.51,
+     "end": 13.98
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 32.06,
+   "end": 32.66,
+   "text": "Nossa, eu quero",
+   "words": [
+    {
+     "word": "Nossa,",
+     "start": 32.06,
+     "end": 32.4
+    },
+    {
+     "word": "eu",
+     "start": 32.46,
+     "end": 32.54
+    },
+    {
+     "word": "quero",
+     "start": 32.54,
+     "end": 32.66
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 32.7,
+   "end": 33.99,
+   "text": "muito ir lá, velho!",
+   "words": [
+    {
+     "word": "muito",
+     "start": 32.7,
+     "end": 32.88
+    },
+    {
+     "word": "ir",
+     "start": 32.88,
+     "end": 33.04
+    },
+    {
+     "word": "lá,",
+     "start": 33.04,
+     "end": 33.14
+    },
+    {
+     "word": "velho!",
+     "start": 33.32,
+     "end": 33.99
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 34.96,
+   "end": 35.68,
+   "text": "Apareceu outra",
+   "words": [
+    {
+     "word": "Apareceu",
+     "start": 34.96,
+     "end": 35.48
+    },
+    {
+     "word": "outra",
+     "start": 35.48,
+     "end": 35.68
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 35.72,
+   "end": 37.33,
+   "text": "missão, nice! Nossa",
+   "words": [
+    {
+     "word": "missão,",
+     "start": 35.72,
+     "end": 36.16
+    },
+    {
+     "word": "nice!",
+     "start": 36.26,
+     "end": 36.6
+    },
+    {
+     "word": "Nossa",
+     "start": 37.03,
+     "end": 37.33
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 37.37,
+   "end": 38.01,
+   "text": "chat, agora liberou",
+   "words": [
+    {
+     "word": "chat,",
+     "start": 37.37,
+     "end": 37.49
+    },
+    {
+     "word": "agora",
+     "start": 37.59,
+     "end": 37.71
+    },
+    {
+     "word": "liberou",
+     "start": 37.71,
+     "end": 38.01
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 38.05,
+   "end": 39.71,
+   "text": "umas 15 missões! Acho que eu precisava só",
+   "words": [
+    {
+     "word": "umas",
+     "start": 38.05,
+     "end": 38.23
+    },
+    {
+     "word": "15",
+     "start": 38.23,
+     "end": 38.43
+    },
+    {
+     "word": "missões!",
+     "start": 38.43,
+     "end": 38.83
+    },
+    {
+     "word": "Acho",
+     "start": 38.83,
+     "end": 39.25
+    },
+    {
+     "word": "que",
+     "start": 39.25,
+     "end": 39.35
+    },
+    {
+     "word": "eu",
+     "start": 39.35,
+     "end": 39.4
+    },
+    {
+     "word": "precisava",
+     "start": 39.4,
+     "end": 39.63
+    },
+    {
+     "word": "só",
+     "start": 39.63,
+     "end": 39.71
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 39.75,
+   "end": 40.35,
+   "text": "fazer essas missões",
+   "words": [
+    {
+     "word": "fazer",
+     "start": 39.75,
+     "end": 39.93
+    },
+    {
+     "word": "essas",
+     "start": 39.93,
+     "end": 40.07
+    },
+    {
+     "word": "missões",
+     "start": 40.07,
+     "end": 40.35
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 40.39,
+   "end": 41.37,
+   "text": "do Dequan, mano",
+   "words": [
+    {
+     "word": "do",
+     "start": 40.39,
+     "end": 40.51
+    },
+    {
+     "word": "Dequan,",
+     "start": 40.51,
+     "end": 40.97
+    },
+    {
+     "word": "mano",
+     "start": 41.05,
+     "end": 41.37
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 41.41,
+   "end": 44.27,
+   "text": "Dequan pra liberar o resto",
+   "words": [
+    {
+     "word": "Dequan",
+     "start": 41.41,
+     "end": 41.77
+    },
+    {
+     "word": "pra",
+     "start": 41.77,
+     "end": 41.99
+    },
+    {
+     "word": "liberar",
+     "start": 41.99,
+     "end": 42.67
+    },
+    {
+     "word": "o",
+     "start": 42.67,
+     "end": 43.13
+    },
+    {
+     "word": "resto",
+     "start": 43.7,
+     "end": 44.27
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}
