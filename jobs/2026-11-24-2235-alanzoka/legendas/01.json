@@ -1,0 +1,584 @@
+{
+ "segments": [
+  {
+   "start": 41.89,
+   "end": 42.57,
+   "text": "— Nossa,⁠ que⁠ hospital⁠",
+   "words": [
+    {
+     "word": "— Nossa,⁠",
+     "start": 41.89,
+     "end": 42.15
+    },
+    {
+     "word": "que⁠",
+     "start": 42.21,
+     "end": 42.27
+    },
+    {
+     "word": "hospital⁠",
+     "start": 42.27,
+     "end": 42.57
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 42.61,
+   "end": 43.76,
+   "text": "bom,⁠ hein,⁠ mano⁠",
+   "words": [
+    {
+     "word": "bom,⁠",
+     "start": 42.61,
+     "end": 43.03
+    },
+    {
+     "word": "hein,⁠",
+     "start": 43.13,
+     "end": 43.25
+    },
+    {
+     "word": "mano⁠",
+     "start": 43.35,
+     "end": 43.76
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 50.09,
+   "end": 50.62,
+   "text": "arma aí, dá",
+   "words": [
+    {
+     "word": "arma",
+     "start": 50.09,
+     "end": 50.45
+    },
+    {
+     "word": "aí,",
+     "start": 50.45,
+     "end": 50.55
+    },
+    {
+     "word": "dá",
+     "start": 50.57,
+     "end": 50.62
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 50.65,
+   "end": 51.35,
+   "text": "pra mim, ela",
+   "words": [
+    {
+     "word": "pra",
+     "start": 50.65,
+     "end": 50.79
+    },
+    {
+     "word": "mim,",
+     "start": 50.79,
+     "end": 50.99
+    },
+    {
+     "word": "ela",
+     "start": 51.07,
+     "end": 51.35
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 51.39,
+   "end": 52.14,
+   "text": "é rara",
+   "words": [
+    {
+     "word": "é",
+     "start": 51.39,
+     "end": 51.53
+    },
+    {
+     "word": "rara",
+     "start": 51.53,
+     "end": 52.14
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 52.43,
+   "end": 53.03,
+   "text": "quer dizer",
+   "words": [
+    {
+     "word": "quer",
+     "start": 52.43,
+     "end": 52.49
+    },
+    {
+     "word": "dizer",
+     "start": 52.49,
+     "end": 53.03
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 54.93,
+   "end": 56.52,
+   "text": "— Ah,⁠ nice,⁠ é⁠ isso⁠ aí⁠",
+   "words": [
+    {
+     "word": "— Ah,⁠",
+     "start": 54.93,
+     "end": 55.29
+    },
+    {
+     "word": "nice,⁠",
+     "start": 55.41,
+     "end": 55.71
+    },
+    {
+     "word": "é⁠",
+     "start": 55.75,
+     "end": 55.89
+    },
+    {
+     "word": "isso⁠",
+     "start": 55.89,
+     "end": 56.03
+    },
+    {
+     "word": "aí⁠",
+     "start": 56.03,
+     "end": 56.52
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 59.47,
+   "end": 60.35,
+   "text": "Lair de 350",
+   "words": [
+    {
+     "word": "Lair",
+     "start": 59.47,
+     "end": 59.83
+    },
+    {
+     "word": "de",
+     "start": 59.83,
+     "end": 60.01
+    },
+    {
+     "word": "350",
+     "start": 60.01,
+     "end": 60.35
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 60.39,
+   "end": 61.64,
+   "text": "do caçador",
+   "words": [
+    {
+     "word": "do",
+     "start": 60.39,
+     "end": 60.83
+    },
+    {
+     "word": "caçador",
+     "start": 60.83,
+     "end": 61.64
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 62.37,
+   "end": 64.0,
+   "text": "Ó, ganhei anjinho!",
+   "words": [
+    {
+     "word": "Ó,",
+     "start": 62.37,
+     "end": 62.73
+    },
+    {
+     "word": "ganhei",
+     "start": 62.85,
+     "end": 63.11
+    },
+    {
+     "word": "anjinho!",
+     "start": 63.11,
+     "end": 64.0
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 64.85,
+   "end": 65.65,
+   "text": "Mano, eu quero saber",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 64.85,
+     "end": 65.21
+    },
+    {
+     "word": "eu",
+     "start": 65.27,
+     "end": 65.37
+    },
+    {
+     "word": "quero",
+     "start": 65.37,
+     "end": 65.51
+    },
+    {
+     "word": "saber",
+     "start": 65.51,
+     "end": 65.65
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 65.69,
+   "end": 66.77,
+   "text": "uma coisa, desce",
+   "words": [
+    {
+     "word": "uma",
+     "start": 65.69,
+     "end": 65.79
+    },
+    {
+     "word": "coisa,",
+     "start": 65.79,
+     "end": 66.09
+    },
+    {
+     "word": "desce",
+     "start": 66.33,
+     "end": 66.77
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 66.81,
+   "end": 67.79,
+   "text": "o bagulho que subiu",
+   "words": [
+    {
+     "word": "o",
+     "start": 66.81,
+     "end": 66.97
+    },
+    {
+     "word": "bagulho",
+     "start": 66.97,
+     "end": 67.25
+    },
+    {
+     "word": "que",
+     "start": 67.25,
+     "end": 67.37
+    },
+    {
+     "word": "subiu",
+     "start": 67.37,
+     "end": 67.79
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 67.83,
+   "end": 68.43,
+   "text": "meu ou não?",
+   "words": [
+    {
+     "word": "meu",
+     "start": 67.83,
+     "end": 67.89
+    },
+    {
+     "word": "ou",
+     "start": 67.89,
+     "end": 68.05
+    },
+    {
+     "word": "não?",
+     "start": 68.05,
+     "end": 68.43
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 69.49,
+   "end": 70.31,
+   "text": "Ou pra sempre vou",
+   "words": [
+    {
+     "word": "Ou",
+     "start": 69.49,
+     "end": 69.65
+    },
+    {
+     "word": "pra",
+     "start": 69.65,
+     "end": 69.83
+    },
+    {
+     "word": "sempre",
+     "start": 69.83,
+     "end": 70.11
+    },
+    {
+     "word": "vou",
+     "start": 70.11,
+     "end": 70.31
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 70.35,
+   "end": 71.11,
+   "text": "ser profissional",
+   "words": [
+    {
+     "word": "ser",
+     "start": 70.35,
+     "end": 70.43
+    },
+    {
+     "word": "profissional",
+     "start": 70.43,
+     "end": 71.11
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 71.15,
+   "end": 72.33,
+   "text": "mano? Não é possível, eu nunca mais vou",
+   "words": [
+    {
+     "word": "mano?",
+     "start": 71.15,
+     "end": 71.27
+    },
+    {
+     "word": "Não",
+     "start": 71.37,
+     "end": 71.42
+    },
+    {
+     "word": "é",
+     "start": 71.42,
+     "end": 71.47
+    },
+    {
+     "word": "possível,",
+     "start": 71.47,
+     "end": 71.75
+    },
+    {
+     "word": "eu",
+     "start": 71.89,
+     "end": 71.94
+    },
+    {
+     "word": "nunca",
+     "start": 71.94,
+     "end": 72.05
+    },
+    {
+     "word": "mais",
+     "start": 72.05,
+     "end": 72.25
+    },
+    {
+     "word": "vou",
+     "start": 72.25,
+     "end": 72.33
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 72.37,
+   "end": 73.87,
+   "text": "voltar a ser... Calma",
+   "words": [
+    {
+     "word": "voltar",
+     "start": 72.37,
+     "end": 72.71
+    },
+    {
+     "word": "a",
+     "start": 72.71,
+     "end": 72.89
+    },
+    {
+     "word": "ser...",
+     "start": 72.89,
+     "end": 73.09
+    },
+    {
+     "word": "Calma",
+     "start": 73.09,
+     "end": 73.87
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 73.91,
+   "end": 74.86,
+   "text": "ele voltou já!",
+   "words": [
+    {
+     "word": "ele",
+     "start": 73.91,
+     "end": 74.01
+    },
+    {
+     "word": "voltou",
+     "start": 74.01,
+     "end": 74.39
+    },
+    {
+     "word": "já!",
+     "start": 74.39,
+     "end": 74.86
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 76.47,
+   "end": 77.08,
+   "text": "Voltou!",
+   "words": [
+    {
+     "word": "Voltou!",
+     "start": 76.47,
+     "end": 77.08
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 77.55,
+   "end": 78.61,
+   "text": "Voltou! Eu falei e",
+   "words": [
+    {
+     "word": "Voltou!",
+     "start": 77.55,
+     "end": 77.91
+    },
+    {
+     "word": "Eu",
+     "start": 77.91,
+     "end": 78.21
+    },
+    {
+     "word": "falei",
+     "start": 78.21,
+     "end": 78.49
+    },
+    {
+     "word": "e",
+     "start": 78.49,
+     "end": 78.61
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 78.65,
+   "end": 79.69,
+   "text": "nem percebi, voltou",
+   "words": [
+    {
+     "word": "nem",
+     "start": 78.65,
+     "end": 78.73
+    },
+    {
+     "word": "percebi,",
+     "start": 78.73,
+     "end": 79.25
+    },
+    {
+     "word": "voltou",
+     "start": 79.35,
+     "end": 79.69
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 79.73,
+   "end": 80.33,
+   "text": "já",
+   "words": [
+    {
+     "word": "já",
+     "start": 79.73,
+     "end": 80.33
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 81.06,
+   "end": 82.18,
+   "text": "Relaxa, relaxa",
+   "words": [
+    {
+     "word": "Relaxa,",
+     "start": 81.06,
+     "end": 81.64
+    },
+    {
+     "word": "relaxa",
+     "start": 81.64,
+     "end": 82.18
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 82.22,
+   "end": 83.01,
+   "text": "Voltou",
+   "words": [
+    {
+     "word": "Voltou",
+     "start": 82.22,
+     "end": 83.01
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}
