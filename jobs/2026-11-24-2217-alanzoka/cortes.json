@@ -1,0 +1,12 @@
+{
+ "formato": "vertical",
+ "layout": "auto",
+ "legenda": false,
+ "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, bunker, helicóptero, drone, mina, LSD, GPS, defesas, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:02:08", "fim": "0:03:12", "titulo": "A BOMBA ME LEVOU PRA LSD"},
+  {"id": "02", "inicio": "0:03:52", "fim": "0:05:14", "titulo": "MEU PLANO ERA BOM"},
+  {"id": "03", "inicio": "0:17:42", "fim": "0:18:56", "titulo": "CADE A LUCIA NO GPS"}
+ ]
+}
