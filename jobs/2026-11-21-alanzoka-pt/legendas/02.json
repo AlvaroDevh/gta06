@@ -1,0 +1,438 @@
+{
+ "segments": [
+  {
+   "start": 1.61,
+   "end": 2.53,
+   "text": "Crime denunciado",
+   "words": [
+    {
+     "word": "Crime",
+     "start": 1.61,
+     "end": 1.91
+    },
+    {
+     "word": "denunciado",
+     "start": 1.91,
+     "end": 2.53
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 2.57,
+   "end": 2.84,
+   "text": "qual que foi",
+   "words": [
+    {
+     "word": "qual",
+     "start": 2.57,
+     "end": 2.67
+    },
+    {
+     "word": "que",
+     "start": 2.67,
+     "end": 2.79
+    },
+    {
+     "word": "foi",
+     "start": 2.79,
+     "end": 2.84
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 2.87,
+   "end": 3.61,
+   "text": "o meu crime, mano?",
+   "words": [
+    {
+     "word": "o",
+     "start": 2.87,
+     "end": 2.99
+    },
+    {
+     "word": "meu",
+     "start": 2.99,
+     "end": 3.04
+    },
+    {
+     "word": "crime,",
+     "start": 3.04,
+     "end": 3.29
+    },
+    {
+     "word": "mano?",
+     "start": 3.43,
+     "end": 3.61
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 3.65,
+   "end": 5.04,
+   "text": "Hit and run, ela falou",
+   "words": [
+    {
+     "word": "Hit",
+     "start": 3.65,
+     "end": 3.79
+    },
+    {
+     "word": "and",
+     "start": 3.79,
+     "end": 3.97
+    },
+    {
+     "word": "run,",
+     "start": 3.97,
+     "end": 4.21
+    },
+    {
+     "word": "ela",
+     "start": 4.35,
+     "end": 4.43
+    },
+    {
+     "word": "falou",
+     "start": 4.43,
+     "end": 5.04
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 5.49,
+   "end": 6.11,
+   "text": "só porque eu passei",
+   "words": [
+    {
+     "word": "só",
+     "start": 5.49,
+     "end": 5.69
+    },
+    {
+     "word": "porque",
+     "start": 5.69,
+     "end": 5.83
+    },
+    {
+     "word": "eu",
+     "start": 5.83,
+     "end": 5.89
+    },
+    {
+     "word": "passei",
+     "start": 5.89,
+     "end": 6.11
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 6.15,
+   "end": 6.75,
+   "text": "em cima das pernas",
+   "words": [
+    {
+     "word": "em",
+     "start": 6.15,
+     "end": 6.23
+    },
+    {
+     "word": "cima",
+     "start": 6.23,
+     "end": 6.33
+    },
+    {
+     "word": "das",
+     "start": 6.33,
+     "end": 6.49
+    },
+    {
+     "word": "pernas",
+     "start": 6.49,
+     "end": 6.75
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 6.79,
+   "end": 7.66,
+   "text": "do cara, mano",
+   "words": [
+    {
+     "word": "do",
+     "start": 6.79,
+     "end": 6.89
+    },
+    {
+     "word": "cara,",
+     "start": 6.89,
+     "end": 7.19
+    },
+    {
+     "word": "mano",
+     "start": 7.33,
+     "end": 7.66
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 8.12,
+   "end": 9.34,
+   "text": "considero hit and run",
+   "words": [
+    {
+     "word": "considero",
+     "start": 8.12,
+     "end": 8.64
+    },
+    {
+     "word": "hit",
+     "start": 8.64,
+     "end": 8.8
+    },
+    {
+     "word": "and",
+     "start": 8.8,
+     "end": 9.02
+    },
+    {
+     "word": "run",
+     "start": 9.02,
+     "end": 9.34
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 9.38,
+   "end": 10.21,
+   "text": "fala sério",
+   "words": [
+    {
+     "word": "fala",
+     "start": 9.38,
+     "end": 9.56
+    },
+    {
+     "word": "sério",
+     "start": 9.56,
+     "end": 10.21
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 11.29,
+   "end": 11.73,
+   "text": "que tava me",
+   "words": [
+    {
+     "word": "que",
+     "start": 11.29,
+     "end": 11.43
+    },
+    {
+     "word": "tava",
+     "start": 11.43,
+     "end": 11.61
+    },
+    {
+     "word": "me",
+     "start": 11.61,
+     "end": 11.73
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 11.77,
+   "end": 12.43,
+   "text": "assaltando, mano",
+   "words": [
+    {
+     "word": "assaltando,",
+     "start": 11.77,
+     "end": 12.25
+    },
+    {
+     "word": "mano",
+     "start": 12.35,
+     "end": 12.43
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 12.47,
+   "end": 13.35,
+   "text": "legítima defesa",
+   "words": [
+    {
+     "word": "legítima",
+     "start": 12.47,
+     "end": 12.85
+    },
+    {
+     "word": "defesa",
+     "start": 12.85,
+     "end": 13.35
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 13.39,
+   "end": 14.3,
+   "text": "agora não é de nada",
+   "words": [
+    {
+     "word": "agora",
+     "start": 13.39,
+     "end": 13.49
+    },
+    {
+     "word": "não",
+     "start": 13.49,
+     "end": 13.63
+    },
+    {
+     "word": "é",
+     "start": 13.63,
+     "end": 13.71
+    },
+    {
+     "word": "de",
+     "start": 13.71,
+     "end": 13.81
+    },
+    {
+     "word": "nada",
+     "start": 13.81,
+     "end": 14.3
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 16.61,
+   "end": 17.41,
+   "text": "o cara me assaltar",
+   "words": [
+    {
+     "word": "o",
+     "start": 16.61,
+     "end": 16.73
+    },
+    {
+     "word": "cara",
+     "start": 16.73,
+     "end": 16.83
+    },
+    {
+     "word": "me",
+     "start": 16.83,
+     "end": 16.95
+    },
+    {
+     "word": "assaltar",
+     "start": 16.95,
+     "end": 17.41
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 17.45,
+   "end": 17.88,
+   "text": "tudo bem, eu",
+   "words": [
+    {
+     "word": "tudo",
+     "start": 17.45,
+     "end": 17.53
+    },
+    {
+     "word": "bem,",
+     "start": 17.53,
+     "end": 17.71
+    },
+    {
+     "word": "eu",
+     "start": 17.83,
+     "end": 17.88
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 17.91,
+   "end": 18.73,
+   "text": "atropelar as pernas",
+   "words": [
+    {
+     "word": "atropelar",
+     "start": 17.91,
+     "end": 18.51
+    },
+    {
+     "word": "as",
+     "start": 18.51,
+     "end": 18.61
+    },
+    {
+     "word": "pernas",
+     "start": 18.61,
+     "end": 18.73
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 18.77,
+   "end": 19.6,
+   "text": "dele, tô errado",
+   "words": [
+    {
+     "word": "dele,",
+     "start": 18.77,
+     "end": 18.97
+    },
+    {
+     "word": "tô",
+     "start": 19.07,
+     "end": 19.12
+    },
+    {
+     "word": "errado",
+     "start": 19.12,
+     "end": 19.6
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 19.73,
+   "end": 20.46,
+   "text": "fala sério",
+   "words": [
+    {
+     "word": "fala",
+     "start": 19.73,
+     "end": 19.85
+    },
+    {
+     "word": "sério",
+     "start": 19.85,
+     "end": 20.46
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}
