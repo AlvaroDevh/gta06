@@ -1,0 +1,341 @@
+{
+ "segments": [
+  {
+   "start": 7.7,
+   "end": 9.59,
+   "text": "Cês têm drogas, cara?",
+   "words": [
+    {
+     "word": "Cês",
+     "start": 7.7,
+     "end": 8.1
+    },
+    {
+     "word": "têm",
+     "start": 8.1,
+     "end": 8.28
+    },
+    {
+     "word": "drogas,",
+     "start": 8.28,
+     "end": 8.88
+    },
+    {
+     "word": "cara?",
+     "start": 9.06,
+     "end": 9.59
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 12.99,
+   "end": 14.31,
+   "text": "Eu vou balançar",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 12.99,
+     "end": 13.39
+    },
+    {
+     "word": "vou",
+     "start": 13.39,
+     "end": 13.57
+    },
+    {
+     "word": "balançar",
+     "start": 13.57,
+     "end": 14.31
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 14.35,
+   "end": 15.36,
+   "text": "cara, calma",
+   "words": [
+    {
+     "word": "cara,",
+     "start": 14.35,
+     "end": 14.51
+    },
+    {
+     "word": "calma",
+     "start": 14.69,
+     "end": 15.36
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 17.61,
+   "end": 18.78,
+   "text": "Só que cês tavam",
+   "words": [
+    {
+     "word": "Só",
+     "start": 17.61,
+     "end": 17.73
+    },
+    {
+     "word": "que",
+     "start": 17.73,
+     "end": 17.78
+    },
+    {
+     "word": "cês",
+     "start": 17.78,
+     "end": 17.91
+    },
+    {
+     "word": "tavam",
+     "start": 17.91,
+     "end": 18.78
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 19.85,
+   "end": 23.08,
+   "text": "Tô indo embora, irmão",
+   "words": [
+    {
+     "word": "Tô",
+     "start": 19.85,
+     "end": 20.25
+    },
+    {
+     "word": "indo",
+     "start": 22.28,
+     "end": 22.38
+    },
+    {
+     "word": "embora,",
+     "start": 22.38,
+     "end": 22.66
+    },
+    {
+     "word": "irmão",
+     "start": 22.78,
+     "end": 23.08
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 23.12,
+   "end": 23.88,
+   "text": "já meti o pé",
+   "words": [
+    {
+     "word": "já",
+     "start": 23.12,
+     "end": 23.22
+    },
+    {
+     "word": "meti",
+     "start": 23.22,
+     "end": 23.48
+    },
+    {
+     "word": "o",
+     "start": 23.48,
+     "end": 23.53
+    },
+    {
+     "word": "pé",
+     "start": 23.53,
+     "end": 23.88
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 23.92,
+   "end": 25.05,
+   "text": "Já meti o pé, velho",
+   "words": [
+    {
+     "word": "Já",
+     "start": 23.92,
+     "end": 24.08
+    },
+    {
+     "word": "meti",
+     "start": 24.08,
+     "end": 24.32
+    },
+    {
+     "word": "o",
+     "start": 24.32,
+     "end": 24.37
+    },
+    {
+     "word": "pé,",
+     "start": 24.37,
+     "end": 24.52
+    },
+    {
+     "word": "velho",
+     "start": 24.6,
+     "end": 25.05
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 34.23,
+   "end": 35.15,
+   "text": "Tem um lugar aqui",
+   "words": [
+    {
+     "word": "Tem",
+     "start": 34.23,
+     "end": 34.49
+    },
+    {
+     "word": "um",
+     "start": 34.49,
+     "end": 34.69
+    },
+    {
+     "word": "lugar",
+     "start": 34.69,
+     "end": 34.97
+    },
+    {
+     "word": "aqui",
+     "start": 34.97,
+     "end": 35.15
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 35.19,
+   "end": 36.36,
+   "text": "marítimo também",
+   "words": [
+    {
+     "word": "marítimo",
+     "start": 35.19,
+     "end": 35.79
+    },
+    {
+     "word": "também",
+     "start": 35.79,
+     "end": 36.36
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 41.77,
+   "end": 42.35,
+   "text": "Caralho, o cara",
+   "words": [
+    {
+     "word": "Caralho,",
+     "start": 41.77,
+     "end": 42.17
+    },
+    {
+     "word": "o",
+     "start": 42.25,
+     "end": 42.3
+    },
+    {
+     "word": "cara",
+     "start": 42.3,
+     "end": 42.35
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 42.33,
+   "end": 43.19,
+   "text": "ligou pra polícia",
+   "words": [
+    {
+     "word": "ligou",
+     "start": 42.33,
+     "end": 42.59
+    },
+    {
+     "word": "pra",
+     "start": 42.59,
+     "end": 42.71
+    },
+    {
+     "word": "polícia",
+     "start": 42.71,
+     "end": 43.19
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 43.23,
+   "end": 43.83,
+   "text": "mesmo!",
+   "words": [
+    {
+     "word": "mesmo!",
+     "start": 43.23,
+     "end": 43.83
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 46.76,
+   "end": 47.34,
+   "text": "E ele ainda",
+   "words": [
+    {
+     "word": "E",
+     "start": 46.76,
+     "end": 47.16
+    },
+    {
+     "word": "ele",
+     "start": 47.16,
+     "end": 47.26
+    },
+    {
+     "word": "ainda",
+     "start": 47.26,
+     "end": 47.34
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 47.38,
+   "end": 48.79,
+   "text": "denunciou meu carro!",
+   "words": [
+    {
+     "word": "denunciou",
+     "start": 47.38,
+     "end": 47.84
+    },
+    {
+     "word": "meu",
+     "start": 47.84,
+     "end": 48.02
+    },
+    {
+     "word": "carro!",
+     "start": 48.02,
+     "end": 48.79
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}

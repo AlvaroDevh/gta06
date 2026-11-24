@@ -1,0 +1,588 @@
+{
+ "segments": [
+  {
+   "start": 7.53,
+   "end": 8.9,
+   "text": "\"Você não vai ganhar\". Mano",
+   "words": [
+    {
+     "word": "\"Você",
+     "start": 7.53,
+     "end": 7.69
+    },
+    {
+     "word": "não",
+     "start": 7.69,
+     "end": 7.77
+    },
+    {
+     "word": "vai",
+     "start": 7.77,
+     "end": 7.87
+    },
+    {
+     "word": "ganhar\".",
+     "start": 7.87,
+     "end": 8.09
+    },
+    {
+     "word": "Mano",
+     "start": 8.09,
+     "end": 8.9
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 13.22,
+   "end": 14.33,
+   "text": "eu perdi, velho!",
+   "words": [
+    {
+     "word": "eu",
+     "start": 13.22,
+     "end": 13.28
+    },
+    {
+     "word": "perdi,",
+     "start": 13.28,
+     "end": 13.66
+    },
+    {
+     "word": "velho!",
+     "start": 13.68,
+     "end": 14.33
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 17.06,
+   "end": 18.03,
+   "text": "Impossível, velho!",
+   "words": [
+    {
+     "word": "Impossível,",
+     "start": 17.06,
+     "end": 17.42
+    },
+    {
+     "word": "velho!",
+     "start": 17.42,
+     "end": 18.03
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 21.13,
+   "end": 22.23,
+   "text": "Não, não, não, isso",
+   "words": [
+    {
+     "word": "Não,",
+     "start": 21.13,
+     "end": 21.45
+    },
+    {
+     "word": "não,",
+     "start": 21.49,
+     "end": 21.67
+    },
+    {
+     "word": "não,",
+     "start": 21.67,
+     "end": 21.89
+    },
+    {
+     "word": "isso",
+     "start": 22.15,
+     "end": 22.23
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 22.27,
+   "end": 22.93,
+   "text": "daqui não existe",
+   "words": [
+    {
+     "word": "daqui",
+     "start": 22.27,
+     "end": 22.47
+    },
+    {
+     "word": "não",
+     "start": 22.47,
+     "end": 22.59
+    },
+    {
+     "word": "existe",
+     "start": 22.59,
+     "end": 22.93
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 22.97,
+   "end": 23.65,
+   "text": "velho! Isso daqui",
+   "words": [
+    {
+     "word": "velho!",
+     "start": 22.97,
+     "end": 23.15
+    },
+    {
+     "word": "Isso",
+     "start": 23.15,
+     "end": 23.29
+    },
+    {
+     "word": "daqui",
+     "start": 23.29,
+     "end": 23.65
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 23.69,
+   "end": 24.33,
+   "text": "mano, isso daqui",
+   "words": [
+    {
+     "word": "mano,",
+     "start": 23.69,
+     "end": 23.93
+    },
+    {
+     "word": "isso",
+     "start": 24.07,
+     "end": 24.13
+    },
+    {
+     "word": "daqui",
+     "start": 24.13,
+     "end": 24.33
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 24.37,
+   "end": 25.07,
+   "text": "literalmente não",
+   "words": [
+    {
+     "word": "literalmente",
+     "start": 24.37,
+     "end": 24.99
+    },
+    {
+     "word": "não",
+     "start": 24.99,
+     "end": 25.07
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 25.11,
+   "end": 26.18,
+   "text": "existe! Não",
+   "words": [
+    {
+     "word": "existe!",
+     "start": 25.11,
+     "end": 25.47
+    },
+    {
+     "word": "Não",
+     "start": 25.47,
+     "end": 26.18
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 28.81,
+   "end": 30.12,
+   "text": "isso daqui é",
+   "words": [
+    {
+     "word": "isso",
+     "start": 28.81,
+     "end": 28.87
+    },
+    {
+     "word": "daqui",
+     "start": 28.87,
+     "end": 29.15
+    },
+    {
+     "word": "é",
+     "start": 29.15,
+     "end": 30.12
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 30.88,
+   "end": 31.74,
+   "text": "Cara, isso daqui",
+   "words": [
+    {
+     "word": "Cara,",
+     "start": 30.88,
+     "end": 31.38
+    },
+    {
+     "word": "isso",
+     "start": 31.46,
+     "end": 31.52
+    },
+    {
+     "word": "daqui",
+     "start": 31.52,
+     "end": 31.74
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 31.78,
+   "end": 33.62,
+   "text": "é assustador, tá ligado?",
+   "words": [
+    {
+     "word": "é",
+     "start": 31.78,
+     "end": 32.3
+    },
+    {
+     "word": "assustador,",
+     "start": 32.3,
+     "end": 33.24
+    },
+    {
+     "word": "tá",
+     "start": 33.32,
+     "end": 33.42
+    },
+    {
+     "word": "ligado?",
+     "start": 33.42,
+     "end": 33.62
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 33.66,
+   "end": 34.54,
+   "text": "É assustador o",
+   "words": [
+    {
+     "word": "É",
+     "start": 33.66,
+     "end": 33.76
+    },
+    {
+     "word": "assustador",
+     "start": 33.76,
+     "end": 34.46
+    },
+    {
+     "word": "o",
+     "start": 34.46,
+     "end": 34.54
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 34.58,
+   "end": 35.38,
+   "text": "que acontece, mano",
+   "words": [
+    {
+     "word": "que",
+     "start": 34.58,
+     "end": 34.64
+    },
+    {
+     "word": "acontece,",
+     "start": 34.64,
+     "end": 35.08
+    },
+    {
+     "word": "mano",
+     "start": 35.16,
+     "end": 35.38
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 35.42,
+   "end": 36.39,
+   "text": "nesse jogo! Não",
+   "words": [
+    {
+     "word": "nesse",
+     "start": 35.42,
+     "end": 35.58
+    },
+    {
+     "word": "jogo!",
+     "start": 35.58,
+     "end": 35.84
+    },
+    {
+     "word": "Não",
+     "start": 35.84,
+     "end": 36.39
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 36.43,
+   "end": 37.2,
+   "text": "é possível isso!",
+   "words": [
+    {
+     "word": "é",
+     "start": 36.43,
+     "end": 36.51
+    },
+    {
+     "word": "possível",
+     "start": 36.51,
+     "end": 36.75
+    },
+    {
+     "word": "isso!",
+     "start": 36.75,
+     "end": 37.2
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 41.03,
+   "end": 42.15,
+   "text": "Mano, não é possível isso!",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 41.03,
+     "end": 41.53
+    },
+    {
+     "word": "não",
+     "start": 41.55,
+     "end": 41.61
+    },
+    {
+     "word": "é",
+     "start": 41.61,
+     "end": 41.69
+    },
+    {
+     "word": "possível",
+     "start": 41.69,
+     "end": 41.95
+    },
+    {
+     "word": "isso!",
+     "start": 41.95,
+     "end": 42.15
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 42.19,
+   "end": 44.66,
+   "text": "É um bagulho assim",
+   "words": [
+    {
+     "word": "É",
+     "start": 42.19,
+     "end": 42.51
+    },
+    {
+     "word": "um",
+     "start": 43.94,
+     "end": 44.06
+    },
+    {
+     "word": "bagulho",
+     "start": 44.06,
+     "end": 44.44
+    },
+    {
+     "word": "assim",
+     "start": 44.44,
+     "end": 44.66
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 44.7,
+   "end": 45.7,
+   "text": "que, mano, não",
+   "words": [
+    {
+     "word": "que,",
+     "start": 44.7,
+     "end": 45.22
+    },
+    {
+     "word": "mano,",
+     "start": 45.28,
+     "end": 45.48
+    },
+    {
+     "word": "não",
+     "start": 45.64,
+     "end": 45.7
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 45.74,
+   "end": 47.0,
+   "text": "dá pra botar em palavras",
+   "words": [
+    {
+     "word": "dá",
+     "start": 45.74,
+     "end": 45.9
+    },
+    {
+     "word": "pra",
+     "start": 45.9,
+     "end": 46.08
+    },
+    {
+     "word": "botar",
+     "start": 46.08,
+     "end": 46.38
+    },
+    {
+     "word": "em",
+     "start": 46.38,
+     "end": 46.48
+    },
+    {
+     "word": "palavras",
+     "start": 46.48,
+     "end": 47.0
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 47.04,
+   "end": 47.72,
+   "text": "O que que tem essas",
+   "words": [
+    {
+     "word": "O",
+     "start": 47.04,
+     "end": 47.32
+    },
+    {
+     "word": "que",
+     "start": 47.32,
+     "end": 47.4
+    },
+    {
+     "word": "que",
+     "start": 47.4,
+     "end": 47.48
+    },
+    {
+     "word": "tem",
+     "start": 47.48,
+     "end": 47.58
+    },
+    {
+     "word": "essas",
+     "start": 47.58,
+     "end": 47.72
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 47.76,
+   "end": 48.69,
+   "text": "casas aqui, hein?",
+   "words": [
+    {
+     "word": "casas",
+     "start": 47.76,
+     "end": 48.12
+    },
+    {
+     "word": "aqui,",
+     "start": 48.12,
+     "end": 48.3
+    },
+    {
+     "word": "hein?",
+     "start": 48.32,
+     "end": 48.69
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 49.79,
+   "end": 51.32,
+   "text": "Não dá pra botar em palavras!",
+   "words": [
+    {
+     "word": "Não",
+     "start": 49.79,
+     "end": 49.97
+    },
+    {
+     "word": "dá",
+     "start": 49.97,
+     "end": 50.09
+    },
+    {
+     "word": "pra",
+     "start": 50.09,
+     "end": 50.17
+    },
+    {
+     "word": "botar",
+     "start": 50.17,
+     "end": 50.43
+    },
+    {
+     "word": "em",
+     "start": 50.43,
+     "end": 50.53
+    },
+    {
+     "word": "palavras!",
+     "start": 50.53,
+     "end": 51.32
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}
