@@ -1,0 +1,547 @@
+{
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.4,
+   "text": "Não matei ninguém, mano!",
+   "words": [
+    {
+     "word": "Não",
+     "start": 0.0,
+     "end": 4.37
+    },
+    {
+     "word": "matei",
+     "start": 4.37,
+     "end": 4.63
+    },
+    {
+     "word": "ninguém,",
+     "start": 4.63,
+     "end": 4.89
+    },
+    {
+     "word": "mano!",
+     "start": 4.89,
+     "end": 5.4
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 5.91,
+   "end": 6.47,
+   "text": "Vai, Billy, pega",
+   "words": [
+    {
+     "word": "Vai,",
+     "start": 5.91,
+     "end": 6.11
+    },
+    {
+     "word": "Billy,",
+     "start": 6.11,
+     "end": 6.29
+    },
+    {
+     "word": "pega",
+     "start": 6.41,
+     "end": 6.47
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 6.51,
+   "end": 7.84,
+   "text": "um carro, cara! Pior",
+   "words": [
+    {
+     "word": "um",
+     "start": 6.51,
+     "end": 6.67
+    },
+    {
+     "word": "carro,",
+     "start": 6.67,
+     "end": 6.97
+    },
+    {
+     "word": "cara!",
+     "start": 6.97,
+     "end": 7.17
+    },
+    {
+     "word": "Pior",
+     "start": 7.23,
+     "end": 7.84
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 14.29,
+   "end": 15.01,
+   "text": "gameplay que eu já",
+   "words": [
+    {
+     "word": "gameplay",
+     "start": 14.29,
+     "end": 14.57
+    },
+    {
+     "word": "que",
+     "start": 14.57,
+     "end": 14.83
+    },
+    {
+     "word": "eu",
+     "start": 14.83,
+     "end": 14.93
+    },
+    {
+     "word": "já",
+     "start": 14.93,
+     "end": 15.01
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 15.05,
+   "end": 16.41,
+   "text": "vi, tô louco, cara!",
+   "words": [
+    {
+     "word": "vi,",
+     "start": 15.05,
+     "end": 15.35
+    },
+    {
+     "word": "tô",
+     "start": 15.61,
+     "end": 15.75
+    },
+    {
+     "word": "louco,",
+     "start": 15.75,
+     "end": 16.03
+    },
+    {
+     "word": "cara!",
+     "start": 16.03,
+     "end": 16.41
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 16.45,
+   "end": 17.35,
+   "text": "Não entendi o que tem de errado",
+   "words": [
+    {
+     "word": "Não",
+     "start": 16.45,
+     "end": 16.49
+    },
+    {
+     "word": "entendi",
+     "start": 16.49,
+     "end": 16.85
+    },
+    {
+     "word": "o",
+     "start": 16.85,
+     "end": 16.95
+    },
+    {
+     "word": "que",
+     "start": 16.95,
+     "end": 17.0
+    },
+    {
+     "word": "tem",
+     "start": 17.0,
+     "end": 17.13
+    },
+    {
+     "word": "de",
+     "start": 17.13,
+     "end": 17.23
+    },
+    {
+     "word": "errado",
+     "start": 17.23,
+     "end": 17.35
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 17.39,
+   "end": 18.2,
+   "text": "na minha gameplay",
+   "words": [
+    {
+     "word": "na",
+     "start": 17.39,
+     "end": 17.49
+    },
+    {
+     "word": "minha",
+     "start": 17.49,
+     "end": 17.59
+    },
+    {
+     "word": "gameplay",
+     "start": 17.59,
+     "end": 18.2
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 28.87,
+   "end": 30.56,
+   "text": "Nada errado, velho",
+   "words": [
+    {
+     "word": "Nada",
+     "start": 28.87,
+     "end": 29.31
+    },
+    {
+     "word": "errado,",
+     "start": 29.31,
+     "end": 29.79
+    },
+    {
+     "word": "velho",
+     "start": 29.79,
+     "end": 30.56
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 31.01,
+   "end": 31.59,
+   "text": "deixou todo mundo",
+   "words": [
+    {
+     "word": "deixou",
+     "start": 31.01,
+     "end": 31.31
+    },
+    {
+     "word": "todo",
+     "start": 31.31,
+     "end": 31.49
+    },
+    {
+     "word": "mundo",
+     "start": 31.49,
+     "end": 31.59
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 31.63,
+   "end": 32.5,
+   "text": "morrer",
+   "words": [
+    {
+     "word": "morrer",
+     "start": 31.63,
+     "end": 32.5
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 37.49,
+   "end": 38.25,
+   "text": "Acho bom, olha lá",
+   "words": [
+    {
+     "word": "Acho",
+     "start": 37.49,
+     "end": 37.75
+    },
+    {
+     "word": "bom,",
+     "start": 37.75,
+     "end": 37.95
+    },
+    {
+     "word": "olha",
+     "start": 38.01,
+     "end": 38.09
+    },
+    {
+     "word": "lá",
+     "start": 38.09,
+     "end": 38.25
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 38.29,
+   "end": 39.52,
+   "text": "poucas fatalidades",
+   "words": [
+    {
+     "word": "poucas",
+     "start": 38.29,
+     "end": 38.57
+    },
+    {
+     "word": "fatalidades",
+     "start": 38.57,
+     "end": 39.52
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 43.45,
+   "end": 44.22,
+   "text": "Gente",
+   "words": [
+    {
+     "word": "Gente",
+     "start": 43.45,
+     "end": 44.22
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 47.54,
+   "end": 48.74,
+   "text": "pensa que é não",
+   "words": [
+    {
+     "word": "pensa",
+     "start": 47.54,
+     "end": 48.46
+    },
+    {
+     "word": "que",
+     "start": 48.46,
+     "end": 48.62
+    },
+    {
+     "word": "é",
+     "start": 48.62,
+     "end": 48.68
+    },
+    {
+     "word": "não",
+     "start": 48.68,
+     "end": 48.74
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 48.78,
+   "end": 49.42,
+   "text": "letal porque ele não",
+   "words": [
+    {
+     "word": "letal",
+     "start": 48.78,
+     "end": 49.12
+    },
+    {
+     "word": "porque",
+     "start": 49.12,
+     "end": 49.26
+    },
+    {
+     "word": "ele",
+     "start": 49.26,
+     "end": 49.36
+    },
+    {
+     "word": "não",
+     "start": 49.36,
+     "end": 49.42
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 49.46,
+   "end": 50.22,
+   "text": "atira na cabeça",
+   "words": [
+    {
+     "word": "atira",
+     "start": 49.46,
+     "end": 49.66
+    },
+    {
+     "word": "na",
+     "start": 49.66,
+     "end": 49.78
+    },
+    {
+     "word": "cabeça",
+     "start": 49.78,
+     "end": 50.22
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 50.26,
+   "end": 50.82,
+   "text": "mas é não letal",
+   "words": [
+    {
+     "word": "mas",
+     "start": 50.26,
+     "end": 50.32
+    },
+    {
+     "word": "é",
+     "start": 50.32,
+     "end": 50.44
+    },
+    {
+     "word": "não",
+     "start": 50.44,
+     "end": 50.54
+    },
+    {
+     "word": "letal",
+     "start": 50.54,
+     "end": 50.82
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 50.86,
+   "end": 52.39,
+   "text": "porque o cara não acerta um tiro!",
+   "words": [
+    {
+     "word": "porque",
+     "start": 50.86,
+     "end": 50.98
+    },
+    {
+     "word": "o",
+     "start": 50.98,
+     "end": 51.12
+    },
+    {
+     "word": "cara",
+     "start": 51.12,
+     "end": 51.22
+    },
+    {
+     "word": "não",
+     "start": 51.22,
+     "end": 51.36
+    },
+    {
+     "word": "acerta",
+     "start": 51.36,
+     "end": 51.68
+    },
+    {
+     "word": "um",
+     "start": 51.68,
+     "end": 51.8
+    },
+    {
+     "word": "tiro!",
+     "start": 51.8,
+     "end": 52.39
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 59.01,
+   "end": 59.97,
+   "text": "Rockstar, lança esse",
+   "words": [
+    {
+     "word": "Rockstar,",
+     "start": 59.01,
+     "end": 59.65
+    },
+    {
+     "word": "lança",
+     "start": 59.65,
+     "end": 59.89
+    },
+    {
+     "word": "esse",
+     "start": 59.89,
+     "end": 59.97
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 60.01,
+   "end": 60.85,
+   "text": "jogo pra PC logo",
+   "words": [
+    {
+     "word": "jogo",
+     "start": 60.01,
+     "end": 60.25
+    },
+    {
+     "word": "pra",
+     "start": 60.25,
+     "end": 60.41
+    },
+    {
+     "word": "PC",
+     "start": 60.41,
+     "end": 60.65
+    },
+    {
+     "word": "logo",
+     "start": 60.65,
+     "end": 60.85
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 60.89,
+   "end": 63.6,
+   "text": "mano, por favor!",
+   "words": [
+    {
+     "word": "mano,",
+     "start": 60.89,
+     "end": 61.11
+    },
+    {
+     "word": "por",
+     "start": 61.23,
+     "end": 61.39
+    },
+    {
+     "word": "favor!",
+     "start": 61.39,
+     "end": 63.6
+    }
+   ],
+   "pos": 0.76
+  }
+ ]
+}

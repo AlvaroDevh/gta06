@@ -1,0 +1,327 @@
+{
+ "segments": [
+  {
+   "start": 8.3,
+   "end": 9.67,
+   "text": "Só tomou uma facada, mano!",
+   "words": [
+    {
+     "word": "Só",
+     "start": 8.3,
+     "end": 8.32
+    },
+    {
+     "word": "tomou",
+     "start": 8.32,
+     "end": 8.48
+    },
+    {
+     "word": "uma",
+     "start": 8.48,
+     "end": 8.62
+    },
+    {
+     "word": "facada,",
+     "start": 8.62,
+     "end": 9.1
+    },
+    {
+     "word": "mano!",
+     "start": 9.22,
+     "end": 9.67
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 23.89,
+   "end": 24.47,
+   "text": "Será que eu não",
+   "words": [
+    {
+     "word": "Será",
+     "start": 23.89,
+     "end": 24.25
+    },
+    {
+     "word": "que",
+     "start": 24.25,
+     "end": 24.37
+    },
+    {
+     "word": "eu",
+     "start": 24.37,
+     "end": 24.42
+    },
+    {
+     "word": "não",
+     "start": 24.42,
+     "end": 24.47
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 24.47,
+   "end": 25.74,
+   "text": "podia ter atirado?",
+   "words": [
+    {
+     "word": "podia",
+     "start": 24.47,
+     "end": 24.67
+    },
+    {
+     "word": "ter",
+     "start": 24.67,
+     "end": 24.81
+    },
+    {
+     "word": "atirado?",
+     "start": 24.81,
+     "end": 25.74
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 40.43,
+   "end": 41.62,
+   "text": "Nossa, chat",
+   "words": [
+    {
+     "word": "Nossa,",
+     "start": 40.43,
+     "end": 40.79
+    },
+    {
+     "word": "chat",
+     "start": 41.01,
+     "end": 41.62
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 42.07,
+   "end": 43.26,
+   "text": "Eu matei o Billy",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 42.07,
+     "end": 42.21
+    },
+    {
+     "word": "matei",
+     "start": 42.21,
+     "end": 42.51
+    },
+    {
+     "word": "o",
+     "start": 42.51,
+     "end": 42.63
+    },
+    {
+     "word": "Billy",
+     "start": 42.63,
+     "end": 43.26
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 43.37,
+   "end": 45.14,
+   "text": "Quer dizer, o Billy não, matei o Rick",
+   "words": [
+    {
+     "word": "Quer",
+     "start": 43.37,
+     "end": 43.55
+    },
+    {
+     "word": "dizer,",
+     "start": 43.55,
+     "end": 43.6
+    },
+    {
+     "word": "o",
+     "start": 43.69,
+     "end": 43.74
+    },
+    {
+     "word": "Billy",
+     "start": 43.74,
+     "end": 43.89
+    },
+    {
+     "word": "não,",
+     "start": 43.89,
+     "end": 44.01
+    },
+    {
+     "word": "matei",
+     "start": 44.13,
+     "end": 44.47
+    },
+    {
+     "word": "o",
+     "start": 44.47,
+     "end": 44.59
+    },
+    {
+     "word": "Rick",
+     "start": 44.59,
+     "end": 45.14
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 50.21,
+   "end": 51.44,
+   "text": "Não acredito, mano",
+   "words": [
+    {
+     "word": "Não",
+     "start": 50.21,
+     "end": 50.57
+    },
+    {
+     "word": "acredito,",
+     "start": 50.57,
+     "end": 50.93
+    },
+    {
+     "word": "mano",
+     "start": 51.07,
+     "end": 51.44
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 51.73,
+   "end": 52.23,
+   "text": "O cara quis ser",
+   "words": [
+    {
+     "word": "O",
+     "start": 51.73,
+     "end": 51.77
+    },
+    {
+     "word": "cara",
+     "start": 51.77,
+     "end": 51.91
+    },
+    {
+     "word": "quis",
+     "start": 51.91,
+     "end": 52.05
+    },
+    {
+     "word": "ser",
+     "start": 52.05,
+     "end": 52.23
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 52.27,
+   "end": 53.96,
+   "text": "gentil. Cara",
+   "words": [
+    {
+     "word": "gentil.",
+     "start": 52.27,
+     "end": 52.91
+    },
+    {
+     "word": "Cara",
+     "start": 53.35,
+     "end": 53.96
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 56.44,
+   "end": 58.09,
+   "text": "às vezes eu devia ter esperado, mano",
+   "words": [
+    {
+     "word": "às",
+     "start": 56.44,
+     "end": 56.52
+    },
+    {
+     "word": "vezes",
+     "start": 56.52,
+     "end": 56.66
+    },
+    {
+     "word": "eu",
+     "start": 56.66,
+     "end": 56.74
+    },
+    {
+     "word": "devia",
+     "start": 56.74,
+     "end": 56.88
+    },
+    {
+     "word": "ter",
+     "start": 56.88,
+     "end": 56.98
+    },
+    {
+     "word": "esperado,",
+     "start": 56.98,
+     "end": 57.64
+    },
+    {
+     "word": "mano",
+     "start": 57.78,
+     "end": 58.09
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 59.44,
+   "end": 61.03,
+   "text": "A paciência é uma virtude",
+   "words": [
+    {
+     "word": "A",
+     "start": 59.44,
+     "end": 59.52
+    },
+    {
+     "word": "paciência",
+     "start": 59.52,
+     "end": 59.94
+    },
+    {
+     "word": "é",
+     "start": 59.94,
+     "end": 60.06
+    },
+    {
+     "word": "uma",
+     "start": 60.06,
+     "end": 60.12
+    },
+    {
+     "word": "virtude",
+     "start": 60.12,
+     "end": 61.03
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}
