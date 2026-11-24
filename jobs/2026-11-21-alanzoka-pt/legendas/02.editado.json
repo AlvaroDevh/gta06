@@ -1,20 +1,79 @@
-{"blocos": [
- {"f":1,"texto":"Crime denunciado,","pos":0.46},
- {"f":1,"texto":"qual que foi","pos":0.46},
- {"f":1,"texto":"o meu crime, mano?","pos":0.46},
- {"f":1,"texto":"Hit and run, ela falou,","pos":0.46},
- {"f":1,"texto":"só porque eu passei","pos":0.46},
- {"f":1,"texto":"em cima das pernas","pos":0.46},
- {"f":1,"texto":"do cara, mano,","pos":0.46},
- {"f":1,"texto":"considero hit and run,","pos":0.46},
- {"f":1,"texto":"fala sério","pos":0.46},
- {"f":1,"texto":"que tava me","pos":0.46},
- {"f":1,"texto":"assaltando, mano,","pos":0.46},
- {"f":1,"texto":"legítima defesa,","pos":0.46},
- {"f":1,"texto":"agora não é de nada,","pos":0.46},
- {"f":1,"texto":"o cara me assaltar,","pos":0.46},
- {"f":1,"texto":"tudo bem, eu","pos":0.46},
- {"f":1,"texto":"atropelar as pernas","pos":0.46},
- {"f":1,"texto":"dele, tô errado,","pos":0.46},
- {"f":1,"texto":"fala sério","pos":0.46}
-]}
+{
+"blocos": [
+{
+"f": 1,
+"texto": "Crime denunciado, qual que foi",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "o meu crime, mano?",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "Hit and run, ela falou,",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "só porque eu passei",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "em cima das pernas",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "do cara, mano,",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "considero hit and run,",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "fala sério",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "que tava me assaltando, mano,",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "legítima defesa,",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "agora não é de nada,",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "o cara me assaltar,",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "tudo bem, eu atropelar as pernas",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "dele, tô errado,",
+"pos": 0.46
+},
+{
+"f": 1,
+"texto": "fala sério",
+"pos": 0.46
+}
+]
+}

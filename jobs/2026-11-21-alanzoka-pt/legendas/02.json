@@ -2,8 +2,8 @@
  "segments": [
   {
    "start": 1.61,
-   "end": 2.53,
-   "text": "Crime denunciado",
+   "end": 2.84,
+   "text": "Crime denunciado, qual que foi",
    "words": [
     {
      "word": "Crime",
@@ -11,18 +11,10 @@
      "end": 1.91
     },
     {
-     "word": "denunciado",
+     "word": "denunciado,",
      "start": 1.91,
-     "end": 2.53
-    }
-   ],
-   "pos": 0.46
-  },
-  {
-   "start": 2.57,
-   "end": 2.84,
-   "text": "qual que foi",
-   "words": [
+     "end": 2.49
+    },
     {
      "word": "qual",
      "start": 2.57,
@@ -229,8 +221,8 @@
   },
   {
    "start": 11.29,
-   "end": 11.73,
-   "text": "que tava me",
+   "end": 12.43,
+   "text": "que tava me assaltando, mano",
    "words": [
     {
      "word": "que",
@@ -245,16 +237,8 @@
     {
      "word": "me",
      "start": 11.61,
-     "end": 11.73
-    }
-   ],
-   "pos": 0.46
-  },
-  {
-   "start": 11.77,
-   "end": 12.43,
-   "text": "assaltando, mano",
-   "words": [
+     "end": 11.77
+    },
     {
      "word": "assaltando,",
      "start": 11.77,
@@ -349,8 +333,8 @@
   },
   {
    "start": 17.45,
-   "end": 17.88,
-   "text": "tudo bem, eu",
+   "end": 18.73,
+   "text": "tudo bem, eu atropelar as pernas",
    "words": [
     {
      "word": "tudo",
@@ -365,16 +349,8 @@
     {
      "word": "eu",
      "start": 17.83,
-     "end": 17.88
-    }
-   ],
-   "pos": 0.46
-  },
-  {
-   "start": 17.91,
-   "end": 18.73,
-   "text": "atropelar as pernas",
-   "words": [
+     "end": 17.91
+    },
     {
      "word": "atropelar",
      "start": 17.91,
