@@ -1,0 +1,277 @@
+{
+ "segments": [
+  {
+   "start": 20.08,
+   "end": 21.53,
+   "text": "Mano, fiquei pra trás, velho, eu",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 20.08,
+     "end": 20.44
+    },
+    {
+     "word": "fiquei",
+     "start": 20.52,
+     "end": 20.58
+    },
+    {
+     "word": "pra",
+     "start": 20.58,
+     "end": 20.76
+    },
+    {
+     "word": "trás,",
+     "start": 20.76,
+     "end": 21.1
+    },
+    {
+     "word": "velho,",
+     "start": 21.26,
+     "end": 21.44
+    },
+    {
+     "word": "eu",
+     "start": 21.48,
+     "end": 21.53
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 21.52,
+   "end": 22.58,
+   "text": "tava perfeito",
+   "words": [
+    {
+     "word": "tava",
+     "start": 21.52,
+     "end": 21.64
+    },
+    {
+     "word": "perfeito",
+     "start": 21.64,
+     "end": 22.58
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 22.62,
+   "end": 23.79,
+   "text": "velho, eu tava",
+   "words": [
+    {
+     "word": "velho,",
+     "start": 22.62,
+     "end": 23.24
+    },
+    {
+     "word": "eu",
+     "start": 23.55,
+     "end": 23.67
+    },
+    {
+     "word": "tava",
+     "start": 23.67,
+     "end": 23.79
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 23.83,
+   "end": 25.15,
+   "text": "perfeito, daí eu",
+   "words": [
+    {
+     "word": "perfeito,",
+     "start": 23.83,
+     "end": 24.61
+    },
+    {
+     "word": "daí",
+     "start": 24.75,
+     "end": 24.93
+    },
+    {
+     "word": "eu",
+     "start": 24.93,
+     "end": 25.15
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 25.19,
+   "end": 26.38,
+   "text": "fiquei pra trás, mano!",
+   "words": [
+    {
+     "word": "fiquei",
+     "start": 25.19,
+     "end": 25.39
+    },
+    {
+     "word": "pra",
+     "start": 25.39,
+     "end": 25.53
+    },
+    {
+     "word": "trás,",
+     "start": 25.53,
+     "end": 25.91
+    },
+    {
+     "word": "mano!",
+     "start": 26.01,
+     "end": 26.38
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 29.28,
+   "end": 29.78,
+   "text": "Acabou",
+   "words": [
+    {
+     "word": "Acabou",
+     "start": 29.28,
+     "end": 29.78
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 29.82,
+   "end": 30.42,
+   "text": "minha estamina",
+   "words": [
+    {
+     "word": "minha",
+     "start": 29.82,
+     "end": 29.92
+    },
+    {
+     "word": "estamina",
+     "start": 29.92,
+     "end": 30.42
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 30.46,
+   "end": 31.7,
+   "text": "mano, acabou minha estamina",
+   "words": [
+    {
+     "word": "mano,",
+     "start": 30.46,
+     "end": 30.66
+    },
+    {
+     "word": "acabou",
+     "start": 30.8,
+     "end": 30.96
+    },
+    {
+     "word": "minha",
+     "start": 30.96,
+     "end": 31.1
+    },
+    {
+     "word": "estamina",
+     "start": 31.1,
+     "end": 31.7
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 31.74,
+   "end": 32.82,
+   "text": "literalmente acabou minha estamina!",
+   "words": [
+    {
+     "word": "literalmente",
+     "start": 31.74,
+     "end": 32.14
+    },
+    {
+     "word": "acabou",
+     "start": 32.14,
+     "end": 32.26
+    },
+    {
+     "word": "minha",
+     "start": 32.26,
+     "end": 32.4
+    },
+    {
+     "word": "estamina!",
+     "start": 32.4,
+     "end": 32.82
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 32.86,
+   "end": 34.01,
+   "text": "Zica eu, velho",
+   "words": [
+    {
+     "word": "Zica",
+     "start": 32.86,
+     "end": 33.2
+    },
+    {
+     "word": "eu,",
+     "start": 33.2,
+     "end": 33.32
+    },
+    {
+     "word": "velho",
+     "start": 33.36,
+     "end": 34.01
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 36.21,
+   "end": 37.64,
+   "text": "Tá bom, 90 tá bom",
+   "words": [
+    {
+     "word": "Tá",
+     "start": 36.21,
+     "end": 36.39
+    },
+    {
+     "word": "bom,",
+     "start": 36.39,
+     "end": 36.57
+    },
+    {
+     "word": "90",
+     "start": 36.93,
+     "end": 36.98
+    },
+    {
+     "word": "tá",
+     "start": 36.98,
+     "end": 37.17
+    },
+    {
+     "word": "bom",
+     "start": 37.17,
+     "end": 37.64
+    }
+   ],
+   "pos": 0.76
+  }
+ ]
+}
