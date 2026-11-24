@@ -1,0 +1,539 @@
+{
+ "segments": [
+  {
+   "start": 1.35,
+   "end": 2.11,
+   "text": "Mano, eu atropelei",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 1.35,
+     "end": 1.65
+    },
+    {
+     "word": "eu",
+     "start": 1.71,
+     "end": 1.76
+    },
+    {
+     "word": "atropelei",
+     "start": 1.76,
+     "end": 2.11
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 2.15,
+   "end": 2.75,
+   "text": "eu atropelei uma",
+   "words": [
+    {
+     "word": "eu",
+     "start": 2.15,
+     "end": 2.37
+    },
+    {
+     "word": "atropelei",
+     "start": 2.37,
+     "end": 2.69
+    },
+    {
+     "word": "uma",
+     "start": 2.69,
+     "end": 2.75
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 2.79,
+   "end": 4.41,
+   "text": "galinha. \"Ah, mano, eu",
+   "words": [
+    {
+     "word": "galinha.",
+     "start": 2.79,
+     "end": 3.31
+    },
+    {
+     "word": "\"Ah,",
+     "start": 3.72,
+     "end": 4.08
+    },
+    {
+     "word": "mano,",
+     "start": 4.08,
+     "end": 4.28
+    },
+    {
+     "word": "eu",
+     "start": 4.36,
+     "end": 4.41
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 4.4,
+   "end": 6.22,
+   "text": "ganhei negócio de psicopata\". Eu",
+   "words": [
+    {
+     "word": "ganhei",
+     "start": 4.4,
+     "end": 4.58
+    },
+    {
+     "word": "negócio",
+     "start": 4.58,
+     "end": 4.76
+    },
+    {
+     "word": "de",
+     "start": 4.76,
+     "end": 4.9
+    },
+    {
+     "word": "psicopata\".",
+     "start": 4.9,
+     "end": 5.82
+    },
+    {
+     "word": "Eu",
+     "start": 6.06,
+     "end": 6.22
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 6.26,
+   "end": 6.76,
+   "text": "cara, nem vi",
+   "words": [
+    {
+     "word": "cara,",
+     "start": 6.26,
+     "end": 6.36
+    },
+    {
+     "word": "nem",
+     "start": 6.46,
+     "end": 6.58
+    },
+    {
+     "word": "vi",
+     "start": 6.58,
+     "end": 6.76
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 6.8,
+   "end": 7.8,
+   "text": "a galinha, porque",
+   "words": [
+    {
+     "word": "a",
+     "start": 6.8,
+     "end": 6.9
+    },
+    {
+     "word": "galinha,",
+     "start": 6.9,
+     "end": 7.32
+    },
+    {
+     "word": "porque",
+     "start": 7.6,
+     "end": 7.8
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 7.84,
+   "end": 8.42,
+   "text": "primeiramente",
+   "words": [
+    {
+     "word": "primeiramente",
+     "start": 7.84,
+     "end": 8.42
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 8.46,
+   "end": 9.56,
+   "text": "por que que tinha uma galinha aqui",
+   "words": [
+    {
+     "word": "por",
+     "start": 8.46,
+     "end": 8.51
+    },
+    {
+     "word": "que",
+     "start": 8.51,
+     "end": 8.56
+    },
+    {
+     "word": "que",
+     "start": 8.56,
+     "end": 8.64
+    },
+    {
+     "word": "tinha",
+     "start": 8.64,
+     "end": 8.78
+    },
+    {
+     "word": "uma",
+     "start": 8.78,
+     "end": 8.92
+    },
+    {
+     "word": "galinha",
+     "start": 8.92,
+     "end": 9.26
+    },
+    {
+     "word": "aqui",
+     "start": 9.26,
+     "end": 9.56
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 9.6,
+   "end": 10.18,
+   "text": "né? Vou falar a verdade",
+   "words": [
+    {
+     "word": "né?",
+     "start": 9.6,
+     "end": 9.62
+    },
+    {
+     "word": "Vou",
+     "start": 9.74,
+     "end": 9.79
+    },
+    {
+     "word": "falar",
+     "start": 9.79,
+     "end": 9.94
+    },
+    {
+     "word": "a",
+     "start": 9.94,
+     "end": 10.02
+    },
+    {
+     "word": "verdade",
+     "start": 10.02,
+     "end": 10.18
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 10.22,
+   "end": 11.39,
+   "text": "no meio da rua!",
+   "words": [
+    {
+     "word": "no",
+     "start": 10.22,
+     "end": 10.64
+    },
+    {
+     "word": "meio",
+     "start": 10.64,
+     "end": 10.76
+    },
+    {
+     "word": "da",
+     "start": 10.76,
+     "end": 10.88
+    },
+    {
+     "word": "rua!",
+     "start": 10.88,
+     "end": 11.39
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 11.67,
+   "end": 13.98,
+   "text": "Botaram um cone na cabeça",
+   "words": [
+    {
+     "word": "Botaram",
+     "start": 11.67,
+     "end": 12.39
+    },
+    {
+     "word": "um",
+     "start": 13.34,
+     "end": 13.48
+    },
+    {
+     "word": "cone",
+     "start": 13.48,
+     "end": 13.66
+    },
+    {
+     "word": "na",
+     "start": 13.66,
+     "end": 13.78
+    },
+    {
+     "word": "cabeça",
+     "start": 13.78,
+     "end": 13.98
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 14.02,
+   "end": 15.23,
+   "text": "do cavalo, velho!",
+   "words": [
+    {
+     "word": "do",
+     "start": 14.02,
+     "end": 14.12
+    },
+    {
+     "word": "cavalo,",
+     "start": 14.12,
+     "end": 14.62
+    },
+    {
+     "word": "velho!",
+     "start": 14.78,
+     "end": 15.23
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 16.35,
+   "end": 17.58,
+   "text": "Dá pra escanear isso daí?",
+   "words": [
+    {
+     "word": "Dá",
+     "start": 16.35,
+     "end": 16.47
+    },
+    {
+     "word": "pra",
+     "start": 16.47,
+     "end": 16.59
+    },
+    {
+     "word": "escanear",
+     "start": 16.59,
+     "end": 17.05
+    },
+    {
+     "word": "isso",
+     "start": 17.05,
+     "end": 17.15
+    },
+    {
+     "word": "daí?",
+     "start": 17.15,
+     "end": 17.58
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 18.55,
+   "end": 23.67,
+   "text": "Parece que se eu der",
+   "words": [
+    {
+     "word": "Parece",
+     "start": 18.55,
+     "end": 18.85
+    },
+    {
+     "word": "que",
+     "start": 23.38,
+     "end": 23.52
+    },
+    {
+     "word": "se",
+     "start": 23.52,
+     "end": 23.57
+    },
+    {
+     "word": "eu",
+     "start": 23.57,
+     "end": 23.62
+    },
+    {
+     "word": "der",
+     "start": 23.62,
+     "end": 23.67
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 23.64,
+   "end": 24.36,
+   "text": "um tiro no cone",
+   "words": [
+    {
+     "word": "um",
+     "start": 23.64,
+     "end": 23.76
+    },
+    {
+     "word": "tiro",
+     "start": 23.76,
+     "end": 24.0
+    },
+    {
+     "word": "no",
+     "start": 24.0,
+     "end": 24.16
+    },
+    {
+     "word": "cone",
+     "start": 24.16,
+     "end": 24.36
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 24.4,
+   "end": 25.46,
+   "text": "pra tirar e ajudar",
+   "words": [
+    {
+     "word": "pra",
+     "start": 24.4,
+     "end": 24.58
+    },
+    {
+     "word": "tirar",
+     "start": 24.58,
+     "end": 24.96
+    },
+    {
+     "word": "e",
+     "start": 24.96,
+     "end": 25.18
+    },
+    {
+     "word": "ajudar",
+     "start": 25.18,
+     "end": 25.46
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 25.5,
+   "end": 26.2,
+   "text": "o cavalo, eu ganho",
+   "words": [
+    {
+     "word": "o",
+     "start": 25.5,
+     "end": 25.64
+    },
+    {
+     "word": "cavalo,",
+     "start": 25.64,
+     "end": 26.0
+    },
+    {
+     "word": "eu",
+     "start": 26.08,
+     "end": 26.13
+    },
+    {
+     "word": "ganho",
+     "start": 26.13,
+     "end": 26.2
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 26.24,
+   "end": 27.43,
+   "text": "um prêmio",
+   "words": [
+    {
+     "word": "um",
+     "start": 26.24,
+     "end": 26.72
+    },
+    {
+     "word": "prêmio",
+     "start": 26.72,
+     "end": 27.43
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 41.93,
+   "end": 42.9,
+   "text": "Pronto",
+   "words": [
+    {
+     "word": "Pronto",
+     "start": 41.93,
+     "end": 42.9
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 43.81,
+   "end": 44.92,
+   "text": "ajudei o cavalo, mano!",
+   "words": [
+    {
+     "word": "ajudei",
+     "start": 43.81,
+     "end": 44.11
+    },
+    {
+     "word": "o",
+     "start": 44.11,
+     "end": 44.16
+    },
+    {
+     "word": "cavalo,",
+     "start": 44.16,
+     "end": 44.55
+    },
+    {
+     "word": "mano!",
+     "start": 44.55,
+     "end": 44.92
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}

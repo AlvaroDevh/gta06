@@ -1,0 +1,687 @@
+{
+ "segments": [
+  {
+   "start": 2.4,
+   "end": 4.22,
+   "text": "Falou 1982, são 6",
+   "words": [
+    {
+     "word": "Falou",
+     "start": 2.4,
+     "end": 2.66
+    },
+    {
+     "word": "1982,",
+     "start": 2.66,
+     "end": 3.24
+    },
+    {
+     "word": "são",
+     "start": 3.3,
+     "end": 3.94
+    },
+    {
+     "word": "6",
+     "start": 3.94,
+     "end": 4.22
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 4.26,
+   "end": 5.41,
+   "text": "dígitos, mano",
+   "words": [
+    {
+     "word": "dígitos,",
+     "start": 4.26,
+     "end": 4.86
+    },
+    {
+     "word": "mano",
+     "start": 4.92,
+     "end": 5.41
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 7.88,
+   "end": 8.53,
+   "text": "Deixa ver",
+   "words": [
+    {
+     "word": "Deixa",
+     "start": 7.88,
+     "end": 8.04
+    },
+    {
+     "word": "ver",
+     "start": 8.04,
+     "end": 8.53
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 9.8,
+   "end": 10.4,
+   "text": "Tem algum número",
+   "words": [
+    {
+     "word": "Tem",
+     "start": 9.8,
+     "end": 9.94
+    },
+    {
+     "word": "algum",
+     "start": 9.94,
+     "end": 10.14
+    },
+    {
+     "word": "número",
+     "start": 10.14,
+     "end": 10.4
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 10.44,
+   "end": 11.24,
+   "text": "legal aqui que vocês",
+   "words": [
+    {
+     "word": "legal",
+     "start": 10.44,
+     "end": 10.82
+    },
+    {
+     "word": "aqui",
+     "start": 10.82,
+     "end": 11.08
+    },
+    {
+     "word": "que",
+     "start": 11.08,
+     "end": 11.18
+    },
+    {
+     "word": "vocês",
+     "start": 11.18,
+     "end": 11.24
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 11.28,
+   "end": 12.29,
+   "text": "estão vendo, mano?",
+   "words": [
+    {
+     "word": "estão",
+     "start": 11.28,
+     "end": 11.42
+    },
+    {
+     "word": "vendo,",
+     "start": 11.42,
+     "end": 11.76
+    },
+    {
+     "word": "mano?",
+     "start": 11.9,
+     "end": 12.29
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 18.24,
+   "end": 18.93,
+   "text": "1999",
+   "words": [
+    {
+     "word": "1999",
+     "start": 18.24,
+     "end": 18.93
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 22.88,
+   "end": 23.78,
+   "text": "Não vi nenhum número",
+   "words": [
+    {
+     "word": "Não",
+     "start": 22.88,
+     "end": 23.22
+    },
+    {
+     "word": "vi",
+     "start": 23.22,
+     "end": 23.4
+    },
+    {
+     "word": "nenhum",
+     "start": 23.4,
+     "end": 23.6
+    },
+    {
+     "word": "número",
+     "start": 23.6,
+     "end": 23.78
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 23.82,
+   "end": 24.67,
+   "text": "legal, tá?",
+   "words": [
+    {
+     "word": "legal,",
+     "start": 23.82,
+     "end": 24.16
+    },
+    {
+     "word": "tá?",
+     "start": 24.32,
+     "end": 24.67
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 27.61,
+   "end": 28.97,
+   "text": "Ô, meu Deus, calma, volta",
+   "words": [
+    {
+     "word": "Ô,",
+     "start": 27.61,
+     "end": 27.81
+    },
+    {
+     "word": "meu",
+     "start": 27.83,
+     "end": 27.93
+    },
+    {
+     "word": "Deus,",
+     "start": 27.93,
+     "end": 28.09
+    },
+    {
+     "word": "calma,",
+     "start": 28.19,
+     "end": 28.39
+    },
+    {
+     "word": "volta",
+     "start": 28.49,
+     "end": 28.97
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 29.01,
+   "end": 30.12,
+   "text": "A capa é 69",
+   "words": [
+    {
+     "word": "A",
+     "start": 29.01,
+     "end": 29.21
+    },
+    {
+     "word": "capa",
+     "start": 29.21,
+     "end": 29.39
+    },
+    {
+     "word": "é",
+     "start": 29.39,
+     "end": 29.51
+    },
+    {
+     "word": "69",
+     "start": 29.51,
+     "end": 30.12
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 30.41,
+   "end": 32.31,
+   "text": "Ele falou 98269",
+   "words": [
+    {
+     "word": "Ele",
+     "start": 30.41,
+     "end": 30.71
+    },
+    {
+     "word": "falou",
+     "start": 30.71,
+     "end": 30.93
+    },
+    {
+     "word": "98269",
+     "start": 30.93,
+     "end": 32.31
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 32.35,
+   "end": 33.94,
+   "text": "Ô, meu Deus, para de girar!",
+   "words": [
+    {
+     "word": "Ô,",
+     "start": 32.35,
+     "end": 32.45
+    },
+    {
+     "word": "meu",
+     "start": 32.55,
+     "end": 32.61
+    },
+    {
+     "word": "Deus,",
+     "start": 32.61,
+     "end": 32.83
+    },
+    {
+     "word": "para",
+     "start": 32.97,
+     "end": 33.13
+    },
+    {
+     "word": "de",
+     "start": 33.13,
+     "end": 33.31
+    },
+    {
+     "word": "girar!",
+     "start": 33.31,
+     "end": 33.94
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 34.67,
+   "end": 35.84,
+   "text": "Meu Deus, gente, calma",
+   "words": [
+    {
+     "word": "Meu",
+     "start": 34.67,
+     "end": 34.89
+    },
+    {
+     "word": "Deus,",
+     "start": 34.89,
+     "end": 35.03
+    },
+    {
+     "word": "gente,",
+     "start": 35.09,
+     "end": 35.19
+    },
+    {
+     "word": "calma",
+     "start": 35.35,
+     "end": 35.84
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 36.43,
+   "end": 37.26,
+   "text": "calma. Para",
+   "words": [
+    {
+     "word": "calma.",
+     "start": 36.43,
+     "end": 36.73
+    },
+    {
+     "word": "Para",
+     "start": 36.85,
+     "end": 37.26
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 41.67,
+   "end": 43.16,
+   "text": "de girar a revista!",
+   "words": [
+    {
+     "word": "de",
+     "start": 41.67,
+     "end": 41.91
+    },
+    {
+     "word": "girar",
+     "start": 41.91,
+     "end": 42.19
+    },
+    {
+     "word": "a",
+     "start": 42.19,
+     "end": 42.33
+    },
+    {
+     "word": "revista!",
+     "start": 42.33,
+     "end": 43.16
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 43.21,
+   "end": 44.57,
+   "text": "Ai, ai, calma, pega",
+   "words": [
+    {
+     "word": "Ai,",
+     "start": 43.21,
+     "end": 43.43
+    },
+    {
+     "word": "ai,",
+     "start": 43.89,
+     "end": 44.03
+    },
+    {
+     "word": "calma,",
+     "start": 44.17,
+     "end": 44.39
+    },
+    {
+     "word": "pega",
+     "start": 44.45,
+     "end": 44.57
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 44.61,
+   "end": 45.21,
+   "text": "de novo",
+   "words": [
+    {
+     "word": "de",
+     "start": 44.61,
+     "end": 44.73
+    },
+    {
+     "word": "novo",
+     "start": 44.73,
+     "end": 45.21
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 48.79,
+   "end": 49.92,
+   "text": "36... 982",
+   "words": [
+    {
+     "word": "36...",
+     "start": 48.79,
+     "end": 49.23
+    },
+    {
+     "word": "982",
+     "start": 49.23,
+     "end": 49.92
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 52.39,
+   "end": 54.24,
+   "text": "Será? São 6 dígitos",
+   "words": [
+    {
+     "word": "Será?",
+     "start": 52.39,
+     "end": 52.71
+    },
+    {
+     "word": "São",
+     "start": 53.03,
+     "end": 53.17
+    },
+    {
+     "word": "6",
+     "start": 53.17,
+     "end": 53.47
+    },
+    {
+     "word": "dígitos",
+     "start": 53.47,
+     "end": 54.24
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 56.86,
+   "end": 57.8,
+   "text": "É a única senha que eu tenho",
+   "words": [
+    {
+     "word": "É",
+     "start": 56.86,
+     "end": 56.96
+    },
+    {
+     "word": "a",
+     "start": 56.96,
+     "end": 57.02
+    },
+    {
+     "word": "única",
+     "start": 57.02,
+     "end": 57.14
+    },
+    {
+     "word": "senha",
+     "start": 57.14,
+     "end": 57.54
+    },
+    {
+     "word": "que",
+     "start": 57.54,
+     "end": 57.69
+    },
+    {
+     "word": "eu",
+     "start": 57.69,
+     "end": 57.74
+    },
+    {
+     "word": "tenho",
+     "start": 57.74,
+     "end": 57.8
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 57.84,
+   "end": 58.85,
+   "text": "é o único número que eu tenho!",
+   "words": [
+    {
+     "word": "é",
+     "start": 57.84,
+     "end": 57.86
+    },
+    {
+     "word": "o",
+     "start": 57.86,
+     "end": 57.98
+    },
+    {
+     "word": "único",
+     "start": 57.98,
+     "end": 58.08
+    },
+    {
+     "word": "número",
+     "start": 58.08,
+     "end": 58.34
+    },
+    {
+     "word": "que",
+     "start": 58.34,
+     "end": 58.46
+    },
+    {
+     "word": "eu",
+     "start": 58.46,
+     "end": 58.52
+    },
+    {
+     "word": "tenho!",
+     "start": 58.52,
+     "end": 58.85
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 60.39,
+   "end": 61.51,
+   "text": "É o único número",
+   "words": [
+    {
+     "word": "É",
+     "start": 60.39,
+     "end": 60.65
+    },
+    {
+     "word": "o",
+     "start": 60.89,
+     "end": 61.15
+    },
+    {
+     "word": "único",
+     "start": 61.15,
+     "end": 61.29
+    },
+    {
+     "word": "número",
+     "start": 61.29,
+     "end": 61.51
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 61.55,
+   "end": 62.13,
+   "text": "que eu tenho, mano!",
+   "words": [
+    {
+     "word": "que",
+     "start": 61.55,
+     "end": 61.69
+    },
+    {
+     "word": "eu",
+     "start": 61.69,
+     "end": 61.74
+    },
+    {
+     "word": "tenho,",
+     "start": 61.74,
+     "end": 61.91
+    },
+    {
+     "word": "mano!",
+     "start": 61.95,
+     "end": 62.13
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 62.17,
+   "end": 66.75,
+   "text": "É o único número que eu tenho",
+   "words": [
+    {
+     "word": "É",
+     "start": 62.17,
+     "end": 62.61
+    },
+    {
+     "word": "o",
+     "start": 65.99,
+     "end": 66.05
+    },
+    {
+     "word": "único",
+     "start": 66.05,
+     "end": 66.21
+    },
+    {
+     "word": "número",
+     "start": 66.21,
+     "end": 66.39
+    },
+    {
+     "word": "que",
+     "start": 66.39,
+     "end": 66.53
+    },
+    {
+     "word": "eu",
+     "start": 66.53,
+     "end": 66.59
+    },
+    {
+     "word": "tenho",
+     "start": 66.59,
+     "end": 66.75
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 66.79,
+   "end": 67.54,
+   "text": "literalmente!",
+   "words": [
+    {
+     "word": "literalmente!",
+     "start": 66.79,
+     "end": 67.54
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}
