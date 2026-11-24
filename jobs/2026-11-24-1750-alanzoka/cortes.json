@@ -1,0 +1,12 @@
+{
+ "formato": "vertical",
+ "layout": "auto",
+ "legenda": false,
+ "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, Billy, Ricky, furry, mano, psicopata, caçamba, chat",
+ "cortes": [
+  {"id": "01", "inicio": "0:00:30", "fim": "0:01:32", "titulo": "TODA HORA APARECE UM FURRY"},
+  {"id": "02", "inicio": "0:07:05", "fim": "0:08:02", "titulo": "O PSICOPATA ME ARREGACOU"},
+  {"id": "03", "inicio": "0:08:07", "fim": "0:08:58", "titulo": "NINGUEM JOGA GTA SEM BATER"}
+ ]
+}
