@@ -1,0 +1,301 @@
+{
+ "segments": [
+  {
+   "start": 3.47,
+   "end": 4.29,
+   "text": "Não dá pra enxergar",
+   "words": [
+    {
+     "word": "Não",
+     "start": 3.47,
+     "end": 3.67
+    },
+    {
+     "word": "dá",
+     "start": 3.67,
+     "end": 3.81
+    },
+    {
+     "word": "pra",
+     "start": 3.81,
+     "end": 3.95
+    },
+    {
+     "word": "enxergar",
+     "start": 3.95,
+     "end": 4.29
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 4.33,
+   "end": 5.14,
+   "text": "nada, mano!",
+   "words": [
+    {
+     "word": "nada,",
+     "start": 4.33,
+     "end": 4.69
+    },
+    {
+     "word": "mano!",
+     "start": 4.71,
+     "end": 5.14
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 7.05,
+   "end": 8.53,
+   "text": "— Vire⁠ à⁠ esquerda⁠",
+   "words": [
+    {
+     "word": "— Vire⁠",
+     "start": 7.05,
+     "end": 7.65
+    },
+    {
+     "word": "à⁠",
+     "start": 7.65,
+     "end": 7.81
+    },
+    {
+     "word": "esquerda⁠",
+     "start": 7.81,
+     "end": 8.53
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 8.57,
+   "end": 10.17,
+   "text": "depois,⁠ vire⁠",
+   "words": [
+    {
+     "word": "depois,⁠",
+     "start": 8.57,
+     "end": 9.31
+    },
+    {
+     "word": "vire⁠",
+     "start": 9.67,
+     "end": 10.17
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 10.21,
+   "end": 11.26,
+   "text": "à⁠ direita⁠",
+   "words": [
+    {
+     "word": "à⁠",
+     "start": 10.21,
+     "end": 10.41
+    },
+    {
+     "word": "direita⁠",
+     "start": 10.41,
+     "end": 11.26
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 17.32,
+   "end": 19.07,
+   "text": "Vire⁠ à⁠ esquerda⁠",
+   "words": [
+    {
+     "word": "Vire⁠",
+     "start": 17.32,
+     "end": 17.9
+    },
+    {
+     "word": "à⁠",
+     "start": 17.9,
+     "end": 18.12
+    },
+    {
+     "word": "esquerda⁠",
+     "start": 18.12,
+     "end": 19.07
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 21.78,
+   "end": 22.63,
+   "text": "depois⁠",
+   "words": [
+    {
+     "word": "depois⁠",
+     "start": 21.78,
+     "end": 22.63
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 23.05,
+   "end": 24.27,
+   "text": "vire⁠ à⁠ direita⁠",
+   "words": [
+    {
+     "word": "vire⁠",
+     "start": 23.05,
+     "end": 23.47
+    },
+    {
+     "word": "à⁠",
+     "start": 23.47,
+     "end": 23.69
+    },
+    {
+     "word": "direita⁠",
+     "start": 23.69,
+     "end": 24.27
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 24.31,
+   "end": 29.99,
+   "text": "Vai pra academia",
+   "words": [
+    {
+     "word": "Vai",
+     "start": 24.31,
+     "end": 24.87
+    },
+    {
+     "word": "pra",
+     "start": 29.53,
+     "end": 29.71
+    },
+    {
+     "word": "academia",
+     "start": 29.71,
+     "end": 29.99
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 30.03,
+   "end": 30.73,
+   "text": "pra fazer um amor",
+   "words": [
+    {
+     "word": "pra",
+     "start": 30.03,
+     "end": 30.21
+    },
+    {
+     "word": "fazer",
+     "start": 30.21,
+     "end": 30.47
+    },
+    {
+     "word": "um",
+     "start": 30.47,
+     "end": 30.57
+    },
+    {
+     "word": "amor",
+     "start": 30.57,
+     "end": 30.73
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 30.77,
+   "end": 31.65,
+   "text": "gostoso em casa?",
+   "words": [
+    {
+     "word": "gostoso",
+     "start": 30.77,
+     "end": 31.25
+    },
+    {
+     "word": "em",
+     "start": 31.25,
+     "end": 31.37
+    },
+    {
+     "word": "casa?",
+     "start": 31.37,
+     "end": 31.65
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 31.69,
+   "end": 32.42,
+   "text": "Que isso?",
+   "words": [
+    {
+     "word": "Que",
+     "start": 31.69,
+     "end": 31.83
+    },
+    {
+     "word": "isso?",
+     "start": 31.83,
+     "end": 32.42
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 32.96,
+   "end": 33.62,
+   "text": "Ela engoliu",
+   "words": [
+    {
+     "word": "Ela",
+     "start": 32.96,
+     "end": 33.4
+    },
+    {
+     "word": "engoliu",
+     "start": 33.4,
+     "end": 33.62
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 33.66,
+   "end": 34.63,
+   "text": "uma mosca, mano!",
+   "words": [
+    {
+     "word": "uma",
+     "start": 33.66,
+     "end": 33.78
+    },
+    {
+     "word": "mosca,",
+     "start": 33.78,
+     "end": 34.2
+    },
+    {
+     "word": "mano!",
+     "start": 34.2,
+     "end": 34.63
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}

@@ -1,0 +1,431 @@
+{
+ "segments": [
+  {
+   "start": 2.67,
+   "end": 3.37,
+   "text": "Não é possível que eu vou tomar",
+   "words": [
+    {
+     "word": "Não",
+     "start": 2.67,
+     "end": 2.85
+    },
+    {
+     "word": "é",
+     "start": 2.85,
+     "end": 2.91
+    },
+    {
+     "word": "possível",
+     "start": 2.91,
+     "end": 3.01
+    },
+    {
+     "word": "que",
+     "start": 3.01,
+     "end": 3.13
+    },
+    {
+     "word": "eu",
+     "start": 3.13,
+     "end": 3.19
+    },
+    {
+     "word": "vou",
+     "start": 3.19,
+     "end": 3.27
+    },
+    {
+     "word": "tomar",
+     "start": 3.27,
+     "end": 3.37
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 3.41,
+   "end": 4.14,
+   "text": "um tiro aqui, eu",
+   "words": [
+    {
+     "word": "um",
+     "start": 3.41,
+     "end": 3.57
+    },
+    {
+     "word": "tiro",
+     "start": 3.57,
+     "end": 3.87
+    },
+    {
+     "word": "aqui,",
+     "start": 3.87,
+     "end": 4.01
+    },
+    {
+     "word": "eu",
+     "start": 4.09,
+     "end": 4.14
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 4.11,
+   "end": 5.04,
+   "text": "tô com medo, mano!",
+   "words": [
+    {
+     "word": "tô",
+     "start": 4.11,
+     "end": 4.17
+    },
+    {
+     "word": "com",
+     "start": 4.17,
+     "end": 4.31
+    },
+    {
+     "word": "medo,",
+     "start": 4.31,
+     "end": 4.51
+    },
+    {
+     "word": "mano!",
+     "start": 4.63,
+     "end": 5.04
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 16.99,
+   "end": 20.02,
+   "text": "Tá mina no chão, Jesus! Tá",
+   "words": [
+    {
+     "word": "Tá",
+     "start": 16.99,
+     "end": 17.07
+    },
+    {
+     "word": "mina",
+     "start": 17.07,
+     "end": 18.49
+    },
+    {
+     "word": "no",
+     "start": 18.49,
+     "end": 18.61
+    },
+    {
+     "word": "chão,",
+     "start": 18.61,
+     "end": 18.91
+    },
+    {
+     "word": "Jesus!",
+     "start": 18.91,
+     "end": 19.27
+    },
+    {
+     "word": "Tá",
+     "start": 19.27,
+     "end": 20.02
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 30.55,
+   "end": 32.04,
+   "text": "então eu não vou tomar tiro, eu vou tomar",
+   "words": [
+    {
+     "word": "então",
+     "start": 30.55,
+     "end": 30.61
+    },
+    {
+     "word": "eu",
+     "start": 30.61,
+     "end": 30.73
+    },
+    {
+     "word": "não",
+     "start": 30.73,
+     "end": 30.78
+    },
+    {
+     "word": "vou",
+     "start": 30.78,
+     "end": 30.91
+    },
+    {
+     "word": "tomar",
+     "start": 30.91,
+     "end": 31.11
+    },
+    {
+     "word": "tiro,",
+     "start": 31.11,
+     "end": 31.35
+    },
+    {
+     "word": "eu",
+     "start": 31.39,
+     "end": 31.45
+    },
+    {
+     "word": "vou",
+     "start": 31.45,
+     "end": 31.57
+    },
+    {
+     "word": "tomar",
+     "start": 31.57,
+     "end": 32.04
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 35.96,
+   "end": 37.2,
+   "text": "Meu Deus, ai!",
+   "words": [
+    {
+     "word": "Meu",
+     "start": 35.96,
+     "end": 36.14
+    },
+    {
+     "word": "Deus,",
+     "start": 36.14,
+     "end": 36.36
+    },
+    {
+     "word": "ai!",
+     "start": 36.61,
+     "end": 37.2
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 43.89,
+   "end": 45.7,
+   "text": "Caramba, como que não tomei dano?",
+   "words": [
+    {
+     "word": "Caramba,",
+     "start": 43.89,
+     "end": 44.17
+    },
+    {
+     "word": "como",
+     "start": 44.23,
+     "end": 44.39
+    },
+    {
+     "word": "que",
+     "start": 44.39,
+     "end": 44.53
+    },
+    {
+     "word": "não",
+     "start": 44.53,
+     "end": 44.61
+    },
+    {
+     "word": "tomei",
+     "start": 44.61,
+     "end": 44.89
+    },
+    {
+     "word": "dano?",
+     "start": 44.89,
+     "end": 45.7
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 47.23,
+   "end": 48.11,
+   "text": "Ah, mina não letal!",
+   "words": [
+    {
+     "word": "Ah,",
+     "start": 47.23,
+     "end": 47.39
+    },
+    {
+     "word": "mina",
+     "start": 47.55,
+     "end": 47.65
+    },
+    {
+     "word": "não",
+     "start": 47.65,
+     "end": 47.83
+    },
+    {
+     "word": "letal!",
+     "start": 47.83,
+     "end": 48.11
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 48.15,
+   "end": 50.29,
+   "text": "Puta que pariu, mano",
+   "words": [
+    {
+     "word": "Puta",
+     "start": 48.15,
+     "end": 49.69
+    },
+    {
+     "word": "que",
+     "start": 49.69,
+     "end": 49.74
+    },
+    {
+     "word": "pariu,",
+     "start": 49.74,
+     "end": 50.13
+    },
+    {
+     "word": "mano",
+     "start": 50.19,
+     "end": 50.29
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 50.33,
+   "end": 51.24,
+   "text": "que que é isso?",
+   "words": [
+    {
+     "word": "que",
+     "start": 50.33,
+     "end": 50.41
+    },
+    {
+     "word": "que",
+     "start": 50.41,
+     "end": 50.55
+    },
+    {
+     "word": "é",
+     "start": 50.55,
+     "end": 50.71
+    },
+    {
+     "word": "isso?",
+     "start": 50.71,
+     "end": 51.24
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 53.7,
+   "end": 55.07,
+   "text": "Gente, que perigo!",
+   "words": [
+    {
+     "word": "Gente,",
+     "start": 53.7,
+     "end": 53.98
+    },
+    {
+     "word": "que",
+     "start": 54.1,
+     "end": 54.16
+    },
+    {
+     "word": "perigo!",
+     "start": 54.16,
+     "end": 55.07
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 68.6,
+   "end": 69.72,
+   "text": "Pega nóis, seu comédia!",
+   "words": [
+    {
+     "word": "Pega",
+     "start": 68.6,
+     "end": 68.88
+    },
+    {
+     "word": "nóis,",
+     "start": 68.88,
+     "end": 69.1
+    },
+    {
+     "word": "seu",
+     "start": 69.1,
+     "end": 69.18
+    },
+    {
+     "word": "comédia!",
+     "start": 69.18,
+     "end": 69.72
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 69.76,
+   "end": 73.65,
+   "text": "Mano, o drone",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 69.76,
+     "end": 70.24
+    },
+    {
+     "word": "o",
+     "start": 73.49,
+     "end": 73.54
+    },
+    {
+     "word": "drone",
+     "start": 73.54,
+     "end": 73.65
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 73.69,
+   "end": 74.98,
+   "text": "é implodível!",
+   "words": [
+    {
+     "word": "é",
+     "start": 73.69,
+     "end": 73.85
+    },
+    {
+     "word": "implodível!",
+     "start": 73.85,
+     "end": 74.98
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+ "segments": [
+  {
+   "start": 4.39,
+   "end": 6.61,
+   "text": "Lugar que é muito sus, chat",
+   "words": [
+    {
+     "word": "Lugar",
+     "start": 4.39,
+     "end": 4.55
+    },
+    {
+     "word": "que",
+     "start": 4.55,
+     "end": 4.69
+    },
+    {
+     "word": "é",
+     "start": 4.69,
+     "end": 4.77
+    },
+    {
+     "word": "muito",
+     "start": 4.77,
+     "end": 4.97
+    },
+    {
+     "word": "sus,",
+     "start": 4.97,
+     "end": 5.81
+    },
+    {
+     "word": "chat",
+     "start": 5.81,
+     "end": 6.61
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 6.65,
+   "end": 9.1,
+   "text": "Toma choque!",
+   "words": [
+    {
+     "word": "Toma",
+     "start": 6.65,
+     "end": 7.49
+    },
+    {
+     "word": "choque!",
+     "start": 7.49,
+     "end": 9.1
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 19.89,
+   "end": 20.64,
+   "text": "Mano, tem que ter",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 19.89,
+     "end": 20.19
+    },
+    {
+     "word": "tem",
+     "start": 20.19,
+     "end": 20.47
+    },
+    {
+     "word": "que",
+     "start": 20.47,
+     "end": 20.59
+    },
+    {
+     "word": "ter",
+     "start": 20.59,
+     "end": 20.64
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 20.65,
+   "end": 21.27,
+   "text": "um buraco nesse",
+   "words": [
+    {
+     "word": "um",
+     "start": 20.65,
+     "end": 20.73
+    },
+    {
+     "word": "buraco",
+     "start": 20.73,
+     "end": 21.03
+    },
+    {
+     "word": "nesse",
+     "start": 21.03,
+     "end": 21.27
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 21.31,
+   "end": 23.05,
+   "text": "nesse lugar, velho",
+   "words": [
+    {
+     "word": "nesse",
+     "start": 21.31,
+     "end": 21.71
+    },
+    {
+     "word": "lugar,",
+     "start": 22.15,
+     "end": 22.49
+    },
+    {
+     "word": "velho",
+     "start": 22.49,
+     "end": 23.05
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 23.09,
+   "end": 27.85,
+   "text": "Não é possível!",
+   "words": [
+    {
+     "word": "Não",
+     "start": 23.09,
+     "end": 27.37
+    },
+    {
+     "word": "é",
+     "start": 27.37,
+     "end": 27.49
+    },
+    {
+     "word": "possível!",
+     "start": 27.49,
+     "end": 27.85
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 27.89,
+   "end": 30.97,
+   "text": "O que tem aí, cara?",
+   "words": [
+    {
+     "word": "O",
+     "start": 27.89,
+     "end": 28.37
+    },
+    {
+     "word": "que",
+     "start": 30.05,
+     "end": 30.25
+    },
+    {
+     "word": "tem",
+     "start": 30.25,
+     "end": 30.53
+    },
+    {
+     "word": "aí,",
+     "start": 30.53,
+     "end": 30.77
+    },
+    {
+     "word": "cara?",
+     "start": 30.77,
+     "end": 30.97
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 31.01,
+   "end": 31.71,
+   "text": "Eu quero muito, mano!",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 31.01,
+     "end": 31.13
+    },
+    {
+     "word": "quero",
+     "start": 31.13,
+     "end": 31.25
+    },
+    {
+     "word": "muito,",
+     "start": 31.25,
+     "end": 31.45
+    },
+    {
+     "word": "mano!",
+     "start": 31.45,
+     "end": 31.71
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 31.75,
+   "end": 33.02,
+   "text": "Eu devia ter vindo de helicóptero, eu",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 31.75,
+     "end": 31.819
+    },
+    {
+     "word": "devia",
+     "start": 31.819,
+     "end": 31.958
+    },
+    {
+     "word": "ter",
+     "start": 31.958,
+     "end": 32.051
+    },
+    {
+     "word": "vindo",
+     "start": 32.051,
+     "end": 32.19
+    },
+    {
+     "word": "de",
+     "start": 32.19,
+     "end": 32.33
+    },
+    {
+     "word": "helicóptero,",
+     "start": 32.33,
+     "end": 32.97
+    },
+    {
+     "word": "eu",
+     "start": 32.97,
+     "end": 33.02
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 33.03,
+   "end": 33.71,
+   "text": "devia ter pousado",
+   "words": [
+    {
+     "word": "devia",
+     "start": 33.03,
+     "end": 33.21
+    },
+    {
+     "word": "ter",
+     "start": 33.21,
+     "end": 33.33
+    },
+    {
+     "word": "pousado",
+     "start": 33.33,
+     "end": 33.71
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 33.75,
+   "end": 34.43,
+   "text": "aquela vez que",
+   "words": [
+    {
+     "word": "aquela",
+     "start": 33.75,
+     "end": 33.95
+    },
+    {
+     "word": "vez",
+     "start": 33.95,
+     "end": 34.25
+    },
+    {
+     "word": "que",
+     "start": 34.25,
+     "end": 34.43
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 34.47,
+   "end": 35.51,
+   "text": "a gente veio ontem, mano",
+   "words": [
+    {
+     "word": "a",
+     "start": 34.47,
+     "end": 34.65
+    },
+    {
+     "word": "gente",
+     "start": 34.65,
+     "end": 34.71
+    },
+    {
+     "word": "veio",
+     "start": 34.71,
+     "end": 34.87
+    },
+    {
+     "word": "ontem,",
+     "start": 34.87,
+     "end": 35.25
+    },
+    {
+     "word": "mano",
+     "start": 35.25,
+     "end": 35.51
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 35.55,
+   "end": 40.39,
+   "text": "Eu devia ter dropado",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 35.55,
+     "end": 36.19
+    },
+    {
+     "word": "devia",
+     "start": 39.67,
+     "end": 39.93
+    },
+    {
+     "word": "ter",
+     "start": 39.93,
+     "end": 40.07
+    },
+    {
+     "word": "dropado",
+     "start": 40.07,
+     "end": 40.39
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 40.43,
+   "end": 41.7,
+   "text": "aqui de helicóptero, mano!",
+   "words": [
+    {
+     "word": "aqui",
+     "start": 40.43,
+     "end": 40.59
+    },
+    {
+     "word": "de",
+     "start": 40.59,
+     "end": 40.69
+    },
+    {
+     "word": "helicóptero,",
+     "start": 40.69,
+     "end": 41.33
+    },
+    {
+     "word": "mano!",
+     "start": 41.33,
+     "end": 41.7
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}
