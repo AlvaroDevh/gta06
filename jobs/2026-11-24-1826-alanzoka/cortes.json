@@ -1,0 +1,12 @@
+{
+ "formato": "vertical",
+ "layout": "auto",
+ "legenda": false,
+ "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, GPS, drone, mina, cerca elétrica, chat, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:03:14", "fim": "0:04:06", "titulo": "O GPS ME TROLLOU"},
+  {"id": "02", "inicio": "0:05:28", "fim": "0:06:12", "titulo": "TOMA CHOQUE"},
+  {"id": "03", "inicio": "0:08:20", "fim": "0:09:38", "titulo": "CAMPO MINADO E DRONE"}
+ ]
+}
