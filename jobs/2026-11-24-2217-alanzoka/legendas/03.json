@@ -1,0 +1,433 @@
+{
+ "segments": [
+  {
+   "start": 3.18,
+   "end": 5.23,
+   "text": "Será que ela tá seguindo meu GPS, mano?",
+   "words": [
+    {
+     "word": "Será",
+     "start": 3.18,
+     "end": 3.34
+    },
+    {
+     "word": "que",
+     "start": 3.34,
+     "end": 3.44
+    },
+    {
+     "word": "ela",
+     "start": 3.44,
+     "end": 3.5
+    },
+    {
+     "word": "tá",
+     "start": 3.5,
+     "end": 3.6
+    },
+    {
+     "word": "seguindo",
+     "start": 3.6,
+     "end": 3.92
+    },
+    {
+     "word": "meu",
+     "start": 3.92,
+     "end": 4.06
+    },
+    {
+     "word": "GPS,",
+     "start": 4.06,
+     "end": 4.52
+    },
+    {
+     "word": "mano?",
+     "start": 4.74,
+     "end": 5.23
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 15.66,
+   "end": 16.27,
+   "text": "Chego",
+   "words": [
+    {
+     "word": "Chego",
+     "start": 15.66,
+     "end": 16.27
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 17.12,
+   "end": 17.84,
+   "text": "Não, mas calma",
+   "words": [
+    {
+     "word": "Não,",
+     "start": 17.12,
+     "end": 17.48
+    },
+    {
+     "word": "mas",
+     "start": 17.54,
+     "end": 17.6
+    },
+    {
+     "word": "calma",
+     "start": 17.6,
+     "end": 17.84
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 17.88,
+   "end": 18.54,
+   "text": "que eu não parei",
+   "words": [
+    {
+     "word": "que",
+     "start": 17.88,
+     "end": 18.0
+    },
+    {
+     "word": "eu",
+     "start": 18.0,
+     "end": 18.06
+    },
+    {
+     "word": "não",
+     "start": 18.06,
+     "end": 18.16
+    },
+    {
+     "word": "parei",
+     "start": 18.16,
+     "end": 18.54
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 18.58,
+   "end": 19.43,
+   "text": "ainda, eu tô",
+   "words": [
+    {
+     "word": "ainda,",
+     "start": 18.58,
+     "end": 18.86
+    },
+    {
+     "word": "eu",
+     "start": 18.94,
+     "end": 19.0
+    },
+    {
+     "word": "tô",
+     "start": 19.0,
+     "end": 19.43
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 21.69,
+   "end": 22.61,
+   "text": "quilômetro?",
+   "words": [
+    {
+     "word": "quilômetro?",
+     "start": 21.69,
+     "end": 22.61
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 22.65,
+   "end": 23.58,
+   "text": "um quilômetro",
+   "words": [
+    {
+     "word": "um",
+     "start": 22.65,
+     "end": 22.77
+    },
+    {
+     "word": "quilômetro",
+     "start": 22.77,
+     "end": 23.58
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 31.69,
+   "end": 32.29,
+   "text": "Chegando, tamo",
+   "words": [
+    {
+     "word": "Chegando,",
+     "start": 31.69,
+     "end": 32.05
+    },
+    {
+     "word": "tamo",
+     "start": 32.13,
+     "end": 32.29
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 32.33,
+   "end": 33.08,
+   "text": "chegando",
+   "words": [
+    {
+     "word": "chegando",
+     "start": 32.33,
+     "end": 33.08
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 47.01,
+   "end": 48.16,
+   "text": "Ela tá lá atrás?",
+   "words": [
+    {
+     "word": "Ela",
+     "start": 47.01,
+     "end": 47.21
+    },
+    {
+     "word": "tá",
+     "start": 47.21,
+     "end": 47.37
+    },
+    {
+     "word": "lá",
+     "start": 47.37,
+     "end": 47.49
+    },
+    {
+     "word": "atrás?",
+     "start": 47.49,
+     "end": 48.16
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 50.77,
+   "end": 51.49,
+   "text": "Cara, pior que agora",
+   "words": [
+    {
+     "word": "Cara,",
+     "start": 50.77,
+     "end": 51.01
+    },
+    {
+     "word": "pior",
+     "start": 51.09,
+     "end": 51.21
+    },
+    {
+     "word": "que",
+     "start": 51.21,
+     "end": 51.33
+    },
+    {
+     "word": "agora",
+     "start": 51.33,
+     "end": 51.49
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 51.53,
+   "end": 52.6,
+   "text": "que eu ouvi o pontinho, mano",
+   "words": [
+    {
+     "word": "que",
+     "start": 51.53,
+     "end": 51.71
+    },
+    {
+     "word": "eu",
+     "start": 51.71,
+     "end": 51.79
+    },
+    {
+     "word": "ouvi",
+     "start": 51.79,
+     "end": 51.89
+    },
+    {
+     "word": "o",
+     "start": 51.89,
+     "end": 51.97
+    },
+    {
+     "word": "pontinho,",
+     "start": 51.97,
+     "end": 52.47
+    },
+    {
+     "word": "mano",
+     "start": 52.55,
+     "end": 52.6
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 52.63,
+   "end": 53.62,
+   "text": "onde é que ela tava?",
+   "words": [
+    {
+     "word": "onde",
+     "start": 52.63,
+     "end": 52.75
+    },
+    {
+     "word": "é",
+     "start": 52.75,
+     "end": 52.81
+    },
+    {
+     "word": "que",
+     "start": 52.81,
+     "end": 52.89
+    },
+    {
+     "word": "ela",
+     "start": 52.89,
+     "end": 53.01
+    },
+    {
+     "word": "tava?",
+     "start": 53.01,
+     "end": 53.62
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 63.17,
+   "end": 63.71,
+   "text": "— Carro⁠ merda⁠",
+   "words": [
+    {
+     "word": "— Carro⁠",
+     "start": 63.17,
+     "end": 63.47
+    },
+    {
+     "word": "merda⁠",
+     "start": 63.47,
+     "end": 63.71
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 63.75,
+   "end": 64.53,
+   "text": "do⁠ caralho,⁠ mano⁠",
+   "words": [
+    {
+     "word": "do⁠",
+     "start": 63.75,
+     "end": 63.85
+    },
+    {
+     "word": "caralho,⁠",
+     "start": 63.85,
+     "end": 64.33
+    },
+    {
+     "word": "mano⁠",
+     "start": 64.43,
+     "end": 64.53
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 64.57,
+   "end": 65.6,
+   "text": "na⁠ moral,⁠ pelo⁠",
+   "words": [
+    {
+     "word": "na⁠",
+     "start": 64.57,
+     "end": 64.69
+    },
+    {
+     "word": "moral,⁠",
+     "start": 64.69,
+     "end": 64.95
+    },
+    {
+     "word": "pelo⁠",
+     "start": 65.15,
+     "end": 65.6
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 66.84,
+   "end": 68.11,
+   "text": "amor⁠ de⁠ Deus,⁠ velho!⁠",
+   "words": [
+    {
+     "word": "amor⁠",
+     "start": 66.84,
+     "end": 67.0
+    },
+    {
+     "word": "de⁠",
+     "start": 67.0,
+     "end": 67.16
+    },
+    {
+     "word": "Deus,⁠",
+     "start": 67.16,
+     "end": 67.4
+    },
+    {
+     "word": "velho!⁠",
+     "start": 67.58,
+     "end": 68.11
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 70.41,
+   "end": 71.01,
+   "text": "Olha!⁠",
+   "words": [
+    {
+     "word": "Olha!⁠",
+     "start": 70.41,
+     "end": 71.01
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}

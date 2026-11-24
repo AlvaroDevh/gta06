@@ -1,7 +1,7 @@
 # Cortes: alanzoka, GTA 6 (24/11/2026, bloco das 22:17 UTC)
 
-## 01: A bomba me levou pra LSD
-- **Título:** "A BOMBA LITERALMENTE ME EXPLODIU PRA LSD" 💣😂 alanzoka no GTA 6
+## 01: A bomba me jogou na hélice
+- **Título:** "A BOMBA LITERALMENTE ME EXPLODIU PRA HÉLICE" 💣😂 alanzoka no GTA 6
 - **Descrição:** Ele vai invadir a base do cara e uma explosão manda ele direto pro pior lugar possível. Maior pico de risada do chat no bloco. Créditos: alanzoka – https://www.twitch.tv/alanzoka
 - **Hashtags:** #alanzoka #gta6 #gtavi #cortesdelive #shorts
 - **Thumbnail:** explosão + Alan chocado + texto "QUAIS AS CHANCES?"
