@@ -1,0 +1,387 @@
+{
+ "segments": [
+  {
+   "start": 0.2,
+   "end": 1.09,
+   "text": "Nossa",
+   "words": [
+    {
+     "word": "Nossa",
+     "start": 0.2,
+     "end": 1.09
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 3.75,
+   "end": 5.02,
+   "text": "cheio de polícia ali, mano!",
+   "words": [
+    {
+     "word": "cheio",
+     "start": 3.75,
+     "end": 3.89
+    },
+    {
+     "word": "de",
+     "start": 3.89,
+     "end": 4.01
+    },
+    {
+     "word": "polícia",
+     "start": 4.01,
+     "end": 4.43
+    },
+    {
+     "word": "ali,",
+     "start": 4.43,
+     "end": 4.61
+    },
+    {
+     "word": "mano!",
+     "start": 4.65,
+     "end": 5.02
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 9.41,
+   "end": 10.01,
+   "text": "Mano, a própria",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 9.41,
+     "end": 9.73
+    },
+    {
+     "word": "a",
+     "start": 9.77,
+     "end": 9.82
+    },
+    {
+     "word": "própria",
+     "start": 9.82,
+     "end": 10.01
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 10.05,
+   "end": 10.89,
+   "text": "amiga da minha me",
+   "words": [
+    {
+     "word": "amiga",
+     "start": 10.05,
+     "end": 10.43
+    },
+    {
+     "word": "da",
+     "start": 10.43,
+     "end": 10.55
+    },
+    {
+     "word": "minha",
+     "start": 10.55,
+     "end": 10.73
+    },
+    {
+     "word": "me",
+     "start": 10.73,
+     "end": 10.89
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 10.93,
+   "end": 11.77,
+   "text": "derrubou da moto",
+   "words": [
+    {
+     "word": "derrubou",
+     "start": 10.93,
+     "end": 11.41
+    },
+    {
+     "word": "da",
+     "start": 11.41,
+     "end": 11.49
+    },
+    {
+     "word": "moto",
+     "start": 11.49,
+     "end": 11.77
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 11.81,
+   "end": 12.41,
+   "text": "velho, que absurdo",
+   "words": [
+    {
+     "word": "velho,",
+     "start": 11.81,
+     "end": 11.97
+    },
+    {
+     "word": "que",
+     "start": 11.97,
+     "end": 12.05
+    },
+    {
+     "word": "absurdo",
+     "start": 12.05,
+     "end": 12.41
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 12.45,
+   "end": 13.24,
+   "text": "isso! Mano",
+   "words": [
+    {
+     "word": "isso!",
+     "start": 12.45,
+     "end": 12.61
+    },
+    {
+     "word": "Mano",
+     "start": 12.61,
+     "end": 13.24
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 20.82,
+   "end": 21.46,
+   "text": "cadê minha moto",
+   "words": [
+    {
+     "word": "cadê",
+     "start": 20.82,
+     "end": 20.96
+    },
+    {
+     "word": "minha",
+     "start": 20.96,
+     "end": 21.08
+    },
+    {
+     "word": "moto",
+     "start": 21.08,
+     "end": 21.46
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 21.5,
+   "end": 22.37,
+   "text": "velho? Fala pra mim!",
+   "words": [
+    {
+     "word": "velho?",
+     "start": 21.5,
+     "end": 21.6
+    },
+    {
+     "word": "Fala",
+     "start": 21.62,
+     "end": 21.74
+    },
+    {
+     "word": "pra",
+     "start": 21.74,
+     "end": 21.92
+    },
+    {
+     "word": "mim!",
+     "start": 21.92,
+     "end": 22.37
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 35.16,
+   "end": 36.34,
+   "text": "Mano, que absurdo",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 35.16,
+     "end": 35.78
+    },
+    {
+     "word": "que",
+     "start": 35.78,
+     "end": 35.92
+    },
+    {
+     "word": "absurdo",
+     "start": 35.92,
+     "end": 36.34
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 36.38,
+   "end": 37.45,
+   "text": "isso, velho!",
+   "words": [
+    {
+     "word": "isso,",
+     "start": 36.38,
+     "end": 36.56
+    },
+    {
+     "word": "velho!",
+     "start": 36.66,
+     "end": 37.45
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 44.74,
+   "end": 45.46,
+   "text": "Nossa, alguém caiu",
+   "words": [
+    {
+     "word": "Nossa,",
+     "start": 44.74,
+     "end": 44.98
+    },
+    {
+     "word": "alguém",
+     "start": 45.16,
+     "end": 45.28
+    },
+    {
+     "word": "caiu",
+     "start": 45.28,
+     "end": 45.46
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 45.5,
+   "end": 46.42,
+   "text": "da moto? Nem vi",
+   "words": [
+    {
+     "word": "da",
+     "start": 45.5,
+     "end": 45.56
+    },
+    {
+     "word": "moto?",
+     "start": 45.56,
+     "end": 45.84
+    },
+    {
+     "word": "Nem",
+     "start": 45.88,
+     "end": 46.04
+    },
+    {
+     "word": "vi",
+     "start": 46.04,
+     "end": 46.42
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 46.46,
+   "end": 47.39,
+   "text": "só vi de longe",
+   "words": [
+    {
+     "word": "só",
+     "start": 46.46,
+     "end": 46.58
+    },
+    {
+     "word": "vi",
+     "start": 46.58,
+     "end": 46.7
+    },
+    {
+     "word": "de",
+     "start": 46.7,
+     "end": 46.8
+    },
+    {
+     "word": "longe",
+     "start": 46.8,
+     "end": 47.39
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 49.79,
+   "end": 51.02,
+   "text": "Next stage!",
+   "words": [
+    {
+     "word": "Next",
+     "start": 49.79,
+     "end": 50.35
+    },
+    {
+     "word": "stage!",
+     "start": 50.35,
+     "end": 51.02
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 59.07,
+   "end": 62.18,
+   "text": "Nossa, a mina caiu, mano!",
+   "words": [
+    {
+     "word": "Nossa,",
+     "start": 59.07,
+     "end": 59.39
+    },
+    {
+     "word": "a",
+     "start": 59.67,
+     "end": 59.75
+    },
+    {
+     "word": "mina",
+     "start": 59.75,
+     "end": 59.87
+    },
+    {
+     "word": "caiu,",
+     "start": 59.87,
+     "end": 60.45
+    },
+    {
+     "word": "mano!",
+     "start": 60.49,
+     "end": 62.18
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}
