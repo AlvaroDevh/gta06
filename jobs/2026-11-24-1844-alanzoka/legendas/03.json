@@ -1,0 +1,724 @@
+{
+ "segments": [
+  {
+   "start": 3.02,
+   "end": 3.66,
+   "text": "Cara, eu tô",
+   "words": [
+    {
+     "word": "Cara,",
+     "start": 3.02,
+     "end": 3.38
+    },
+    {
+     "word": "eu",
+     "start": 3.5,
+     "end": 3.58
+    },
+    {
+     "word": "tô",
+     "start": 3.58,
+     "end": 3.66
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 3.7,
+   "end": 4.26,
+   "text": "com a Lucia tem",
+   "words": [
+    {
+     "word": "com",
+     "start": 3.7,
+     "end": 3.82
+    },
+    {
+     "word": "a",
+     "start": 3.82,
+     "end": 3.88
+    },
+    {
+     "word": "Lucia",
+     "start": 3.88,
+     "end": 4.14
+    },
+    {
+     "word": "tem",
+     "start": 4.14,
+     "end": 4.26
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 4.3,
+   "end": 6.25,
+   "text": "3 horas e, mano",
+   "words": [
+    {
+     "word": "3",
+     "start": 4.3,
+     "end": 4.6
+    },
+    {
+     "word": "horas",
+     "start": 4.6,
+     "end": 5.02
+    },
+    {
+     "word": "e,",
+     "start": 5.02,
+     "end": 5.56
+    },
+    {
+     "word": "mano",
+     "start": 5.78,
+     "end": 6.25
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 7.05,
+   "end": 9.08,
+   "text": "a gente não fica no amor",
+   "words": [
+    {
+     "word": "a",
+     "start": 7.05,
+     "end": 7.23
+    },
+    {
+     "word": "gente",
+     "start": 7.23,
+     "end": 7.37
+    },
+    {
+     "word": "não",
+     "start": 7.37,
+     "end": 7.53
+    },
+    {
+     "word": "fica",
+     "start": 7.53,
+     "end": 7.95
+    },
+    {
+     "word": "no",
+     "start": 7.95,
+     "end": 8.51
+    },
+    {
+     "word": "amor",
+     "start": 8.51,
+     "end": 9.08
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 11.66,
+   "end": 12.34,
+   "text": "Nosso amor não",
+   "words": [
+    {
+     "word": "Nosso",
+     "start": 11.66,
+     "end": 12.02
+    },
+    {
+     "word": "amor",
+     "start": 12.02,
+     "end": 12.26
+    },
+    {
+     "word": "não",
+     "start": 12.26,
+     "end": 12.34
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 12.38,
+   "end": 13.37,
+   "text": "aumenta, mano",
+   "words": [
+    {
+     "word": "aumenta,",
+     "start": 12.38,
+     "end": 12.88
+    },
+    {
+     "word": "mano",
+     "start": 12.94,
+     "end": 13.37
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 25.43,
+   "end": 26.33,
+   "text": "Acabou o amor desde",
+   "words": [
+    {
+     "word": "Acabou",
+     "start": 25.43,
+     "end": 25.71
+    },
+    {
+     "word": "o",
+     "start": 25.71,
+     "end": 25.83
+    },
+    {
+     "word": "amor",
+     "start": 25.83,
+     "end": 25.99
+    },
+    {
+     "word": "desde",
+     "start": 25.99,
+     "end": 26.33
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 26.37,
+   "end": 27.9,
+   "text": "o Phantom, acabou, mano",
+   "words": [
+    {
+     "word": "o",
+     "start": 26.37,
+     "end": 26.59
+    },
+    {
+     "word": "Phantom,",
+     "start": 26.59,
+     "end": 26.83
+    },
+    {
+     "word": "acabou,",
+     "start": 26.93,
+     "end": 27.31
+    },
+    {
+     "word": "mano",
+     "start": 27.51,
+     "end": 27.9
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 28.59,
+   "end": 29.89,
+   "text": "Tem que fazer coisa juntos",
+   "words": [
+    {
+     "word": "Tem",
+     "start": 28.59,
+     "end": 28.95
+    },
+    {
+     "word": "que",
+     "start": 28.95,
+     "end": 29.01
+    },
+    {
+     "word": "fazer",
+     "start": 29.01,
+     "end": 29.21
+    },
+    {
+     "word": "coisa",
+     "start": 29.21,
+     "end": 29.49
+    },
+    {
+     "word": "juntos",
+     "start": 29.49,
+     "end": 29.89
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 29.93,
+   "end": 30.47,
+   "text": "Eu não tô fazendo",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 29.93,
+     "end": 30.01
+    },
+    {
+     "word": "não",
+     "start": 30.01,
+     "end": 30.11
+    },
+    {
+     "word": "tô",
+     "start": 30.11,
+     "end": 30.21
+    },
+    {
+     "word": "fazendo",
+     "start": 30.21,
+     "end": 30.47
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 30.51,
+   "end": 31.46,
+   "text": "um monte de coisa juntos?",
+   "words": [
+    {
+     "word": "um",
+     "start": 30.51,
+     "end": 30.59
+    },
+    {
+     "word": "monte",
+     "start": 30.59,
+     "end": 30.65
+    },
+    {
+     "word": "de",
+     "start": 30.65,
+     "end": 30.75
+    },
+    {
+     "word": "coisa",
+     "start": 30.75,
+     "end": 30.89
+    },
+    {
+     "word": "juntos?",
+     "start": 30.89,
+     "end": 31.46
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 33.4,
+   "end": 35.03,
+   "text": "Tô com ela 3 horas, mano!",
+   "words": [
+    {
+     "word": "Tô",
+     "start": 33.4,
+     "end": 33.52
+    },
+    {
+     "word": "com",
+     "start": 33.52,
+     "end": 33.64
+    },
+    {
+     "word": "ela",
+     "start": 33.64,
+     "end": 33.76
+    },
+    {
+     "word": "3",
+     "start": 33.76,
+     "end": 34.04
+    },
+    {
+     "word": "horas,",
+     "start": 34.04,
+     "end": 34.48
+    },
+    {
+     "word": "mano!",
+     "start": 34.62,
+     "end": 35.03
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 38.43,
+   "end": 40.02,
+   "text": "Acho que eu vou caçar, hein, chat",
+   "words": [
+    {
+     "word": "Acho",
+     "start": 38.43,
+     "end": 38.59
+    },
+    {
+     "word": "que",
+     "start": 38.59,
+     "end": 38.65
+    },
+    {
+     "word": "eu",
+     "start": 38.65,
+     "end": 38.71
+    },
+    {
+     "word": "vou",
+     "start": 38.71,
+     "end": 38.81
+    },
+    {
+     "word": "caçar,",
+     "start": 38.81,
+     "end": 39.21
+    },
+    {
+     "word": "hein,",
+     "start": 39.35,
+     "end": 39.4
+    },
+    {
+     "word": "chat",
+     "start": 39.45,
+     "end": 40.02
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 41.43,
+   "end": 42.01,
+   "text": "Aqui eu não sei",
+   "words": [
+    {
+     "word": "Aqui",
+     "start": 41.43,
+     "end": 41.71
+    },
+    {
+     "word": "eu",
+     "start": 41.71,
+     "end": 41.81
+    },
+    {
+     "word": "não",
+     "start": 41.81,
+     "end": 41.91
+    },
+    {
+     "word": "sei",
+     "start": 41.91,
+     "end": 42.01
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 42.05,
+   "end": 43.24,
+   "text": "o que fazer, mano",
+   "words": [
+    {
+     "word": "o",
+     "start": 42.05,
+     "end": 42.13
+    },
+    {
+     "word": "que",
+     "start": 42.13,
+     "end": 42.19
+    },
+    {
+     "word": "fazer,",
+     "start": 42.19,
+     "end": 42.57
+    },
+    {
+     "word": "mano",
+     "start": 42.75,
+     "end": 43.24
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 44.13,
+   "end": 45.28,
+   "text": "Port Gellhorn",
+   "words": [
+    {
+     "word": "Port",
+     "start": 44.13,
+     "end": 44.43
+    },
+    {
+     "word": "Gellhorn",
+     "start": 44.43,
+     "end": 45.28
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 48.19,
+   "end": 49.09,
+   "text": "Quero 10 mil",
+   "words": [
+    {
+     "word": "Quero",
+     "start": 48.19,
+     "end": 48.55
+    },
+    {
+     "word": "10",
+     "start": 48.55,
+     "end": 48.83
+    },
+    {
+     "word": "mil",
+     "start": 48.83,
+     "end": 49.09
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 49.13,
+   "end": 50.74,
+   "text": "Eu preciso mandar dinheiro pro meu filho",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 49.13,
+     "end": 49.19
+    },
+    {
+     "word": "preciso",
+     "start": 49.19,
+     "end": 49.35
+    },
+    {
+     "word": "mandar",
+     "start": 49.35,
+     "end": 49.55
+    },
+    {
+     "word": "dinheiro",
+     "start": 49.55,
+     "end": 49.87
+    },
+    {
+     "word": "pro",
+     "start": 49.87,
+     "end": 50.03
+    },
+    {
+     "word": "meu",
+     "start": 50.03,
+     "end": 50.19
+    },
+    {
+     "word": "filho",
+     "start": 50.19,
+     "end": 50.74
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 53.09,
+   "end": 53.91,
+   "text": "Caralho, 14 mil",
+   "words": [
+    {
+     "word": "Caralho,",
+     "start": 53.09,
+     "end": 53.35
+    },
+    {
+     "word": "14",
+     "start": 53.45,
+     "end": 53.77
+    },
+    {
+     "word": "mil",
+     "start": 53.77,
+     "end": 53.91
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 53.95,
+   "end": 55.28,
+   "text": "a 32 mil",
+   "words": [
+    {
+     "word": "a",
+     "start": 53.95,
+     "end": 54.05
+    },
+    {
+     "word": "32",
+     "start": 54.05,
+     "end": 54.53
+    },
+    {
+     "word": "mil",
+     "start": 54.53,
+     "end": 55.28
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 57.91,
+   "end": 59.38,
+   "text": "Manutenção de barcos, Brooks",
+   "words": [
+    {
+     "word": "Manutenção",
+     "start": 57.91,
+     "end": 58.27
+    },
+    {
+     "word": "de",
+     "start": 58.27,
+     "end": 58.41
+    },
+    {
+     "word": "barcos,",
+     "start": 58.41,
+     "end": 58.79
+    },
+    {
+     "word": "Brooks",
+     "start": 58.99,
+     "end": 59.38
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 63.25,
+   "end": 64.37,
+   "text": "Fazer missão, não só",
+   "words": [
+    {
+     "word": "Fazer",
+     "start": 63.25,
+     "end": 63.61
+    },
+    {
+     "word": "missão,",
+     "start": 63.61,
+     "end": 64.03
+    },
+    {
+     "word": "não",
+     "start": 64.19,
+     "end": 64.25
+    },
+    {
+     "word": "só",
+     "start": 64.25,
+     "end": 64.37
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 64.41,
+   "end": 65.25,
+   "text": "ficar andando com a Lucia",
+   "words": [
+    {
+     "word": "ficar",
+     "start": 64.41,
+     "end": 64.57
+    },
+    {
+     "word": "andando",
+     "start": 64.57,
+     "end": 64.79
+    },
+    {
+     "word": "com",
+     "start": 64.79,
+     "end": 64.93
+    },
+    {
+     "word": "a",
+     "start": 64.93,
+     "end": 64.98
+    },
+    {
+     "word": "Lucia",
+     "start": 64.98,
+     "end": 65.25
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 65.29,
+   "end": 65.97,
+   "text": "Irmão, acabei de fazer",
+   "words": [
+    {
+     "word": "Irmão,",
+     "start": 65.29,
+     "end": 65.57
+    },
+    {
+     "word": "acabei",
+     "start": 65.67,
+     "end": 65.77
+    },
+    {
+     "word": "de",
+     "start": 65.77,
+     "end": 65.87
+    },
+    {
+     "word": "fazer",
+     "start": 65.87,
+     "end": 65.97
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 66.01,
+   "end": 67.16,
+   "text": "três missões com ela!",
+   "words": [
+    {
+     "word": "três",
+     "start": 66.01,
+     "end": 66.25
+    },
+    {
+     "word": "missões",
+     "start": 66.25,
+     "end": 66.57
+    },
+    {
+     "word": "com",
+     "start": 66.57,
+     "end": 66.73
+    },
+    {
+     "word": "ela!",
+     "start": 66.73,
+     "end": 67.16
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}
