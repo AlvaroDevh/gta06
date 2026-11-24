@@ -1,0 +1,608 @@
+{
+ "segments": [
+  {
+   "start": 0.14,
+   "end": 1.22,
+   "text": "Qual que é meu carro?",
+   "words": [
+    {
+     "word": "Qual",
+     "start": 0.14,
+     "end": 0.36
+    },
+    {
+     "word": "que",
+     "start": 0.36,
+     "end": 0.41
+    },
+    {
+     "word": "é",
+     "start": 0.41,
+     "end": 0.46
+    },
+    {
+     "word": "meu",
+     "start": 0.46,
+     "end": 0.64
+    },
+    {
+     "word": "carro?",
+     "start": 0.64,
+     "end": 1.22
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 1.26,
+   "end": 3.2,
+   "text": "É o... Aquele carro lá, é o Elad",
+   "words": [
+    {
+     "word": "É",
+     "start": 1.26,
+     "end": 1.48
+    },
+    {
+     "word": "o...",
+     "start": 1.48,
+     "end": 1.9
+    },
+    {
+     "word": "Aquele",
+     "start": 1.9,
+     "end": 2.22
+    },
+    {
+     "word": "carro",
+     "start": 2.22,
+     "end": 2.5
+    },
+    {
+     "word": "lá,",
+     "start": 2.5,
+     "end": 2.68
+    },
+    {
+     "word": "é",
+     "start": 2.74,
+     "end": 2.8
+    },
+    {
+     "word": "o",
+     "start": 2.8,
+     "end": 2.9
+    },
+    {
+     "word": "Elad",
+     "start": 2.9,
+     "end": 3.2
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 3.24,
+   "end": 7.42,
+   "text": "Tem que destruir?",
+   "words": [
+    {
+     "word": "Tem",
+     "start": 3.24,
+     "end": 6.47
+    },
+    {
+     "word": "que",
+     "start": 6.47,
+     "end": 6.61
+    },
+    {
+     "word": "destruir?",
+     "start": 6.61,
+     "end": 7.42
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 8.15,
+   "end": 8.73,
+   "text": "Onde tá escrito",
+   "words": [
+    {
+     "word": "Onde",
+     "start": 8.15,
+     "end": 8.53
+    },
+    {
+     "word": "tá",
+     "start": 8.53,
+     "end": 8.61
+    },
+    {
+     "word": "escrito",
+     "start": 8.61,
+     "end": 8.73
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 8.77,
+   "end": 9.8,
+   "text": "que tem que destruir?",
+   "words": [
+    {
+     "word": "que",
+     "start": 8.77,
+     "end": 8.92
+    },
+    {
+     "word": "tem",
+     "start": 8.92,
+     "end": 8.97
+    },
+    {
+     "word": "que",
+     "start": 8.97,
+     "end": 9.05
+    },
+    {
+     "word": "destruir?",
+     "start": 9.05,
+     "end": 9.8
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 9.91,
+   "end": 11.27,
+   "text": "Ah, é uma missão",
+   "words": [
+    {
+     "word": "Ah,",
+     "start": 9.91,
+     "end": 10.23
+    },
+    {
+     "word": "é",
+     "start": 10.77,
+     "end": 10.89
+    },
+    {
+     "word": "uma",
+     "start": 10.89,
+     "end": 11.01
+    },
+    {
+     "word": "missão",
+     "start": 11.01,
+     "end": 11.27
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 11.31,
+   "end": 12.17,
+   "text": "de acabar com",
+   "words": [
+    {
+     "word": "de",
+     "start": 11.31,
+     "end": 11.49
+    },
+    {
+     "word": "acabar",
+     "start": 11.49,
+     "end": 12.05
+    },
+    {
+     "word": "com",
+     "start": 12.05,
+     "end": 12.17
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 12.21,
+   "end": 12.79,
+   "text": "o laboratório",
+   "words": [
+    {
+     "word": "o",
+     "start": 12.21,
+     "end": 12.23
+    },
+    {
+     "word": "laboratório",
+     "start": 12.23,
+     "end": 12.79
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 12.83,
+   "end": 14.9,
+   "text": "do Bola Gato, mano!",
+   "words": [
+    {
+     "word": "do",
+     "start": 12.83,
+     "end": 13.01
+    },
+    {
+     "word": "Bola",
+     "start": 13.01,
+     "end": 13.55
+    },
+    {
+     "word": "Gato,",
+     "start": 13.55,
+     "end": 14.15
+    },
+    {
+     "word": "mano!",
+     "start": 14.25,
+     "end": 14.9
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 15.42,
+   "end": 16.24,
+   "text": "Nossa, nem me",
+   "words": [
+    {
+     "word": "Nossa,",
+     "start": 15.42,
+     "end": 15.88
+    },
+    {
+     "word": "nem",
+     "start": 15.96,
+     "end": 16.1
+    },
+    {
+     "word": "me",
+     "start": 16.1,
+     "end": 16.24
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 16.28,
+   "end": 17.26,
+   "text": "toquei, é verdade",
+   "words": [
+    {
+     "word": "toquei,",
+     "start": 16.28,
+     "end": 16.7
+    },
+    {
+     "word": "é",
+     "start": 16.72,
+     "end": 16.82
+    },
+    {
+     "word": "verdade",
+     "start": 16.82,
+     "end": 17.26
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 17.3,
+   "end": 21.61,
+   "text": "Já foi, né?",
+   "words": [
+    {
+     "word": "Já",
+     "start": 17.3,
+     "end": 17.9
+    },
+    {
+     "word": "foi,",
+     "start": 20.99,
+     "end": 21.23
+    },
+    {
+     "word": "né?",
+     "start": 21.31,
+     "end": 21.61
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 25.57,
+   "end": 27.37,
+   "text": "Acabou, né? Acabou",
+   "words": [
+    {
+     "word": "Acabou,",
+     "start": 25.57,
+     "end": 25.95
+    },
+    {
+     "word": "né?",
+     "start": 25.99,
+     "end": 26.07
+    },
+    {
+     "word": "Acabou",
+     "start": 26.74,
+     "end": 27.37
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 27.41,
+   "end": 31.81,
+   "text": "É a missão de acabar",
+   "words": [
+    {
+     "word": "É",
+     "start": 27.41,
+     "end": 28.27
+    },
+    {
+     "word": "a",
+     "start": 30.95,
+     "end": 31.19
+    },
+    {
+     "word": "missão",
+     "start": 31.19,
+     "end": 31.47
+    },
+    {
+     "word": "de",
+     "start": 31.47,
+     "end": 31.57
+    },
+    {
+     "word": "acabar",
+     "start": 31.57,
+     "end": 31.81
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 31.85,
+   "end": 32.45,
+   "text": "com as drogas",
+   "words": [
+    {
+     "word": "com",
+     "start": 31.85,
+     "end": 32.03
+    },
+    {
+     "word": "as",
+     "start": 32.03,
+     "end": 32.17
+    },
+    {
+     "word": "drogas",
+     "start": 32.17,
+     "end": 32.45
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 32.49,
+   "end": 33.96,
+   "text": "do Bola Gato Letal!",
+   "words": [
+    {
+     "word": "do",
+     "start": 32.49,
+     "end": 32.61
+    },
+    {
+     "word": "Bola",
+     "start": 32.61,
+     "end": 32.87
+    },
+    {
+     "word": "Gato",
+     "start": 32.87,
+     "end": 33.07
+    },
+    {
+     "word": "Letal!",
+     "start": 33.07,
+     "end": 33.96
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 34.89,
+   "end": 35.93,
+   "text": "Mano, o cara morreu",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 34.89,
+     "end": 35.25
+    },
+    {
+     "word": "o",
+     "start": 35.25,
+     "end": 35.33
+    },
+    {
+     "word": "cara",
+     "start": 35.33,
+     "end": 35.45
+    },
+    {
+     "word": "morreu",
+     "start": 35.45,
+     "end": 35.93
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 35.97,
+   "end": 37.23,
+   "text": "lá dentro, mano!",
+   "words": [
+    {
+     "word": "lá",
+     "start": 35.97,
+     "end": 36.17
+    },
+    {
+     "word": "dentro,",
+     "start": 36.17,
+     "end": 36.75
+    },
+    {
+     "word": "mano!",
+     "start": 36.87,
+     "end": 37.23
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 37.27,
+   "end": 39.03,
+   "text": "Puta que pariu",
+   "words": [
+    {
+     "word": "Puta",
+     "start": 37.27,
+     "end": 38.01
+    },
+    {
+     "word": "que",
+     "start": 38.01,
+     "end": 38.31
+    },
+    {
+     "word": "pariu",
+     "start": 38.31,
+     "end": 39.03
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 39.07,
+   "end": 39.75,
+   "text": "meu Jason nunca vai",
+   "words": [
+    {
+     "word": "meu",
+     "start": 39.07,
+     "end": 39.11
+    },
+    {
+     "word": "Jason",
+     "start": 39.11,
+     "end": 39.37
+    },
+    {
+     "word": "nunca",
+     "start": 39.37,
+     "end": 39.63
+    },
+    {
+     "word": "vai",
+     "start": 39.63,
+     "end": 39.75
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 39.79,
+   "end": 40.49,
+   "text": "ser do bem porque",
+   "words": [
+    {
+     "word": "ser",
+     "start": 39.79,
+     "end": 39.97
+    },
+    {
+     "word": "do",
+     "start": 39.97,
+     "end": 40.09
+    },
+    {
+     "word": "bem",
+     "start": 40.09,
+     "end": 40.29
+    },
+    {
+     "word": "porque",
+     "start": 40.29,
+     "end": 40.49
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 40.53,
+   "end": 43.16,
+   "text": "o mundo conspira!",
+   "words": [
+    {
+     "word": "o",
+     "start": 40.53,
+     "end": 41.27
+    },
+    {
+     "word": "mundo",
+     "start": 42.06,
+     "end": 42.34
+    },
+    {
+     "word": "conspira!",
+     "start": 42.34,
+     "end": 43.16
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 43.2,
+   "end": 44.33,
+   "text": "Por quê, cara?",
+   "words": [
+    {
+     "word": "Por",
+     "start": 43.2,
+     "end": 43.46
+    },
+    {
+     "word": "quê,",
+     "start": 43.46,
+     "end": 43.68
+    },
+    {
+     "word": "cara?",
+     "start": 43.88,
+     "end": 44.33
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}
