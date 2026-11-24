@@ -1,3 +1,4 @@
 # Canais que o vigia acompanha. Um por linha: link  minutos_por_bloco (padrão 20)
 # Ex.:
 # https://kick.com/canal  20
+https://www.twitch.tv/alanzoka  20

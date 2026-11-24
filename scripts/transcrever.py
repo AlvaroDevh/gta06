@@ -136,6 +136,10 @@ def main():
             if lg:
                 votos[lg] = votos.get(lg, 0) + 1
         idioma = max(votos, key=votos.get) if votos else "pt"
+        # streamer brasileiro com jogo em inglês: as falas do jogo puxam o voto para "en".
+        # Se o português aparece em pelo menos 3 dos trechos, a live é em português.
+        if votos.get("pt", 0) >= 3:
+            idioma = "pt"
         print(f"      idioma detectado: {idioma} {votos}", flush=True)
         del det
     print(f"[3/3] transcrevendo (whisper-{m}, {idioma})...", flush=True)
