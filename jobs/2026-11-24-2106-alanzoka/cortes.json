@@ -1,0 +1,12 @@
+{
+ "formato": "vertical",
+ "layout": "auto",
+ "legenda": false,
+ "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, Dequan, GPS, cachorro, carinho, taco, chat, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:18:56", "fim": "0:19:44", "titulo": "NAO DEIXA EU FAZER CARINHO"},
+  {"id": "02", "inicio": "0:14:50", "fim": "0:15:38", "titulo": "PIOR NO GPS QUE BATENDO"},
+  {"id": "03", "inicio": "0:10:12", "fim": "0:11:00", "titulo": "JA DORMI E NADA"}
+ ]
+}
