@@ -1,0 +1,12 @@
+{
+ "formato": "vertical",
+ "layout": "auto",
+ "legenda": false,
+ "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, Andy, Cecilia, laboratório, cone, joelho, chat, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:14:28", "fim": "0:15:16", "titulo": "O MUNDO CONSPIRA"},
+  {"id": "02", "inicio": "0:15:52", "fim": "0:16:34", "titulo": "CONE NAO CONTA"},
+  {"id": "03", "inicio": "0:02:26", "fim": "0:03:32", "titulo": "CABECA OMBRO JOELHO"}
+ ]
+}
