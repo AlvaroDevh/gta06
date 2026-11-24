@@ -1,0 +1,12 @@
+{
+ "formato": "vertical",
+ "layout": "auto",
+ "legenda": false,
+ "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, Lu, banco, demônio, 46 mil, romance, chat, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:13:12", "fim": "0:14:12", "titulo": "EU NAO SOU DEMONIO"},
+  {"id": "02", "inicio": "0:14:28", "fim": "0:15:04", "titulo": "O FUNDO DOS MEUS FILHOS"},
+  {"id": "03", "inicio": "0:09:14", "fim": "0:09:54", "titulo": "NOSSO ROMANCE TA GRANDE"}
+ ]
+}
