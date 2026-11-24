@@ -1,0 +1,500 @@
+{
+ "segments": [
+  {
+   "start": 6.07,
+   "end": 6.59,
+   "text": "Puta cortando",
+   "words": [
+    {
+     "word": "Puta",
+     "start": 6.07,
+     "end": 6.35
+    },
+    {
+     "word": "cortando",
+     "start": 6.35,
+     "end": 6.59
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 6.63,
+   "end": 7.46,
+   "text": "de giro, velho, tá",
+   "words": [
+    {
+     "word": "de",
+     "start": 6.63,
+     "end": 6.79
+    },
+    {
+     "word": "giro,",
+     "start": 6.79,
+     "end": 7.11
+    },
+    {
+     "word": "velho,",
+     "start": 7.25,
+     "end": 7.39
+    },
+    {
+     "word": "tá",
+     "start": 7.41,
+     "end": 7.46
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 7.47,
+   "end": 8.4,
+   "text": "me estressando!",
+   "words": [
+    {
+     "word": "me",
+     "start": 7.47,
+     "end": 7.59
+    },
+    {
+     "word": "estressando!",
+     "start": 7.59,
+     "end": 8.4
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 12.72,
+   "end": 13.82,
+   "text": "Às vezes é de missão",
+   "words": [
+    {
+     "word": "Às",
+     "start": 12.72,
+     "end": 13.2
+    },
+    {
+     "word": "vezes",
+     "start": 13.2,
+     "end": 13.26
+    },
+    {
+     "word": "é",
+     "start": 13.26,
+     "end": 13.38
+    },
+    {
+     "word": "de",
+     "start": 13.38,
+     "end": 13.5
+    },
+    {
+     "word": "missão",
+     "start": 13.5,
+     "end": 13.82
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 13.86,
+   "end": 15.16,
+   "text": "Mano, será que é de missão, cara?",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 13.86,
+     "end": 14.02
+    },
+    {
+     "word": "será",
+     "start": 14.04,
+     "end": 14.12
+    },
+    {
+     "word": "que",
+     "start": 14.12,
+     "end": 14.26
+    },
+    {
+     "word": "é",
+     "start": 14.26,
+     "end": 14.32
+    },
+    {
+     "word": "de",
+     "start": 14.32,
+     "end": 14.44
+    },
+    {
+     "word": "missão,",
+     "start": 14.44,
+     "end": 14.86
+    },
+    {
+     "word": "cara?",
+     "start": 14.98,
+     "end": 15.16
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 15.2,
+   "end": 16.23,
+   "text": "E eu tô",
+   "words": [
+    {
+     "word": "E",
+     "start": 15.2,
+     "end": 15.26
+    },
+    {
+     "word": "eu",
+     "start": 15.26,
+     "end": 15.4
+    },
+    {
+     "word": "tô",
+     "start": 15.4,
+     "end": 16.23
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 16.51,
+   "end": 17.11,
+   "text": "Não, não!",
+   "words": [
+    {
+     "word": "Não,",
+     "start": 16.51,
+     "end": 16.71
+    },
+    {
+     "word": "não!",
+     "start": 16.77,
+     "end": 17.11
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 22.68,
+   "end": 23.3,
+   "text": "Olha, ele mandou eu",
+   "words": [
+    {
+     "word": "Olha,",
+     "start": 22.68,
+     "end": 22.94
+    },
+    {
+     "word": "ele",
+     "start": 23.04,
+     "end": 23.12
+    },
+    {
+     "word": "mandou",
+     "start": 23.12,
+     "end": 23.24
+    },
+    {
+     "word": "eu",
+     "start": 23.24,
+     "end": 23.3
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 23.34,
+   "end": 24.41,
+   "text": "pegar mais peru",
+   "words": [
+    {
+     "word": "pegar",
+     "start": 23.34,
+     "end": 23.48
+    },
+    {
+     "word": "mais",
+     "start": 23.48,
+     "end": 23.72
+    },
+    {
+     "word": "peru",
+     "start": 23.72,
+     "end": 24.41
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 26.23,
+   "end": 26.99,
+   "text": "Mano, ainda bem",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 26.23,
+     "end": 26.75
+    },
+    {
+     "word": "ainda",
+     "start": 26.77,
+     "end": 26.85
+    },
+    {
+     "word": "bem",
+     "start": 26.85,
+     "end": 26.99
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 27.03,
+   "end": 28.26,
+   "text": "que não tinha alarme, velho! Eu só",
+   "words": [
+    {
+     "word": "que",
+     "start": 27.03,
+     "end": 27.17
+    },
+    {
+     "word": "não",
+     "start": 27.17,
+     "end": 27.29
+    },
+    {
+     "word": "tinha",
+     "start": 27.29,
+     "end": 27.49
+    },
+    {
+     "word": "alarme,",
+     "start": 27.49,
+     "end": 27.91
+    },
+    {
+     "word": "velho!",
+     "start": 28.01,
+     "end": 28.13
+    },
+    {
+     "word": "Eu",
+     "start": 28.13,
+     "end": 28.21
+    },
+    {
+     "word": "só",
+     "start": 28.21,
+     "end": 28.26
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 28.29,
+   "end": 28.91,
+   "text": "apertei o botão",
+   "words": [
+    {
+     "word": "apertei",
+     "start": 28.29,
+     "end": 28.67
+    },
+    {
+     "word": "o",
+     "start": 28.67,
+     "end": 28.72
+    },
+    {
+     "word": "botão",
+     "start": 28.72,
+     "end": 28.91
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 28.95,
+   "end": 29.57,
+   "text": "de arrombar sem",
+   "words": [
+    {
+     "word": "de",
+     "start": 28.95,
+     "end": 29.05
+    },
+    {
+     "word": "arrombar",
+     "start": 29.05,
+     "end": 29.45
+    },
+    {
+     "word": "sem",
+     "start": 29.45,
+     "end": 29.57
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 29.61,
+   "end": 30.56,
+   "text": "querer. Mano",
+   "words": [
+    {
+     "word": "querer.",
+     "start": 29.61,
+     "end": 29.85
+    },
+    {
+     "word": "Mano",
+     "start": 29.85,
+     "end": 30.56
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 31.63,
+   "end": 33.48,
+   "text": "tô achando que isso daí é uma missão, velho",
+   "words": [
+    {
+     "word": "tô",
+     "start": 31.63,
+     "end": 31.71
+    },
+    {
+     "word": "achando",
+     "start": 31.71,
+     "end": 31.89
+    },
+    {
+     "word": "que",
+     "start": 31.89,
+     "end": 31.97
+    },
+    {
+     "word": "isso",
+     "start": 31.97,
+     "end": 32.07
+    },
+    {
+     "word": "daí",
+     "start": 32.07,
+     "end": 32.12
+    },
+    {
+     "word": "é",
+     "start": 32.12,
+     "end": 32.17
+    },
+    {
+     "word": "uma",
+     "start": 32.17,
+     "end": 32.23
+    },
+    {
+     "word": "missão,",
+     "start": 32.23,
+     "end": 32.63
+    },
+    {
+     "word": "velho",
+     "start": 32.77,
+     "end": 33.48
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 35.14,
+   "end": 36.32,
+   "text": "O cara dando cavalo de pau",
+   "words": [
+    {
+     "word": "O",
+     "start": 35.14,
+     "end": 35.3
+    },
+    {
+     "word": "cara",
+     "start": 35.3,
+     "end": 35.46
+    },
+    {
+     "word": "dando",
+     "start": 35.46,
+     "end": 35.64
+    },
+    {
+     "word": "cavalo",
+     "start": 35.64,
+     "end": 35.79
+    },
+    {
+     "word": "de",
+     "start": 35.79,
+     "end": 35.84
+    },
+    {
+     "word": "pau",
+     "start": 35.84,
+     "end": 36.32
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 36.36,
+   "end": 38.03,
+   "text": "é um bagulho secundário, eu não sei",
+   "words": [
+    {
+     "word": "é",
+     "start": 36.36,
+     "end": 36.42
+    },
+    {
+     "word": "um",
+     "start": 36.42,
+     "end": 36.54
+    },
+    {
+     "word": "bagulho",
+     "start": 36.54,
+     "end": 36.78
+    },
+    {
+     "word": "secundário,",
+     "start": 36.78,
+     "end": 37.38
+    },
+    {
+     "word": "eu",
+     "start": 37.42,
+     "end": 37.52
+    },
+    {
+     "word": "não",
+     "start": 37.52,
+     "end": 37.58
+    },
+    {
+     "word": "sei",
+     "start": 37.58,
+     "end": 38.03
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}
