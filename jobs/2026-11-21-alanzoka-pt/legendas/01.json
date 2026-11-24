@@ -1,0 +1,761 @@
+{
+ "segments": [
+  {
+   "start": 1.13,
+   "end": 1.73,
+   "text": "Ok",
+   "words": [
+    {
+     "word": "Ok",
+     "start": 1.13,
+     "end": 1.73
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 2.11,
+   "end": 2.94,
+   "text": "mil dólares?",
+   "words": [
+    {
+     "word": "mil",
+     "start": 2.11,
+     "end": 2.53
+    },
+    {
+     "word": "dólares?",
+     "start": 2.53,
+     "end": 2.94
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 18.29,
+   "end": 19.14,
+   "text": "Paguei, né?",
+   "words": [
+    {
+     "word": "Paguei,",
+     "start": 18.29,
+     "end": 18.77
+    },
+    {
+     "word": "né?",
+     "start": 18.79,
+     "end": 19.14
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 20.0,
+   "end": 20.88,
+   "text": "Quero entrar nesse",
+   "words": [
+    {
+     "word": "Quero",
+     "start": 20.0,
+     "end": 20.38
+    },
+    {
+     "word": "entrar",
+     "start": 20.38,
+     "end": 20.68
+    },
+    {
+     "word": "nesse",
+     "start": 20.68,
+     "end": 20.88
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 20.92,
+   "end": 21.97,
+   "text": "bagulho aí, mano",
+   "words": [
+    {
+     "word": "bagulho",
+     "start": 20.92,
+     "end": 21.32
+    },
+    {
+     "word": "aí,",
+     "start": 21.32,
+     "end": 21.52
+    },
+    {
+     "word": "mano",
+     "start": 21.58,
+     "end": 21.97
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 22.63,
+   "end": 24.24,
+   "text": "esquema de pirâmide, velho",
+   "words": [
+    {
+     "word": "esquema",
+     "start": 22.63,
+     "end": 22.87
+    },
+    {
+     "word": "de",
+     "start": 22.87,
+     "end": 23.03
+    },
+    {
+     "word": "pirâmide,",
+     "start": 23.03,
+     "end": 23.57
+    },
+    {
+     "word": "velho",
+     "start": 23.61,
+     "end": 24.24
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 25.62,
+   "end": 26.12,
+   "text": "vai que eu chego",
+   "words": [
+    {
+     "word": "vai",
+     "start": 25.62,
+     "end": 25.76
+    },
+    {
+     "word": "que",
+     "start": 25.76,
+     "end": 25.86
+    },
+    {
+     "word": "eu",
+     "start": 25.86,
+     "end": 25.94
+    },
+    {
+     "word": "chego",
+     "start": 25.94,
+     "end": 26.12
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 26.16,
+   "end": 27.65,
+   "text": "no topo da pirâmide, mano",
+   "words": [
+    {
+     "word": "no",
+     "start": 26.16,
+     "end": 26.28
+    },
+    {
+     "word": "topo",
+     "start": 26.28,
+     "end": 26.58
+    },
+    {
+     "word": "da",
+     "start": 26.58,
+     "end": 26.68
+    },
+    {
+     "word": "pirâmide,",
+     "start": 26.68,
+     "end": 27.2
+    },
+    {
+     "word": "mano",
+     "start": 27.3,
+     "end": 27.65
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 28.0,
+   "end": 28.8,
+   "text": "recebi seu depósito",
+   "words": [
+    {
+     "word": "recebi",
+     "start": 28.0,
+     "end": 28.32
+    },
+    {
+     "word": "seu",
+     "start": 28.32,
+     "end": 28.42
+    },
+    {
+     "word": "depósito",
+     "start": 28.42,
+     "end": 28.8
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 28.84,
+   "end": 30.57,
+   "text": "só preciso fazer a papelada depois",
+   "words": [
+    {
+     "word": "só",
+     "start": 28.84,
+     "end": 28.94
+    },
+    {
+     "word": "preciso",
+     "start": 28.94,
+     "end": 29.04
+    },
+    {
+     "word": "fazer",
+     "start": 29.04,
+     "end": 29.3
+    },
+    {
+     "word": "a",
+     "start": 29.3,
+     "end": 29.4
+    },
+    {
+     "word": "papelada",
+     "start": 29.4,
+     "end": 29.9
+    },
+    {
+     "word": "depois",
+     "start": 29.9,
+     "end": 30.57
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 31.25,
+   "end": 31.95,
+   "text": "e depois mansões",
+   "words": [
+    {
+     "word": "e",
+     "start": 31.25,
+     "end": 31.35
+    },
+    {
+     "word": "depois",
+     "start": 31.35,
+     "end": 31.59
+    },
+    {
+     "word": "mansões",
+     "start": 31.59,
+     "end": 31.95
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 31.99,
+   "end": 33.43,
+   "text": "melhoradas nos aguardam",
+   "words": [
+    {
+     "word": "melhoradas",
+     "start": 31.99,
+     "end": 32.57
+    },
+    {
+     "word": "nos",
+     "start": 32.57,
+     "end": 32.77
+    },
+    {
+     "word": "aguardam",
+     "start": 32.77,
+     "end": 33.43
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 33.47,
+   "end": 40.85,
+   "text": "É isso aí, amiga",
+   "words": [
+    {
+     "word": "É",
+     "start": 33.47,
+     "end": 33.97
+    },
+    {
+     "word": "isso",
+     "start": 36.07,
+     "end": 37.39
+    },
+    {
+     "word": "aí,",
+     "start": 40.29,
+     "end": 40.45
+    },
+    {
+     "word": "amiga",
+     "start": 40.53,
+     "end": 40.85
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 40.89,
+   "end": 41.45,
+   "text": "quero aproveitar",
+   "words": [
+    {
+     "word": "quero",
+     "start": 40.89,
+     "end": 41.05
+    },
+    {
+     "word": "aproveitar",
+     "start": 41.05,
+     "end": 41.45
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 41.49,
+   "end": 46.01,
+   "text": "as vantagens, né?",
+   "words": [
+    {
+     "word": "as",
+     "start": 41.49,
+     "end": 41.65
+    },
+    {
+     "word": "vantagens,",
+     "start": 41.65,
+     "end": 42.29
+    },
+    {
+     "word": "né?",
+     "start": 45.58,
+     "end": 46.01
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 54.16,
+   "end": 55.21,
+   "text": "Caiu no golpe?",
+   "words": [
+    {
+     "word": "Caiu",
+     "start": 54.16,
+     "end": 54.36
+    },
+    {
+     "word": "no",
+     "start": 54.36,
+     "end": 54.48
+    },
+    {
+     "word": "golpe?",
+     "start": 54.48,
+     "end": 55.21
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 57.83,
+   "end": 59.0,
+   "text": "Cara, será?",
+   "words": [
+    {
+     "word": "Cara,",
+     "start": 57.83,
+     "end": 58.05
+    },
+    {
+     "word": "será?",
+     "start": 58.53,
+     "end": 59.0
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 59.31,
+   "end": 62.39,
+   "text": "Às vezes, às vezes você perde",
+   "words": [
+    {
+     "word": "Às",
+     "start": 59.31,
+     "end": 59.65
+    },
+    {
+     "word": "vezes,",
+     "start": 59.65,
+     "end": 59.99
+    },
+    {
+     "word": "às",
+     "start": 61.39,
+     "end": 61.67
+    },
+    {
+     "word": "vezes",
+     "start": 61.67,
+     "end": 61.83
+    },
+    {
+     "word": "você",
+     "start": 61.83,
+     "end": 62.09
+    },
+    {
+     "word": "perde",
+     "start": 62.09,
+     "end": 62.39
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 62.43,
+   "end": 63.45,
+   "text": "oportunidades boas",
+   "words": [
+    {
+     "word": "oportunidades",
+     "start": 62.43,
+     "end": 63.13
+    },
+    {
+     "word": "boas",
+     "start": 63.13,
+     "end": 63.45
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 63.49,
+   "end": 64.71,
+   "text": "na vida achando que é golpe, mano",
+   "words": [
+    {
+     "word": "na",
+     "start": 63.49,
+     "end": 63.61
+    },
+    {
+     "word": "vida",
+     "start": 63.61,
+     "end": 63.73
+    },
+    {
+     "word": "achando",
+     "start": 63.73,
+     "end": 63.97
+    },
+    {
+     "word": "que",
+     "start": 63.97,
+     "end": 64.09
+    },
+    {
+     "word": "é",
+     "start": 64.09,
+     "end": 64.15
+    },
+    {
+     "word": "golpe,",
+     "start": 64.15,
+     "end": 64.45
+    },
+    {
+     "word": "mano",
+     "start": 64.57,
+     "end": 64.71
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 64.75,
+   "end": 72.44,
+   "text": "pense nisso, né? É",
+   "words": [
+    {
+     "word": "pense",
+     "start": 64.75,
+     "end": 64.93
+    },
+    {
+     "word": "nisso,",
+     "start": 64.93,
+     "end": 65.29
+    },
+    {
+     "word": "né?",
+     "start": 72.01,
+     "end": 72.39
+    },
+    {
+     "word": "É",
+     "start": 72.39,
+     "end": 72.44
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 72.47,
+   "end": 76.93,
+   "text": "às vezes tá aí",
+   "words": [
+    {
+     "word": "às",
+     "start": 72.47,
+     "end": 76.43
+    },
+    {
+     "word": "vezes",
+     "start": 76.43,
+     "end": 76.67
+    },
+    {
+     "word": "tá",
+     "start": 76.67,
+     "end": 76.87
+    },
+    {
+     "word": "aí",
+     "start": 76.87,
+     "end": 76.93
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 76.97,
+   "end": 77.49,
+   "text": "minha oportunidade",
+   "words": [
+    {
+     "word": "minha",
+     "start": 76.97,
+     "end": 77.07
+    },
+    {
+     "word": "oportunidade",
+     "start": 77.07,
+     "end": 77.49
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 77.53,
+   "end": 78.15,
+   "text": "de ficar milionário",
+   "words": [
+    {
+     "word": "de",
+     "start": 77.53,
+     "end": 77.61
+    },
+    {
+     "word": "ficar",
+     "start": 77.61,
+     "end": 77.71
+    },
+    {
+     "word": "milionário",
+     "start": 77.71,
+     "end": 78.15
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 78.19,
+   "end": 78.95,
+   "text": "e eu ia dar",
+   "words": [
+    {
+     "word": "e",
+     "start": 78.19,
+     "end": 78.33
+    },
+    {
+     "word": "eu",
+     "start": 78.33,
+     "end": 78.39
+    },
+    {
+     "word": "ia",
+     "start": 78.39,
+     "end": 78.85
+    },
+    {
+     "word": "dar",
+     "start": 78.85,
+     "end": 78.95
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 78.99,
+   "end": 80.55,
+   "text": "pra trás achando que era golpe, mano",
+   "words": [
+    {
+     "word": "pra",
+     "start": 78.99,
+     "end": 79.11
+    },
+    {
+     "word": "trás",
+     "start": 79.11,
+     "end": 79.33
+    },
+    {
+     "word": "achando",
+     "start": 79.33,
+     "end": 79.49
+    },
+    {
+     "word": "que",
+     "start": 79.49,
+     "end": 79.57
+    },
+    {
+     "word": "era",
+     "start": 79.57,
+     "end": 79.67
+    },
+    {
+     "word": "golpe,",
+     "start": 79.67,
+     "end": 80.09
+    },
+    {
+     "word": "mano",
+     "start": 80.25,
+     "end": 80.55
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 80.59,
+   "end": 81.42,
+   "text": "pense nisso",
+   "words": [
+    {
+     "word": "pense",
+     "start": 80.59,
+     "end": 80.81
+    },
+    {
+     "word": "nisso",
+     "start": 80.81,
+     "end": 81.42
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 81.84,
+   "end": 82.37,
+   "text": "às vezes a gente tem",
+   "words": [
+    {
+     "word": "às",
+     "start": 81.84,
+     "end": 82.0
+    },
+    {
+     "word": "vezes",
+     "start": 82.0,
+     "end": 82.12
+    },
+    {
+     "word": "a",
+     "start": 82.12,
+     "end": 82.27
+    },
+    {
+     "word": "gente",
+     "start": 82.27,
+     "end": 82.32
+    },
+    {
+     "word": "tem",
+     "start": 82.32,
+     "end": 82.37
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 82.34,
+   "end": 83.73,
+   "text": "que se jogar no mundo, pô",
+   "words": [
+    {
+     "word": "que",
+     "start": 82.34,
+     "end": 82.42
+    },
+    {
+     "word": "se",
+     "start": 82.42,
+     "end": 82.48
+    },
+    {
+     "word": "jogar",
+     "start": 82.48,
+     "end": 82.76
+    },
+    {
+     "word": "no",
+     "start": 82.76,
+     "end": 82.88
+    },
+    {
+     "word": "mundo,",
+     "start": 82.88,
+     "end": 83.2
+    },
+    {
+     "word": "pô",
+     "start": 83.3,
+     "end": 83.73
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}
