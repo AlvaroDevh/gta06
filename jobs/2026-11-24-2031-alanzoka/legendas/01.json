@@ -1,0 +1,446 @@
+{
+ "segments": [
+  {
+   "start": 3.27,
+   "end": 3.89,
+   "text": "Esse aqui eu tenho",
+   "words": [
+    {
+     "word": "Esse",
+     "start": 3.27,
+     "end": 3.57
+    },
+    {
+     "word": "aqui",
+     "start": 3.57,
+     "end": 3.71
+    },
+    {
+     "word": "eu",
+     "start": 3.71,
+     "end": 3.83
+    },
+    {
+     "word": "tenho",
+     "start": 3.83,
+     "end": 3.89
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 3.93,
+   "end": 5.14,
+   "text": "que chegar sem bater, mano",
+   "words": [
+    {
+     "word": "que",
+     "start": 3.93,
+     "end": 3.99
+    },
+    {
+     "word": "chegar",
+     "start": 3.99,
+     "end": 4.13
+    },
+    {
+     "word": "sem",
+     "start": 4.13,
+     "end": 4.29
+    },
+    {
+     "word": "bater,",
+     "start": 4.29,
+     "end": 4.59
+    },
+    {
+     "word": "mano",
+     "start": 4.63,
+     "end": 5.14
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 6.13,
+   "end": 9.85,
+   "text": "Caralho, que",
+   "words": [
+    {
+     "word": "Caralho,",
+     "start": 6.13,
+     "end": 7.03
+    },
+    {
+     "word": "que",
+     "start": 7.84,
+     "end": 9.85
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 13.83,
+   "end": 15.81,
+   "text": "susto!",
+   "words": [
+    {
+     "word": "susto!",
+     "start": 13.83,
+     "end": 15.81
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 15.85,
+   "end": 16.45,
+   "text": "Meu Deus",
+   "words": [
+    {
+     "word": "Meu",
+     "start": 15.85,
+     "end": 15.93
+    },
+    {
+     "word": "Deus",
+     "start": 15.93,
+     "end": 16.45
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 17.36,
+   "end": 21.59,
+   "text": "caralho",
+   "words": [
+    {
+     "word": "caralho",
+     "start": 17.36,
+     "end": 21.59
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 22.16,
+   "end": 23.76,
+   "text": "susto da porra, velho!",
+   "words": [
+    {
+     "word": "susto",
+     "start": 22.16,
+     "end": 22.62
+    },
+    {
+     "word": "da",
+     "start": 22.67,
+     "end": 22.75
+    },
+    {
+     "word": "porra,",
+     "start": 22.75,
+     "end": 23.33
+    },
+    {
+     "word": "velho!",
+     "start": 23.33,
+     "end": 23.76
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 28.19,
+   "end": 28.9,
+   "text": "Meu Deus!",
+   "words": [
+    {
+     "word": "Meu",
+     "start": 28.19,
+     "end": 28.35
+    },
+    {
+     "word": "Deus!",
+     "start": 28.35,
+     "end": 28.9
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 40.49,
+   "end": 41.64,
+   "text": "Aí coçou meu joelho",
+   "words": [
+    {
+     "word": "Aí",
+     "start": 40.49,
+     "end": 40.61
+    },
+    {
+     "word": "coçou",
+     "start": 40.61,
+     "end": 40.89
+    },
+    {
+     "word": "meu",
+     "start": 40.89,
+     "end": 40.99
+    },
+    {
+     "word": "joelho",
+     "start": 40.99,
+     "end": 41.64
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 46.15,
+   "end": 46.93,
+   "text": "Vai, irmão, mete",
+   "words": [
+    {
+     "word": "Vai,",
+     "start": 46.15,
+     "end": 46.55
+    },
+    {
+     "word": "irmão,",
+     "start": 46.63,
+     "end": 46.79
+    },
+    {
+     "word": "mete",
+     "start": 46.87,
+     "end": 46.93
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 46.97,
+   "end": 48.18,
+   "text": "o pé! Não",
+   "words": [
+    {
+     "word": "o",
+     "start": 46.97,
+     "end": 47.13
+    },
+    {
+     "word": "pé!",
+     "start": 47.13,
+     "end": 47.39
+    },
+    {
+     "word": "Não",
+     "start": 47.39,
+     "end": 48.18
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 48.59,
+   "end": 50.18,
+   "text": "bati, não bati, não",
+   "words": [
+    {
+     "word": "bati,",
+     "start": 48.59,
+     "end": 48.93
+    },
+    {
+     "word": "não",
+     "start": 49.03,
+     "end": 49.21
+    },
+    {
+     "word": "bati,",
+     "start": 49.21,
+     "end": 49.61
+    },
+    {
+     "word": "não",
+     "start": 49.61,
+     "end": 50.18
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 56.09,
+   "end": 57.18,
+   "text": "bati! Calma",
+   "words": [
+    {
+     "word": "bati!",
+     "start": 56.09,
+     "end": 56.69
+    },
+    {
+     "word": "Calma",
+     "start": 56.69,
+     "end": 57.18
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 60.82,
+   "end": 61.64,
+   "text": "calma, vou tentar derrubar ele",
+   "words": [
+    {
+     "word": "calma,",
+     "start": 60.82,
+     "end": 60.84
+    },
+    {
+     "word": "vou",
+     "start": 60.86,
+     "end": 60.94
+    },
+    {
+     "word": "tentar",
+     "start": 60.94,
+     "end": 61.12
+    },
+    {
+     "word": "derrubar",
+     "start": 61.12,
+     "end": 61.46
+    },
+    {
+     "word": "ele",
+     "start": 61.46,
+     "end": 61.64
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 61.68,
+   "end": 62.39,
+   "text": "Cara",
+   "words": [
+    {
+     "word": "Cara",
+     "start": 61.68,
+     "end": 62.39
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 69.16,
+   "end": 69.78,
+   "text": "ele ficou vivo",
+   "words": [
+    {
+     "word": "ele",
+     "start": 69.16,
+     "end": 69.22
+    },
+    {
+     "word": "ficou",
+     "start": 69.22,
+     "end": 69.4
+    },
+    {
+     "word": "vivo",
+     "start": 69.4,
+     "end": 69.78
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 69.82,
+   "end": 70.85,
+   "text": "pense nisso. É",
+   "words": [
+    {
+     "word": "pense",
+     "start": 69.82,
+     "end": 69.96
+    },
+    {
+     "word": "nisso.",
+     "start": 69.96,
+     "end": 70.32
+    },
+    {
+     "word": "É",
+     "start": 70.32,
+     "end": 70.85
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 79.22,
+   "end": 79.8,
+   "text": "eu tive que fazer",
+   "words": [
+    {
+     "word": "eu",
+     "start": 79.22,
+     "end": 79.3
+    },
+    {
+     "word": "tive",
+     "start": 79.3,
+     "end": 79.5
+    },
+    {
+     "word": "que",
+     "start": 79.5,
+     "end": 79.6
+    },
+    {
+     "word": "fazer",
+     "start": 79.6,
+     "end": 79.8
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 79.84,
+   "end": 81.13,
+   "text": "isso pra derrubar ele, ué",
+   "words": [
+    {
+     "word": "isso",
+     "start": 79.84,
+     "end": 80.02
+    },
+    {
+     "word": "pra",
+     "start": 80.02,
+     "end": 80.12
+    },
+    {
+     "word": "derrubar",
+     "start": 80.12,
+     "end": 80.44
+    },
+    {
+     "word": "ele,",
+     "start": 80.44,
+     "end": 80.66
+    },
+    {
+     "word": "ué",
+     "start": 80.72,
+     "end": 81.13
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}
