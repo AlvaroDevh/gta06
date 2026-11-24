@@ -1,0 +1,12 @@
+{
+ "formato": "vertical",
+ "layout": "auto",
+ "legenda": false,
+ "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, Duvall, sneakers, segurança, karma cósmico, cachorro, chat, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:11:14", "fim": "0:12:40", "titulo": "QUE SUSTO DA PORRA"},
+  {"id": "02", "inicio": "0:09:48", "fim": "0:10:42", "titulo": "TENTEI PULAR A MESA"},
+  {"id": "03", "inicio": "0:18:52", "fim": "0:19:40", "titulo": "MEU KARMA COSMICO"}
+ ]
+}
