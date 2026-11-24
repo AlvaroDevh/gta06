@@ -1,0 +1,897 @@
+{
+ "segments": [
+  {
+   "start": 3.15,
+   "end": 4.41,
+   "text": "Calma, calma, nada",
+   "words": [
+    {
+     "word": "Calma,",
+     "start": 3.15,
+     "end": 3.71
+    },
+    {
+     "word": "calma,",
+     "start": 4.05,
+     "end": 4.23
+    },
+    {
+     "word": "nada",
+     "start": 4.33,
+     "end": 4.41
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 4.45,
+   "end": 4.95,
+   "text": "vai acontecer",
+   "words": [
+    {
+     "word": "vai",
+     "start": 4.45,
+     "end": 4.59
+    },
+    {
+     "word": "acontecer",
+     "start": 4.59,
+     "end": 4.95
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 4.99,
+   "end": 5.93,
+   "text": "de ruim com vocês",
+   "words": [
+    {
+     "word": "de",
+     "start": 4.99,
+     "end": 5.17
+    },
+    {
+     "word": "ruim",
+     "start": 5.17,
+     "end": 5.35
+    },
+    {
+     "word": "com",
+     "start": 5.35,
+     "end": 5.51
+    },
+    {
+     "word": "vocês",
+     "start": 5.51,
+     "end": 5.93
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 5.97,
+   "end": 8.1,
+   "text": "se vocês cooperarem, tá?",
+   "words": [
+    {
+     "word": "se",
+     "start": 5.97,
+     "end": 6.07
+    },
+    {
+     "word": "vocês",
+     "start": 6.07,
+     "end": 6.29
+    },
+    {
+     "word": "cooperarem,",
+     "start": 6.29,
+     "end": 7.43
+    },
+    {
+     "word": "tá?",
+     "start": 7.67,
+     "end": 8.1
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 11.11,
+   "end": 11.67,
+   "text": "Só preciso que vocês",
+   "words": [
+    {
+     "word": "Só",
+     "start": 11.11,
+     "end": 11.29
+    },
+    {
+     "word": "preciso",
+     "start": 11.29,
+     "end": 11.39
+    },
+    {
+     "word": "que",
+     "start": 11.39,
+     "end": 11.51
+    },
+    {
+     "word": "vocês",
+     "start": 11.51,
+     "end": 11.67
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 11.71,
+   "end": 12.49,
+   "text": "cooperem, mano",
+   "words": [
+    {
+     "word": "cooperem,",
+     "start": 11.71,
+     "end": 12.33
+    },
+    {
+     "word": "mano",
+     "start": 12.41,
+     "end": 12.49
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 12.53,
+   "end": 13.17,
+   "text": "É uma lan house",
+   "words": [
+    {
+     "word": "É",
+     "start": 12.53,
+     "end": 12.59
+    },
+    {
+     "word": "uma",
+     "start": 12.59,
+     "end": 12.69
+    },
+    {
+     "word": "lan",
+     "start": 12.69,
+     "end": 12.85
+    },
+    {
+     "word": "house",
+     "start": 12.85,
+     "end": 13.17
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 13.21,
+   "end": 14.54,
+   "text": "aqui, fera demais!",
+   "words": [
+    {
+     "word": "aqui,",
+     "start": 13.21,
+     "end": 13.49
+    },
+    {
+     "word": "fera",
+     "start": 13.63,
+     "end": 13.83
+    },
+    {
+     "word": "demais!",
+     "start": 13.83,
+     "end": 14.54
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 15.09,
+   "end": 16.29,
+   "text": "Acho que não achei o cofre, tá",
+   "words": [
+    {
+     "word": "Acho",
+     "start": 15.09,
+     "end": 15.29
+    },
+    {
+     "word": "que",
+     "start": 15.29,
+     "end": 15.34
+    },
+    {
+     "word": "não",
+     "start": 15.34,
+     "end": 15.39
+    },
+    {
+     "word": "achei",
+     "start": 15.39,
+     "end": 15.57
+    },
+    {
+     "word": "o",
+     "start": 15.57,
+     "end": 15.69
+    },
+    {
+     "word": "cofre,",
+     "start": 15.69,
+     "end": 16.01
+    },
+    {
+     "word": "tá",
+     "start": 16.09,
+     "end": 16.29
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 16.33,
+   "end": 16.93,
+   "text": "sossego",
+   "words": [
+    {
+     "word": "sossego",
+     "start": 16.33,
+     "end": 16.93
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 19.75,
+   "end": 20.89,
+   "text": "Mano, larga essa batata, pelo amor",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 19.75,
+     "end": 19.87
+    },
+    {
+     "word": "larga",
+     "start": 19.95,
+     "end": 20.11
+    },
+    {
+     "word": "essa",
+     "start": 20.11,
+     "end": 20.25
+    },
+    {
+     "word": "batata,",
+     "start": 20.25,
+     "end": 20.57
+    },
+    {
+     "word": "pelo",
+     "start": 20.63,
+     "end": 20.79
+    },
+    {
+     "word": "amor",
+     "start": 20.79,
+     "end": 20.89
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 20.93,
+   "end": 21.69,
+   "text": "de Deus, mano!",
+   "words": [
+    {
+     "word": "de",
+     "start": 20.93,
+     "end": 21.07
+    },
+    {
+     "word": "Deus,",
+     "start": 21.07,
+     "end": 21.21
+    },
+    {
+     "word": "mano!",
+     "start": 21.39,
+     "end": 21.69
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 23.53,
+   "end": 27.91,
+   "text": "Não, tem câmera ainda",
+   "words": [
+    {
+     "word": "Não,",
+     "start": 23.53,
+     "end": 25.35
+    },
+    {
+     "word": "tem",
+     "start": 27.17,
+     "end": 27.31
+    },
+    {
+     "word": "câmera",
+     "start": 27.31,
+     "end": 27.77
+    },
+    {
+     "word": "ainda",
+     "start": 27.77,
+     "end": 27.91
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 27.95,
+   "end": 28.88,
+   "text": "aqui, velho!",
+   "words": [
+    {
+     "word": "aqui,",
+     "start": 27.95,
+     "end": 28.21
+    },
+    {
+     "word": "velho!",
+     "start": 28.37,
+     "end": 28.88
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 33.12,
+   "end": 33.79,
+   "text": "É, não adianta, né",
+   "words": [
+    {
+     "word": "É,",
+     "start": 33.12,
+     "end": 33.24
+    },
+    {
+     "word": "não",
+     "start": 33.28,
+     "end": 33.34
+    },
+    {
+     "word": "adianta,",
+     "start": 33.34,
+     "end": 33.72
+    },
+    {
+     "word": "né",
+     "start": 33.74,
+     "end": 33.79
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 33.82,
+   "end": 35.09,
+   "text": "a câmera já me gravou",
+   "words": [
+    {
+     "word": "a",
+     "start": 33.82,
+     "end": 33.92
+    },
+    {
+     "word": "câmera",
+     "start": 33.92,
+     "end": 34.1
+    },
+    {
+     "word": "já",
+     "start": 34.1,
+     "end": 34.22
+    },
+    {
+     "word": "me",
+     "start": 34.22,
+     "end": 34.36
+    },
+    {
+     "word": "gravou",
+     "start": 34.36,
+     "end": 35.09
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 37.26,
+   "end": 38.91,
+   "text": "Acho que não sei acender o cofre, mano",
+   "words": [
+    {
+     "word": "Acho",
+     "start": 37.26,
+     "end": 37.44
+    },
+    {
+     "word": "que",
+     "start": 37.44,
+     "end": 37.52
+    },
+    {
+     "word": "não",
+     "start": 37.52,
+     "end": 37.58
+    },
+    {
+     "word": "sei",
+     "start": 37.58,
+     "end": 37.7
+    },
+    {
+     "word": "acender",
+     "start": 37.7,
+     "end": 37.92
+    },
+    {
+     "word": "o",
+     "start": 37.92,
+     "end": 38.1
+    },
+    {
+     "word": "cofre,",
+     "start": 38.1,
+     "end": 38.34
+    },
+    {
+     "word": "mano",
+     "start": 38.44,
+     "end": 38.91
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 39.9,
+   "end": 40.72,
+   "text": "Vou botar bomba nessa",
+   "words": [
+    {
+     "word": "Vou",
+     "start": 39.9,
+     "end": 40.06
+    },
+    {
+     "word": "botar",
+     "start": 40.06,
+     "end": 40.32
+    },
+    {
+     "word": "bomba",
+     "start": 40.32,
+     "end": 40.54
+    },
+    {
+     "word": "nessa",
+     "start": 40.54,
+     "end": 40.72
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 40.76,
+   "end": 41.81,
+   "text": "porra aí, então, foda-se!",
+   "words": [
+    {
+     "word": "porra",
+     "start": 40.76,
+     "end": 41.0
+    },
+    {
+     "word": "aí,",
+     "start": 41.0,
+     "end": 41.05
+    },
+    {
+     "word": "então,",
+     "start": 41.1,
+     "end": 41.18
+    },
+    {
+     "word": "foda-se!",
+     "start": 41.32,
+     "end": 41.81
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 49.61,
+   "end": 50.45,
+   "text": "Cara, aqui rendeu",
+   "words": [
+    {
+     "word": "Cara,",
+     "start": 49.61,
+     "end": 49.77
+    },
+    {
+     "word": "aqui",
+     "start": 49.87,
+     "end": 49.99
+    },
+    {
+     "word": "rendeu",
+     "start": 49.99,
+     "end": 50.45
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 50.49,
+   "end": 51.27,
+   "text": "hein, aqui rendeu",
+   "words": [
+    {
+     "word": "hein,",
+     "start": 50.49,
+     "end": 50.51
+    },
+    {
+     "word": "aqui",
+     "start": 50.59,
+     "end": 50.83
+    },
+    {
+     "word": "rendeu",
+     "start": 50.83,
+     "end": 51.27
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 51.31,
+   "end": 51.92,
+   "text": "vambora!",
+   "words": [
+    {
+     "word": "vambora!",
+     "start": 51.31,
+     "end": 51.92
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 53.8,
+   "end": 54.34,
+   "text": "Todo mundo quieto",
+   "words": [
+    {
+     "word": "Todo",
+     "start": 53.8,
+     "end": 53.96
+    },
+    {
+     "word": "mundo",
+     "start": 53.96,
+     "end": 54.08
+    },
+    {
+     "word": "quieto",
+     "start": 54.08,
+     "end": 54.34
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 54.38,
+   "end": 55.26,
+   "text": "nessa porra, hein!",
+   "words": [
+    {
+     "word": "nessa",
+     "start": 54.38,
+     "end": 54.5
+    },
+    {
+     "word": "porra,",
+     "start": 54.5,
+     "end": 54.9
+    },
+    {
+     "word": "hein!",
+     "start": 54.96,
+     "end": 55.26
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 58.21,
+   "end": 58.95,
+   "text": "Caralho, chat",
+   "words": [
+    {
+     "word": "Caralho,",
+     "start": 58.21,
+     "end": 58.49
+    },
+    {
+     "word": "chat",
+     "start": 58.55,
+     "end": 58.95
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 58.99,
+   "end": 59.91,
+   "text": "que roubinho, hein",
+   "words": [
+    {
+     "word": "que",
+     "start": 58.99,
+     "end": 59.11
+    },
+    {
+     "word": "roubinho,",
+     "start": 59.11,
+     "end": 59.77
+    },
+    {
+     "word": "hein",
+     "start": 59.81,
+     "end": 59.91
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 59.95,
+   "end": 60.45,
+   "text": "que a gente fez",
+   "words": [
+    {
+     "word": "que",
+     "start": 59.95,
+     "end": 60.05
+    },
+    {
+     "word": "a",
+     "start": 60.05,
+     "end": 60.15
+    },
+    {
+     "word": "gente",
+     "start": 60.15,
+     "end": 60.25
+    },
+    {
+     "word": "fez",
+     "start": 60.25,
+     "end": 60.45
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 60.49,
+   "end": 61.64,
+   "text": "aqui! Que",
+   "words": [
+    {
+     "word": "aqui!",
+     "start": 60.49,
+     "end": 60.75
+    },
+    {
+     "word": "Que",
+     "start": 60.75,
+     "end": 61.64
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 62.53,
+   "end": 63.17,
+   "text": "roubinho, nosso",
+   "words": [
+    {
+     "word": "roubinho,",
+     "start": 62.53,
+     "end": 63.01
+    },
+    {
+     "word": "nosso",
+     "start": 63.05,
+     "end": 63.17
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 63.21,
+   "end": 64.17,
+   "text": "coração tá ardendo!",
+   "words": [
+    {
+     "word": "coração",
+     "start": 63.21,
+     "end": 63.51
+    },
+    {
+     "word": "tá",
+     "start": 63.51,
+     "end": 63.73
+    },
+    {
+     "word": "ardendo!",
+     "start": 63.73,
+     "end": 64.17
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 64.21,
+   "end": 67.78,
+   "text": "Ai, você só meteu",
+   "words": [
+    {
+     "word": "Ai,",
+     "start": 64.21,
+     "end": 64.91
+    },
+    {
+     "word": "você",
+     "start": 67.3,
+     "end": 67.38
+    },
+    {
+     "word": "só",
+     "start": 67.38,
+     "end": 67.54
+    },
+    {
+     "word": "meteu",
+     "start": 67.54,
+     "end": 67.78
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 67.82,
+   "end": 69.01,
+   "text": "uns roubos",
+   "words": [
+    {
+     "word": "uns",
+     "start": 67.82,
+     "end": 68.02
+    },
+    {
+     "word": "roubos",
+     "start": 68.02,
+     "end": 69.01
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 70.89,
+   "end": 71.77,
+   "text": "Mano, nosso melhor",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 70.89,
+     "end": 71.41
+    },
+    {
+     "word": "nosso",
+     "start": 71.43,
+     "end": 71.57
+    },
+    {
+     "word": "melhor",
+     "start": 71.57,
+     "end": 71.77
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 71.81,
+   "end": 72.67,
+   "text": "roubo, ainda assim",
+   "words": [
+    {
+     "word": "roubo,",
+     "start": 71.81,
+     "end": 72.15
+    },
+    {
+     "word": "ainda",
+     "start": 72.21,
+     "end": 72.41
+    },
+    {
+     "word": "assim",
+     "start": 72.41,
+     "end": 72.67
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 72.71,
+   "end": 73.59,
+   "text": "a gente ficou",
+   "words": [
+    {
+     "word": "a",
+     "start": 72.71,
+     "end": 72.97
+    },
+    {
+     "word": "gente",
+     "start": 72.97,
+     "end": 73.15
+    },
+    {
+     "word": "ficou",
+     "start": 73.15,
+     "end": 73.59
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 73.63,
+   "end": 74.62,
+   "text": "na câmera, né?",
+   "words": [
+    {
+     "word": "na",
+     "start": 73.63,
+     "end": 73.75
+    },
+    {
+     "word": "câmera,",
+     "start": 73.75,
+     "end": 74.15
+    },
+    {
+     "word": "né?",
+     "start": 74.29,
+     "end": 74.62
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}
