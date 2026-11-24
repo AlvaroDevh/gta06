@@ -93,7 +93,7 @@ Critérios de um corte viral:
 - Reação forte do streamer (susto, grito, gargalhada, raiva) **coincidindo** com explosão do chat, quando houver chat.
 - Fail, jogada absurda, plot twist, resenha engraçada, interação com chat/convidado.
 - Entende-se sozinho: começa 1-3 s antes do gancho (com o mínimo de contexto) e termina logo após o clímax. Nunca cortar no meio da frase.
-- **Duração: pode passar de 1 minuto.** Normal de 40 s a 2 min, do tamanho que a história pede (resenha, conversa ou chamada inteira com começo, meio e fim costuma dar 1-2 min); até 3 min no máximo, que é o limite do YouTube Shorts e do Reels. Não estique com enrolação: se o melhor momento cabe em 30 s, fica com 30 s.
+- **Duração: no máximo 90 segundos (pedido do usuário).** Normal de 30 s a 90 s, do tamanho que a história pede; se o momento é maior, corte o começo/contexto e mantenha o clímax. Não estique com enrolação: se o melhor momento cabe em 30 s, fica com 30 s.
 - Evite: loading/espera, publi, música tocando ao fundo (direitos autorais), trechos de conteúdo sexual explícito ou ofensas pesadas.
 - Se o chat for constante sem picos (live muito movimentada), pese mais a voz e a história do momento.
 - Quantidade: o que o usuário pedir (padrão 5; se pedir "os mais virais", 3).
