@@ -1,0 +1,505 @@
+{
+ "segments": [
+  {
+   "start": 5.11,
+   "end": 6.07,
+   "text": "Cara, que eu não achei que o cara",
+   "words": [
+    {
+     "word": "Cara,",
+     "start": 5.11,
+     "end": 5.27
+    },
+    {
+     "word": "que",
+     "start": 5.35,
+     "end": 5.41
+    },
+    {
+     "word": "eu",
+     "start": 5.41,
+     "end": 5.46
+    },
+    {
+     "word": "não",
+     "start": 5.46,
+     "end": 5.51
+    },
+    {
+     "word": "achei",
+     "start": 5.51,
+     "end": 5.73
+    },
+    {
+     "word": "que",
+     "start": 5.73,
+     "end": 5.85
+    },
+    {
+     "word": "o",
+     "start": 5.85,
+     "end": 5.93
+    },
+    {
+     "word": "cara",
+     "start": 5.93,
+     "end": 6.07
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 6.11,
+   "end": 7.96,
+   "text": "tinha o necessário",
+   "words": [
+    {
+     "word": "tinha",
+     "start": 6.11,
+     "end": 6.43
+    },
+    {
+     "word": "o",
+     "start": 6.43,
+     "end": 7.21
+    },
+    {
+     "word": "necessário",
+     "start": 7.36,
+     "end": 7.96
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 8.0,
+   "end": 8.58,
+   "text": "pra dar uma bala",
+   "words": [
+    {
+     "word": "pra",
+     "start": 8.0,
+     "end": 8.1
+    },
+    {
+     "word": "dar",
+     "start": 8.1,
+     "end": 8.22
+    },
+    {
+     "word": "uma",
+     "start": 8.22,
+     "end": 8.34
+    },
+    {
+     "word": "bala",
+     "start": 8.34,
+     "end": 8.58
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 8.62,
+   "end": 9.72,
+   "text": "nela, pô. Achei que o cara",
+   "words": [
+    {
+     "word": "nela,",
+     "start": 8.62,
+     "end": 8.92
+    },
+    {
+     "word": "pô.",
+     "start": 9.04,
+     "end": 9.18
+    },
+    {
+     "word": "Achei",
+     "start": 9.24,
+     "end": 9.46
+    },
+    {
+     "word": "que",
+     "start": 9.46,
+     "end": 9.52
+    },
+    {
+     "word": "o",
+     "start": 9.52,
+     "end": 9.6
+    },
+    {
+     "word": "cara",
+     "start": 9.6,
+     "end": 9.72
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 9.76,
+   "end": 10.85,
+   "text": "ia falar \"não\"",
+   "words": [
+    {
+     "word": "ia",
+     "start": 9.76,
+     "end": 9.84
+    },
+    {
+     "word": "falar",
+     "start": 9.84,
+     "end": 10.18
+    },
+    {
+     "word": "\"não\"",
+     "start": 10.42,
+     "end": 10.85
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 12.8,
+   "end": 14.04,
+   "text": "Nossa, bate na polícia ainda",
+   "words": [
+    {
+     "word": "Nossa,",
+     "start": 12.8,
+     "end": 13.12
+    },
+    {
+     "word": "bate",
+     "start": 13.2,
+     "end": 13.32
+    },
+    {
+     "word": "na",
+     "start": 13.32,
+     "end": 13.46
+    },
+    {
+     "word": "polícia",
+     "start": 13.46,
+     "end": 13.9
+    },
+    {
+     "word": "ainda",
+     "start": 13.9,
+     "end": 14.04
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 14.08,
+   "end": 15.17,
+   "text": "pra melhorar minha vida",
+   "words": [
+    {
+     "word": "pra",
+     "start": 14.08,
+     "end": 14.26
+    },
+    {
+     "word": "melhorar",
+     "start": 14.26,
+     "end": 14.56
+    },
+    {
+     "word": "minha",
+     "start": 14.56,
+     "end": 14.68
+    },
+    {
+     "word": "vida",
+     "start": 14.68,
+     "end": 15.17
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 18.89,
+   "end": 19.87,
+   "text": "Eu achei que o cara ia querer",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 18.89,
+     "end": 19.01
+    },
+    {
+     "word": "achei",
+     "start": 19.01,
+     "end": 19.17
+    },
+    {
+     "word": "que",
+     "start": 19.17,
+     "end": 19.31
+    },
+    {
+     "word": "o",
+     "start": 19.31,
+     "end": 19.37
+    },
+    {
+     "word": "cara",
+     "start": 19.37,
+     "end": 19.53
+    },
+    {
+     "word": "ia",
+     "start": 19.53,
+     "end": 19.61
+    },
+    {
+     "word": "querer",
+     "start": 19.61,
+     "end": 19.87
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 19.91,
+   "end": 21.62,
+   "text": "conversar, sabe?",
+   "words": [
+    {
+     "word": "conversar,",
+     "start": 19.91,
+     "end": 20.93
+    },
+    {
+     "word": "sabe?",
+     "start": 21.05,
+     "end": 21.62
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 27.52,
+   "end": 28.18,
+   "text": "— O⁠ cara⁠ tinha⁠ acabado⁠",
+   "words": [
+    {
+     "word": "— O⁠",
+     "start": 27.52,
+     "end": 27.7
+    },
+    {
+     "word": "cara⁠",
+     "start": 27.7,
+     "end": 27.8
+    },
+    {
+     "word": "tinha⁠",
+     "start": 27.8,
+     "end": 27.9
+    },
+    {
+     "word": "acabado⁠",
+     "start": 27.9,
+     "end": 28.18
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 28.22,
+   "end": 28.96,
+   "text": "de⁠ matar⁠ o⁠ outro⁠",
+   "words": [
+    {
+     "word": "de⁠",
+     "start": 28.22,
+     "end": 28.32
+    },
+    {
+     "word": "matar⁠",
+     "start": 28.32,
+     "end": 28.54
+    },
+    {
+     "word": "o⁠",
+     "start": 28.54,
+     "end": 28.7
+    },
+    {
+     "word": "outro⁠",
+     "start": 28.7,
+     "end": 28.96
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 29.0,
+   "end": 30.11,
+   "text": "— Não,⁠ mas⁠ o⁠ outro⁠ é⁠ o⁠ outro⁠",
+   "words": [
+    {
+     "word": "— Não,⁠",
+     "start": 29.0,
+     "end": 29.06
+    },
+    {
+     "word": "mas⁠",
+     "start": 29.14,
+     "end": 29.22
+    },
+    {
+     "word": "o⁠",
+     "start": 29.22,
+     "end": 29.32
+    },
+    {
+     "word": "outro⁠",
+     "start": 29.32,
+     "end": 29.48
+    },
+    {
+     "word": "é⁠",
+     "start": 29.48,
+     "end": 29.58
+    },
+    {
+     "word": "o⁠",
+     "start": 29.58,
+     "end": 29.66
+    },
+    {
+     "word": "outro⁠",
+     "start": 29.66,
+     "end": 30.11
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 32.27,
+   "end": 32.87,
+   "text": "Cara⁠",
+   "words": [
+    {
+     "word": "Cara⁠",
+     "start": 32.27,
+     "end": 32.87
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 34.27,
+   "end": 35.17,
+   "text": "— eu⁠ tenho⁠ uma⁠ escolha⁠",
+   "words": [
+    {
+     "word": "— eu⁠",
+     "start": 34.27,
+     "end": 34.37
+    },
+    {
+     "word": "tenho⁠",
+     "start": 34.37,
+     "end": 34.47
+    },
+    {
+     "word": "uma⁠",
+     "start": 34.47,
+     "end": 34.59
+    },
+    {
+     "word": "escolha⁠",
+     "start": 34.59,
+     "end": 35.17
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 35.21,
+   "end": 36.75,
+   "text": "Eu⁠ mando⁠ a⁠ Shayna⁠",
+   "words": [
+    {
+     "word": "Eu⁠",
+     "start": 35.21,
+     "end": 35.27
+    },
+    {
+     "word": "mando⁠",
+     "start": 35.27,
+     "end": 36.51
+    },
+    {
+     "word": "a⁠",
+     "start": 36.51,
+     "end": 36.63
+    },
+    {
+     "word": "Shayna⁠",
+     "start": 36.63,
+     "end": 36.75
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 36.79,
+   "end": 37.49,
+   "text": "deixar⁠ pra⁠ lá⁠",
+   "words": [
+    {
+     "word": "deixar⁠",
+     "start": 36.79,
+     "end": 37.09
+    },
+    {
+     "word": "pra⁠",
+     "start": 37.09,
+     "end": 37.33
+    },
+    {
+     "word": "lá⁠",
+     "start": 37.33,
+     "end": 37.49
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 37.53,
+   "end": 38.78,
+   "text": "— ou⁠ baleio⁠ o⁠ cara⁠",
+   "words": [
+    {
+     "word": "— ou⁠",
+     "start": 37.53,
+     "end": 37.83
+    },
+    {
+     "word": "baleio⁠",
+     "start": 37.83,
+     "end": 38.27
+    },
+    {
+     "word": "o⁠",
+     "start": 38.27,
+     "end": 38.37
+    },
+    {
+     "word": "cara⁠",
+     "start": 38.37,
+     "end": 38.78
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}
