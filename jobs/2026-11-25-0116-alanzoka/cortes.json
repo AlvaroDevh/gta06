@@ -1,0 +1,9 @@
+{
+ "formato": "vertical", "layout": "auto", "legenda": false, "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, freio, carro de alta performance, óculos de assassino, GG, chat, secundárias, principal, vagabundo, live, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:03:02", "fim": "0:04:08", "titulo": "CARRO SEM FREIO"},
+  {"id": "02", "inicio": "0:11:30", "fim": "0:12:12", "titulo": "OCULOS DE ASSASSINO"},
+  {"id": "03", "inicio": "0:12:49", "fim": "0:13:50", "titulo": "GG POR HOJE"}
+ ]
+}
