@@ -1,0 +1,451 @@
+{
+ "segments": [
+  {
+   "start": 2.92,
+   "end": 4.64,
+   "text": "Era lá que eu tava indo montar um lookzinho",
+   "words": [
+    {
+     "word": "Era",
+     "start": 2.92,
+     "end": 3.08
+    },
+    {
+     "word": "lá",
+     "start": 3.08,
+     "end": 3.22
+    },
+    {
+     "word": "que",
+     "start": 3.22,
+     "end": 3.34
+    },
+    {
+     "word": "eu",
+     "start": 3.34,
+     "end": 3.44
+    },
+    {
+     "word": "tava",
+     "start": 3.44,
+     "end": 3.62
+    },
+    {
+     "word": "indo",
+     "start": 3.62,
+     "end": 3.84
+    },
+    {
+     "word": "montar",
+     "start": 3.84,
+     "end": 4.16
+    },
+    {
+     "word": "um",
+     "start": 4.16,
+     "end": 4.26
+    },
+    {
+     "word": "lookzinho",
+     "start": 4.26,
+     "end": 4.64
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 4.68,
+   "end": 6.03,
+   "text": "de academia, velho",
+   "words": [
+    {
+     "word": "de",
+     "start": 4.68,
+     "end": 4.8
+    },
+    {
+     "word": "academia,",
+     "start": 4.8,
+     "end": 5.26
+    },
+    {
+     "word": "velho",
+     "start": 5.48,
+     "end": 6.03
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 11.87,
+   "end": 12.47,
+   "text": "— né?⁠",
+   "words": [
+    {
+     "word": "— né?⁠",
+     "start": 11.87,
+     "end": 12.47
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 15.7,
+   "end": 16.48,
+   "text": "Carro⁠ não⁠ freia,⁠ não⁠",
+   "words": [
+    {
+     "word": "Carro⁠",
+     "start": 15.7,
+     "end": 16.04
+    },
+    {
+     "word": "não⁠",
+     "start": 16.04,
+     "end": 16.14
+    },
+    {
+     "word": "freia,⁠",
+     "start": 16.14,
+     "end": 16.4
+    },
+    {
+     "word": "não⁠",
+     "start": 16.42,
+     "end": 16.48
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 16.52,
+   "end": 17.24,
+   "text": "freia,⁠ mano,⁠ não⁠ tem⁠",
+   "words": [
+    {
+     "word": "freia,⁠",
+     "start": 16.52,
+     "end": 16.78
+    },
+    {
+     "word": "mano,⁠",
+     "start": 16.86,
+     "end": 16.92
+    },
+    {
+     "word": "não⁠",
+     "start": 16.96,
+     "end": 17.12
+    },
+    {
+     "word": "tem⁠",
+     "start": 17.12,
+     "end": 17.24
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 17.28,
+   "end": 17.93,
+   "text": "freio!⁠",
+   "words": [
+    {
+     "word": "freio!⁠",
+     "start": 17.28,
+     "end": 17.93
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 36.29,
+   "end": 37.29,
+   "text": "Quero uma âncora?",
+   "words": [
+    {
+     "word": "Quero",
+     "start": 36.29,
+     "end": 36.47
+    },
+    {
+     "word": "uma",
+     "start": 36.47,
+     "end": 36.69
+    },
+    {
+     "word": "âncora?",
+     "start": 36.69,
+     "end": 37.29
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 37.33,
+   "end": 38.52,
+   "text": "Que âncora, cara?",
+   "words": [
+    {
+     "word": "Que",
+     "start": 37.33,
+     "end": 37.45
+    },
+    {
+     "word": "âncora,",
+     "start": 37.45,
+     "end": 37.93
+    },
+    {
+     "word": "cara?",
+     "start": 38.01,
+     "end": 38.52
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 38.87,
+   "end": 39.82,
+   "text": "Ah, no pé?",
+   "words": [
+    {
+     "word": "Ah,",
+     "start": 38.87,
+     "end": 39.07
+    },
+    {
+     "word": "no",
+     "start": 39.17,
+     "end": 39.27
+    },
+    {
+     "word": "pé?",
+     "start": 39.27,
+     "end": 39.82
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 41.03,
+   "end": 42.27,
+   "text": "Não, um carro",
+   "words": [
+    {
+     "word": "Não,",
+     "start": 41.03,
+     "end": 41.33
+    },
+    {
+     "word": "um",
+     "start": 41.61,
+     "end": 41.79
+    },
+    {
+     "word": "carro",
+     "start": 42.03,
+     "end": 42.27
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 42.31,
+   "end": 43.23,
+   "text": "de alta performance",
+   "words": [
+    {
+     "word": "de",
+     "start": 42.31,
+     "end": 42.47
+    },
+    {
+     "word": "alta",
+     "start": 42.47,
+     "end": 42.65
+    },
+    {
+     "word": "performance",
+     "start": 42.65,
+     "end": 43.23
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 43.27,
+   "end": 44.09,
+   "text": "tem que ter um freio",
+   "words": [
+    {
+     "word": "tem",
+     "start": 43.27,
+     "end": 43.47
+    },
+    {
+     "word": "que",
+     "start": 43.47,
+     "end": 43.57
+    },
+    {
+     "word": "ter",
+     "start": 43.57,
+     "end": 43.65
+    },
+    {
+     "word": "um",
+     "start": 43.65,
+     "end": 43.77
+    },
+    {
+     "word": "freio",
+     "start": 43.77,
+     "end": 44.09
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 44.13,
+   "end": 44.85,
+   "text": "pra acompanhar",
+   "words": [
+    {
+     "word": "pra",
+     "start": 44.13,
+     "end": 44.25
+    },
+    {
+     "word": "acompanhar",
+     "start": 44.25,
+     "end": 44.85
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 44.89,
+   "end": 45.49,
+   "text": "mano",
+   "words": [
+    {
+     "word": "mano",
+     "start": 44.89,
+     "end": 45.49
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 47.22,
+   "end": 47.99,
+   "text": "tá ligado?",
+   "words": [
+    {
+     "word": "tá",
+     "start": 47.22,
+     "end": 47.3
+    },
+    {
+     "word": "ligado?",
+     "start": 47.3,
+     "end": 47.99
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 58.94,
+   "end": 59.78,
+   "text": "Não adianta correr",
+   "words": [
+    {
+     "word": "Não",
+     "start": 58.94,
+     "end": 59.12
+    },
+    {
+     "word": "adianta",
+     "start": 59.12,
+     "end": 59.5
+    },
+    {
+     "word": "correr",
+     "start": 59.5,
+     "end": 59.78
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 59.82,
+   "end": 60.34,
+   "text": "se o carro não",
+   "words": [
+    {
+     "word": "se",
+     "start": 59.82,
+     "end": 59.98
+    },
+    {
+     "word": "o",
+     "start": 59.98,
+     "end": 60.08
+    },
+    {
+     "word": "carro",
+     "start": 60.08,
+     "end": 60.22
+    },
+    {
+     "word": "não",
+     "start": 60.22,
+     "end": 60.34
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 60.38,
+   "end": 61.51,
+   "text": "para, tá ligado?",
+   "words": [
+    {
+     "word": "para,",
+     "start": 60.38,
+     "end": 60.7
+    },
+    {
+     "word": "tá",
+     "start": 60.82,
+     "end": 60.87
+    },
+    {
+     "word": "ligado?",
+     "start": 60.87,
+     "end": 61.51
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 62.41,
+   "end": 63.34,
+   "text": "Parar também",
+   "words": [
+    {
+     "word": "Parar",
+     "start": 62.41,
+     "end": 62.81
+    },
+    {
+     "word": "também",
+     "start": 62.81,
+     "end": 63.34
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}

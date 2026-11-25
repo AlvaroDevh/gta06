@@ -13,7 +13,7 @@
 - **Thumbnail:** Jason de óculos + texto "ASSASSINO?"
 
 ## 03: GG por hoje
-- **Título:** "4,5% VAGABUNDO" 😂 alanzoka encerra a live de GTA 6
+- **Título:** "2% VAGABUNDO" 😂 alanzoka encerra a live de GTA 6
 - **Descrição:** No fim da live ele faz as contas do progresso do dia e promete começar mais cedo amanhã. O chat se despede com uma chuva de GG. Créditos: alanzoka – https://www.twitch.tv/alanzoka
 - **Hashtags:** #alanzoka #gta6 #gtavi #cortesdelive #shorts
 - **Thumbnail:** Alan acenando + texto "GG!"
