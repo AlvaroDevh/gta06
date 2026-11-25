@@ -1,0 +1,362 @@
+{
+ "segments": [
+  {
+   "start": 2.67,
+   "end": 3.32,
+   "text": "Cara",
+   "words": [
+    {
+     "word": "Cara",
+     "start": 2.67,
+     "end": 3.32
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 5.25,
+   "end": 6.11,
+   "text": "ela mandou uma casa",
+   "words": [
+    {
+     "word": "ela",
+     "start": 5.25,
+     "end": 5.45
+    },
+    {
+     "word": "mandou",
+     "start": 5.45,
+     "end": 5.79
+    },
+    {
+     "word": "uma",
+     "start": 5.79,
+     "end": 5.91
+    },
+    {
+     "word": "casa",
+     "start": 5.91,
+     "end": 6.11
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 6.15,
+   "end": 6.71,
+   "text": "pro cara, que está",
+   "words": [
+    {
+     "word": "pro",
+     "start": 6.15,
+     "end": 6.276
+    },
+    {
+     "word": "cara,",
+     "start": 6.276,
+     "end": 6.466
+    },
+    {
+     "word": "que",
+     "start": 6.466,
+     "end": 6.592
+    },
+    {
+     "word": "está",
+     "start": 6.592,
+     "end": 6.71
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 6.75,
+   "end": 7.73,
+   "text": "de reforma ainda",
+   "words": [
+    {
+     "word": "de",
+     "start": 6.75,
+     "end": 6.85
+    },
+    {
+     "word": "reforma",
+     "start": 6.85,
+     "end": 7.47
+    },
+    {
+     "word": "ainda",
+     "start": 7.47,
+     "end": 7.73
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 7.77,
+   "end": 8.47,
+   "text": "mano, você é louco",
+   "words": [
+    {
+     "word": "mano,",
+     "start": 7.77,
+     "end": 7.85
+    },
+    {
+     "word": "você",
+     "start": 7.99,
+     "end": 8.07
+    },
+    {
+     "word": "é",
+     "start": 8.07,
+     "end": 8.17
+    },
+    {
+     "word": "louco",
+     "start": 8.17,
+     "end": 8.47
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 8.51,
+   "end": 9.62,
+   "text": "ninguém quer comprar uma casa que está",
+   "words": [
+    {
+     "word": "ninguém",
+     "start": 8.51,
+     "end": 8.65
+    },
+    {
+     "word": "quer",
+     "start": 8.65,
+     "end": 8.85
+    },
+    {
+     "word": "comprar",
+     "start": 8.85,
+     "end": 9.13
+    },
+    {
+     "word": "uma",
+     "start": 9.13,
+     "end": 9.23
+    },
+    {
+     "word": "casa",
+     "start": 9.23,
+     "end": 9.45
+    },
+    {
+     "word": "que",
+     "start": 9.45,
+     "end": 9.57
+    },
+    {
+     "word": "está",
+     "start": 9.57,
+     "end": 9.62
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 9.61,
+   "end": 10.55,
+   "text": "de reforma, velho",
+   "words": [
+    {
+     "word": "de",
+     "start": 9.61,
+     "end": 9.71
+    },
+    {
+     "word": "reforma,",
+     "start": 9.71,
+     "end": 10.29
+    },
+    {
+     "word": "velho",
+     "start": 10.33,
+     "end": 10.55
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 10.59,
+   "end": 11.19,
+   "text": "tá",
+   "words": [
+    {
+     "word": "tá",
+     "start": 10.59,
+     "end": 11.19
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 12.73,
+   "end": 13.7,
+   "text": "ligado? Tem que ter",
+   "words": [
+    {
+     "word": "ligado?",
+     "start": 12.73,
+     "end": 13.15
+    },
+    {
+     "word": "Tem",
+     "start": 13.33,
+     "end": 13.55
+    },
+    {
+     "word": "que",
+     "start": 13.55,
+     "end": 13.65
+    },
+    {
+     "word": "ter",
+     "start": 13.65,
+     "end": 13.7
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 13.71,
+   "end": 15.02,
+   "text": "um bom desconto, né?",
+   "words": [
+    {
+     "word": "um",
+     "start": 13.71,
+     "end": 13.79
+    },
+    {
+     "word": "bom",
+     "start": 13.79,
+     "end": 13.93
+    },
+    {
+     "word": "desconto,",
+     "start": 13.93,
+     "end": 14.59
+    },
+    {
+     "word": "né?",
+     "start": 14.67,
+     "end": 15.02
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 27.92,
+   "end": 28.8,
+   "text": "— Cara,⁠ essa⁠ daqui⁠",
+   "words": [
+    {
+     "word": "— Cara,⁠",
+     "start": 27.92,
+     "end": 28.28
+    },
+    {
+     "word": "essa⁠",
+     "start": 28.28,
+     "end": 28.64
+    },
+    {
+     "word": "daqui⁠",
+     "start": 28.64,
+     "end": 28.8
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 28.84,
+   "end": 29.86,
+   "text": "está⁠ melhorzinha⁠",
+   "words": [
+    {
+     "word": "está⁠",
+     "start": 28.84,
+     "end": 29.04
+    },
+    {
+     "word": "melhorzinha⁠",
+     "start": 29.04,
+     "end": 29.86
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 29.9,
+   "end": 31.41,
+   "text": "né?⁠",
+   "words": [
+    {
+     "word": "né?⁠",
+     "start": 29.9,
+     "end": 31.41
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 32.18,
+   "end": 32.79,
+   "text": "— Vou⁠",
+   "words": [
+    {
+     "word": "— Vou⁠",
+     "start": 32.18,
+     "end": 32.79
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 33.04,
+   "end": 34.18,
+   "text": "dar⁠ uma⁠ limpadinha⁠",
+   "words": [
+    {
+     "word": "dar⁠",
+     "start": 33.04,
+     "end": 33.18
+    },
+    {
+     "word": "uma⁠",
+     "start": 33.18,
+     "end": 33.28
+    },
+    {
+     "word": "limpadinha⁠",
+     "start": 33.28,
+     "end": 34.18
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 34.22,
+   "end": 34.82,
+   "text": "né?⁠",
+   "words": [
+    {
+     "word": "né?⁠",
+     "start": 34.22,
+     "end": 34.82
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}

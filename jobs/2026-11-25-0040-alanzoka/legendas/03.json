@@ -1,0 +1,499 @@
+{
+ "segments": [
+  {
+   "start": 3.27,
+   "end": 5.05,
+   "text": "Calma, tem que fechar a mira, calma, pegou",
+   "words": [
+    {
+     "word": "Calma,",
+     "start": 3.27,
+     "end": 3.55
+    },
+    {
+     "word": "tem",
+     "start": 3.61,
+     "end": 3.69
+    },
+    {
+     "word": "que",
+     "start": 3.69,
+     "end": 3.75
+    },
+    {
+     "word": "fechar",
+     "start": 3.75,
+     "end": 3.97
+    },
+    {
+     "word": "a",
+     "start": 3.97,
+     "end": 4.13
+    },
+    {
+     "word": "mira,",
+     "start": 4.13,
+     "end": 4.31
+    },
+    {
+     "word": "calma,",
+     "start": 4.57,
+     "end": 4.83
+    },
+    {
+     "word": "pegou",
+     "start": 4.93,
+     "end": 5.05
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 5.09,
+   "end": 6.47,
+   "text": "na pedra, na pedra",
+   "words": [
+    {
+     "word": "na",
+     "start": 5.09,
+     "end": 5.25
+    },
+    {
+     "word": "pedra,",
+     "start": 5.25,
+     "end": 5.75
+    },
+    {
+     "word": "na",
+     "start": 5.79,
+     "end": 5.93
+    },
+    {
+     "word": "pedra",
+     "start": 5.93,
+     "end": 6.47
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 6.51,
+   "end": 7.34,
+   "text": "calma",
+   "words": [
+    {
+     "word": "calma",
+     "start": 6.51,
+     "end": 7.34
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 7.76,
+   "end": 8.67,
+   "text": "no seu tempo",
+   "words": [
+    {
+     "word": "no",
+     "start": 7.76,
+     "end": 7.88
+    },
+    {
+     "word": "seu",
+     "start": 7.88,
+     "end": 8.02
+    },
+    {
+     "word": "tempo",
+     "start": 8.02,
+     "end": 8.67
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 8.91,
+   "end": 10.3,
+   "text": "legal, mais um",
+   "words": [
+    {
+     "word": "legal,",
+     "start": 8.91,
+     "end": 9.23
+    },
+    {
+     "word": "mais",
+     "start": 9.57,
+     "end": 9.73
+    },
+    {
+     "word": "um",
+     "start": 9.73,
+     "end": 10.3
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 10.54,
+   "end": 11.97,
+   "text": "meu tempo, nice",
+   "words": [
+    {
+     "word": "meu",
+     "start": 10.54,
+     "end": 10.74
+    },
+    {
+     "word": "tempo,",
+     "start": 10.74,
+     "end": 11.18
+    },
+    {
+     "word": "nice",
+     "start": 11.4,
+     "end": 11.97
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 12.3,
+   "end": 13.71,
+   "text": "mais um, opa!",
+   "words": [
+    {
+     "word": "mais",
+     "start": 12.3,
+     "end": 12.48
+    },
+    {
+     "word": "um,",
+     "start": 12.48,
+     "end": 12.74
+    },
+    {
+     "word": "opa!",
+     "start": 12.9,
+     "end": 13.71
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 20.69,
+   "end": 22.2,
+   "text": "— Tá⁠ jogando⁠ hoje!⁠ Meu⁠",
+   "words": [
+    {
+     "word": "— Tá⁠",
+     "start": 20.69,
+     "end": 20.87
+    },
+    {
+     "word": "jogando⁠",
+     "start": 20.87,
+     "end": 21.27
+    },
+    {
+     "word": "hoje!⁠",
+     "start": 21.27,
+     "end": 21.57
+    },
+    {
+     "word": "Meu⁠",
+     "start": 21.73,
+     "end": 22.2
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 27.09,
+   "end": 27.73,
+   "text": "Deus,⁠ eu⁠ não⁠ tô⁠ enxergando⁠",
+   "words": [
+    {
+     "word": "Deus,⁠",
+     "start": 27.09,
+     "end": 27.19
+    },
+    {
+     "word": "eu⁠",
+     "start": 27.27,
+     "end": 27.35
+    },
+    {
+     "word": "não⁠",
+     "start": 27.35,
+     "end": 27.4
+    },
+    {
+     "word": "tô⁠",
+     "start": 27.4,
+     "end": 27.45
+    },
+    {
+     "word": "enxergando⁠",
+     "start": 27.45,
+     "end": 27.73
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 27.77,
+   "end": 28.4,
+   "text": "os⁠ caras⁠",
+   "words": [
+    {
+     "word": "os⁠",
+     "start": 27.77,
+     "end": 27.87
+    },
+    {
+     "word": "caras⁠",
+     "start": 27.87,
+     "end": 28.4
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 37.13,
+   "end": 37.88,
+   "text": "— cadê⁠ o⁠ cara?⁠",
+   "words": [
+    {
+     "word": "— cadê⁠",
+     "start": 37.13,
+     "end": 37.45
+    },
+    {
+     "word": "o⁠",
+     "start": 37.45,
+     "end": 37.5
+    },
+    {
+     "word": "cara?⁠",
+     "start": 37.5,
+     "end": 37.88
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 39.52,
+   "end": 41.11,
+   "text": "— Merda...⁠ Mãe⁠",
+   "words": [
+    {
+     "word": "— Merda...⁠",
+     "start": 39.52,
+     "end": 40.02
+    },
+    {
+     "word": "Mãe⁠",
+     "start": 40.24,
+     "end": 41.11
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 42.81,
+   "end": 43.35,
+   "text": "tá⁠ viva?⁠",
+   "words": [
+    {
+     "word": "tá⁠",
+     "start": 42.81,
+     "end": 42.89
+    },
+    {
+     "word": "viva?⁠",
+     "start": 42.89,
+     "end": 43.35
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 43.39,
+   "end": 44.4,
+   "text": "Eu⁠ esqueci⁠ de⁠ você!⁠",
+   "words": [
+    {
+     "word": "Eu⁠",
+     "start": 43.39,
+     "end": 43.47
+    },
+    {
+     "word": "esqueci⁠",
+     "start": 43.47,
+     "end": 43.77
+    },
+    {
+     "word": "de⁠",
+     "start": 43.77,
+     "end": 43.83
+    },
+    {
+     "word": "você!⁠",
+     "start": 43.83,
+     "end": 44.4
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 54.33,
+   "end": 55.09,
+   "text": "— Nossa,⁠ eu⁠ esqueci⁠",
+   "words": [
+    {
+     "word": "— Nossa,⁠",
+     "start": 54.33,
+     "end": 54.71
+    },
+    {
+     "word": "eu⁠",
+     "start": 54.81,
+     "end": 54.91
+    },
+    {
+     "word": "esqueci⁠",
+     "start": 54.91,
+     "end": 55.09
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 55.13,
+   "end": 56.15,
+   "text": "da⁠ minha⁠ mãe,⁠ velho!⁠",
+   "words": [
+    {
+     "word": "da⁠",
+     "start": 55.13,
+     "end": 55.21
+    },
+    {
+     "word": "minha⁠",
+     "start": 55.21,
+     "end": 55.33
+    },
+    {
+     "word": "mãe,⁠",
+     "start": 55.33,
+     "end": 55.47
+    },
+    {
+     "word": "velho!⁠",
+     "start": 55.71,
+     "end": 56.15
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 57.56,
+   "end": 58.76,
+   "text": "— Eu⁠ virei⁠ next⁠ stage⁠",
+   "words": [
+    {
+     "word": "— Eu⁠",
+     "start": 57.56,
+     "end": 57.94
+    },
+    {
+     "word": "virei⁠",
+     "start": 57.94,
+     "end": 58.32
+    },
+    {
+     "word": "next⁠",
+     "start": 58.32,
+     "end": 58.48
+    },
+    {
+     "word": "stage⁠",
+     "start": 58.48,
+     "end": 58.76
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 58.8,
+   "end": 59.52,
+   "text": "e⁠ esqueci⁠ da⁠",
+   "words": [
+    {
+     "word": "e⁠",
+     "start": 58.8,
+     "end": 58.9
+    },
+    {
+     "word": "esqueci⁠",
+     "start": 58.9,
+     "end": 59.28
+    },
+    {
+     "word": "da⁠",
+     "start": 59.28,
+     "end": 59.52
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 59.56,
+   "end": 60.25,
+   "text": "minha⁠ mãe⁠",
+   "words": [
+    {
+     "word": "minha⁠",
+     "start": 59.56,
+     "end": 59.72
+    },
+    {
+     "word": "mãe⁠",
+     "start": 59.72,
+     "end": 60.25
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 60.37,
+   "end": 61.98,
+   "text": "— Não⁠ se⁠ preocupe,⁠ ma⁠",
+   "words": [
+    {
+     "word": "— Não⁠",
+     "start": 60.37,
+     "end": 60.93
+    },
+    {
+     "word": "se⁠",
+     "start": 60.93,
+     "end": 61.21
+    },
+    {
+     "word": "preocupe,⁠",
+     "start": 61.21,
+     "end": 61.53
+    },
+    {
+     "word": "ma⁠",
+     "start": 61.53,
+     "end": 61.98
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}

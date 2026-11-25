@@ -1,0 +1,472 @@
+{
+ "segments": [
+  {
+   "start": 0.14,
+   "end": 1.05,
+   "text": "— É⁠",
+   "words": [
+    {
+     "word": "— É⁠",
+     "start": 0.14,
+     "end": 1.05
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 3.98,
+   "end": 5.04,
+   "text": "dirigindo bem com o carrinho da",
+   "words": [
+    {
+     "word": "dirigindo",
+     "start": 3.98,
+     "end": 4.32
+    },
+    {
+     "word": "bem",
+     "start": 4.32,
+     "end": 4.5
+    },
+    {
+     "word": "com",
+     "start": 4.5,
+     "end": 4.64
+    },
+    {
+     "word": "o",
+     "start": 4.64,
+     "end": 4.74
+    },
+    {
+     "word": "carrinho",
+     "start": 4.74,
+     "end": 4.96
+    },
+    {
+     "word": "da",
+     "start": 4.96,
+     "end": 5.04
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 5.08,
+   "end": 5.87,
+   "text": "minha mãe, tá?",
+   "words": [
+    {
+     "word": "minha",
+     "start": 5.08,
+     "end": 5.22
+    },
+    {
+     "word": "mãe,",
+     "start": 5.22,
+     "end": 5.46
+    },
+    {
+     "word": "tá?",
+     "start": 5.56,
+     "end": 5.87
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 6.67,
+   "end": 7.21,
+   "text": "Às vezes tudo",
+   "words": [
+    {
+     "word": "Às",
+     "start": 6.67,
+     "end": 6.93
+    },
+    {
+     "word": "vezes",
+     "start": 6.93,
+     "end": 7.01
+    },
+    {
+     "word": "tudo",
+     "start": 7.01,
+     "end": 7.21
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 7.25,
+   "end": 7.81,
+   "text": "que eu precisava era",
+   "words": [
+    {
+     "word": "que",
+     "start": 7.25,
+     "end": 7.37
+    },
+    {
+     "word": "eu",
+     "start": 7.37,
+     "end": 7.43
+    },
+    {
+     "word": "precisava",
+     "start": 7.43,
+     "end": 7.73
+    },
+    {
+     "word": "era",
+     "start": 7.73,
+     "end": 7.81
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 7.85,
+   "end": 8.77,
+   "text": "um hatchzinho mesmo",
+   "words": [
+    {
+     "word": "um",
+     "start": 7.85,
+     "end": 7.95
+    },
+    {
+     "word": "hatchzinho",
+     "start": 7.95,
+     "end": 8.49
+    },
+    {
+     "word": "mesmo",
+     "start": 8.49,
+     "end": 8.77
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 8.81,
+   "end": 9.62,
+   "text": "Eles",
+   "words": [
+    {
+     "word": "Eles",
+     "start": 8.81,
+     "end": 9.62
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 12.62,
+   "end": 13.47,
+   "text": "entraram aqui dentro?",
+   "words": [
+    {
+     "word": "entraram",
+     "start": 12.62,
+     "end": 12.9
+    },
+    {
+     "word": "aqui",
+     "start": 12.9,
+     "end": 12.98
+    },
+    {
+     "word": "dentro?",
+     "start": 12.98,
+     "end": 13.47
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 16.12,
+   "end": 17.73,
+   "text": "Procure-me no prédio",
+   "words": [
+    {
+     "word": "Procure-me",
+     "start": 16.12,
+     "end": 16.64
+    },
+    {
+     "word": "no",
+     "start": 16.64,
+     "end": 16.74
+    },
+    {
+     "word": "prédio",
+     "start": 16.74,
+     "end": 17.73
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 18.33,
+   "end": 18.93,
+   "text": "— Meu⁠",
+   "words": [
+    {
+     "word": "— Meu⁠",
+     "start": 18.33,
+     "end": 18.93
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 28.63,
+   "end": 34.72,
+   "text": "— Deus⁠",
+   "words": [
+    {
+     "word": "— Deus⁠",
+     "start": 28.63,
+     "end": 34.72
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 36.32,
+   "end": 37.46,
+   "text": "mano, mas caralho, é o Jason",
+   "words": [
+    {
+     "word": "mano,",
+     "start": 36.32,
+     "end": 36.4
+    },
+    {
+     "word": "mas",
+     "start": 36.48,
+     "end": 36.68
+    },
+    {
+     "word": "caralho,",
+     "start": 36.68,
+     "end": 37.08
+    },
+    {
+     "word": "é",
+     "start": 37.1,
+     "end": 37.16
+    },
+    {
+     "word": "o",
+     "start": 37.16,
+     "end": 37.28
+    },
+    {
+     "word": "Jason",
+     "start": 37.28,
+     "end": 37.46
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 37.5,
+   "end": 38.42,
+   "text": "que é sequestrado",
+   "words": [
+    {
+     "word": "que",
+     "start": 37.5,
+     "end": 37.7
+    },
+    {
+     "word": "é",
+     "start": 37.7,
+     "end": 37.76
+    },
+    {
+     "word": "sequestrado",
+     "start": 37.76,
+     "end": 38.42
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 38.46,
+   "end": 39.18,
+   "text": "é a Lucia",
+   "words": [
+    {
+     "word": "é",
+     "start": 38.46,
+     "end": 38.6
+    },
+    {
+     "word": "a",
+     "start": 38.6,
+     "end": 38.72
+    },
+    {
+     "word": "Lucia",
+     "start": 38.72,
+     "end": 39.18
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 39.22,
+   "end": 40.04,
+   "text": "pelo amor de Deus",
+   "words": [
+    {
+     "word": "pelo",
+     "start": 39.22,
+     "end": 39.44
+    },
+    {
+     "word": "amor",
+     "start": 39.44,
+     "end": 39.58
+    },
+    {
+     "word": "de",
+     "start": 39.58,
+     "end": 39.76
+    },
+    {
+     "word": "Deus",
+     "start": 39.76,
+     "end": 40.04
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 40.08,
+   "end": 40.77,
+   "text": "velho!",
+   "words": [
+    {
+     "word": "velho!",
+     "start": 40.08,
+     "end": 40.77
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 41.95,
+   "end": 42.55,
+   "text": "— Onde⁠ que⁠ eu⁠ me⁠",
+   "words": [
+    {
+     "word": "— Onde⁠",
+     "start": 41.95,
+     "end": 42.31
+    },
+    {
+     "word": "que⁠",
+     "start": 42.31,
+     "end": 42.41
+    },
+    {
+     "word": "eu⁠",
+     "start": 42.41,
+     "end": 42.47
+    },
+    {
+     "word": "me⁠",
+     "start": 42.47,
+     "end": 42.55
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 42.59,
+   "end": 43.5,
+   "text": "meti,⁠ velho?⁠",
+   "words": [
+    {
+     "word": "meti,⁠",
+     "start": 42.59,
+     "end": 43.05
+    },
+    {
+     "word": "velho?⁠",
+     "start": 43.05,
+     "end": 43.5
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 47.52,
+   "end": 48.3,
+   "text": "Cara,⁠ o⁠ cabelo⁠ dela⁠",
+   "words": [
+    {
+     "word": "Cara,⁠",
+     "start": 47.52,
+     "end": 47.88
+    },
+    {
+     "word": "o⁠",
+     "start": 47.9,
+     "end": 48.0
+    },
+    {
+     "word": "cabelo⁠",
+     "start": 48.0,
+     "end": 48.2
+    },
+    {
+     "word": "dela⁠",
+     "start": 48.2,
+     "end": 48.3
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 48.34,
+   "end": 49.18,
+   "text": "grudou⁠ na⁠ parede⁠",
+   "words": [
+    {
+     "word": "grudou⁠",
+     "start": 48.34,
+     "end": 48.74
+    },
+    {
+     "word": "na⁠",
+     "start": 48.74,
+     "end": 48.84
+    },
+    {
+     "word": "parede⁠",
+     "start": 48.84,
+     "end": 49.18
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 49.22,
+   "end": 49.82,
+   "text": "viu?⁠",
+   "words": [
+    {
+     "word": "viu?⁠",
+     "start": 49.22,
+     "end": 49.82
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}
