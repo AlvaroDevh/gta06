@@ -1,0 +1,9 @@
+{
+ "formato": "vertical", "layout": "auto", "legenda": false, "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, mãe, sequestrada, casa, reforma, mira, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:02:40", "fim": "0:03:36", "titulo": "E A LUCIA QUE FOI SEQUESTRADA"},
+  {"id": "02", "inicio": "0:09:36", "fim": "0:10:14", "titulo": "CASA EM REFORMA"},
+  {"id": "03", "inicio": "0:16:08", "fim": "0:17:10", "titulo": "ESQUECI DA MINHA MAE"}
+ ]
+}
