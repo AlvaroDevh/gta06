@@ -1,1 +1,27 @@
-
+{
+  "formato": "vertical",
+  "layout": "blur",
+  "zoom": 1.3,
+  "legenda": false,
+  "titulo_no_video": false,
+  "cortes": [
+    {
+      "id": "01",
+      "inicio": "2:22:50",
+      "fim": "2:24:05",
+      "titulo": "O CARRO DEU TUDO ERRADO"
+    },
+    {
+      "id": "02",
+      "inicio": "1:56:50",
+      "fim": "2:00:50",
+      "titulo": "MOMENTO DE CAOS"
+    },
+    {
+      "id": "03",
+      "inicio": "3:02:50",
+      "fim": "3:04:15",
+      "titulo": "MEU CARRO VELHO!"
+    }
+  ]
+}
