@@ -1,0 +1,336 @@
+{
+ "segments": [
+  {
+   "start": 2.57,
+   "end": 4.02,
+   "text": "— Liga⁠ pra⁠ polícia,⁠ mano!⁠",
+   "words": [
+    {
+     "word": "— Liga⁠",
+     "start": 2.57,
+     "end": 2.85
+    },
+    {
+     "word": "pra⁠",
+     "start": 2.85,
+     "end": 3.01
+    },
+    {
+     "word": "polícia,⁠",
+     "start": 3.01,
+     "end": 3.57
+    },
+    {
+     "word": "mano!⁠",
+     "start": 3.69,
+     "end": 4.02
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 26.2,
+   "end": 26.99,
+   "text": "— vai⁠ chegar⁠ e⁠ vai⁠",
+   "words": [
+    {
+     "word": "— vai⁠",
+     "start": 26.2,
+     "end": 26.6
+    },
+    {
+     "word": "chegar⁠",
+     "start": 26.6,
+     "end": 26.84
+    },
+    {
+     "word": "e⁠",
+     "start": 26.84,
+     "end": 26.94
+    },
+    {
+     "word": "vai⁠",
+     "start": 26.94,
+     "end": 26.99
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 27.02,
+   "end": 28.11,
+   "text": "dar⁠ uma⁠ só⁠ nele⁠",
+   "words": [
+    {
+     "word": "dar⁠",
+     "start": 27.02,
+     "end": 27.12
+    },
+    {
+     "word": "uma⁠",
+     "start": 27.12,
+     "end": 27.28
+    },
+    {
+     "word": "só⁠",
+     "start": 27.28,
+     "end": 27.5
+    },
+    {
+     "word": "nele⁠",
+     "start": 27.5,
+     "end": 28.11
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 37.29,
+   "end": 37.94,
+   "text": "— Nice!⁠",
+   "words": [
+    {
+     "word": "— Nice!⁠",
+     "start": 37.29,
+     "end": 37.94
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 38.67,
+   "end": 39.59,
+   "text": "Eita,⁠ porra,⁠ tomou⁠",
+   "words": [
+    {
+     "word": "Eita,⁠",
+     "start": 38.67,
+     "end": 39.07
+    },
+    {
+     "word": "porra,⁠",
+     "start": 39.27,
+     "end": 39.37
+    },
+    {
+     "word": "tomou⁠",
+     "start": 39.41,
+     "end": 39.59
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 39.63,
+   "end": 40.23,
+   "text": "uma⁠ só!⁠",
+   "words": [
+    {
+     "word": "uma⁠",
+     "start": 39.63,
+     "end": 39.71
+    },
+    {
+     "word": "só!⁠",
+     "start": 39.71,
+     "end": 40.23
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 40.95,
+   "end": 41.92,
+   "text": "Tomou⁠ duas!⁠",
+   "words": [
+    {
+     "word": "Tomou⁠",
+     "start": 40.95,
+     "end": 41.35
+    },
+    {
+     "word": "duas!⁠",
+     "start": 41.35,
+     "end": 41.92
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 45.18,
+   "end": 46.38,
+   "text": "— Caralho,⁠ mano⁠",
+   "words": [
+    {
+     "word": "— Caralho,⁠",
+     "start": 45.18,
+     "end": 45.96
+    },
+    {
+     "word": "mano⁠",
+     "start": 46.08,
+     "end": 46.38
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 46.42,
+   "end": 47.67,
+   "text": "obrigado,⁠ bebê!⁠",
+   "words": [
+    {
+     "word": "obrigado,⁠",
+     "start": 46.42,
+     "end": 46.72
+    },
+    {
+     "word": "bebê!⁠",
+     "start": 46.8,
+     "end": 47.67
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 61.29,
+   "end": 62.37,
+   "text": "Ela fez dois tiros",
+   "words": [
+    {
+     "word": "Ela",
+     "start": 61.29,
+     "end": 61.69
+    },
+    {
+     "word": "fez",
+     "start": 61.69,
+     "end": 61.83
+    },
+    {
+     "word": "dois",
+     "start": 61.83,
+     "end": 61.99
+    },
+    {
+     "word": "tiros",
+     "start": 61.99,
+     "end": 62.37
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 62.41,
+   "end": 63.47,
+   "text": "nele? Eu não entendi. Acho que minha arma",
+   "words": [
+    {
+     "word": "nele?",
+     "start": 62.41,
+     "end": 62.53
+    },
+    {
+     "word": "Eu",
+     "start": 62.57,
+     "end": 62.67
+    },
+    {
+     "word": "não",
+     "start": 62.67,
+     "end": 62.75
+    },
+    {
+     "word": "entendi.",
+     "start": 62.75,
+     "end": 62.99
+    },
+    {
+     "word": "Acho",
+     "start": 62.99,
+     "end": 63.21
+    },
+    {
+     "word": "que",
+     "start": 63.21,
+     "end": 63.29
+    },
+    {
+     "word": "minha",
+     "start": 63.29,
+     "end": 63.39
+    },
+    {
+     "word": "arma",
+     "start": 63.39,
+     "end": 63.47
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 63.51,
+   "end": 64.33,
+   "text": "tá com silenciador",
+   "words": [
+    {
+     "word": "tá",
+     "start": 63.51,
+     "end": 63.61
+    },
+    {
+     "word": "com",
+     "start": 63.61,
+     "end": 63.71
+    },
+    {
+     "word": "silenciador",
+     "start": 63.71,
+     "end": 64.33
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 64.37,
+   "end": 65.71,
+   "text": "Daí não fez barulho",
+   "words": [
+    {
+     "word": "Daí",
+     "start": 64.37,
+     "end": 64.91
+    },
+    {
+     "word": "não",
+     "start": 65.09,
+     "end": 65.17
+    },
+    {
+     "word": "fez",
+     "start": 65.17,
+     "end": 65.33
+    },
+    {
+     "word": "barulho",
+     "start": 65.33,
+     "end": 65.71
+    }
+   ],
+   "pos": 0.46
+  },
+  {
+   "start": 65.75,
+   "end": 66.35,
+   "text": "direito",
+   "words": [
+    {
+     "word": "direito",
+     "start": 65.75,
+     "end": 66.35
+    }
+   ],
+   "pos": 0.46
+  }
+ ]
+}

@@ -1,0 +1,651 @@
+{
+ "segments": [
+  {
+   "start": 4.69,
+   "end": 8.27,
+   "text": "— Chat,⁠ eu⁠ tô⁠ achando⁠",
+   "words": [
+    {
+     "word": "— Chat,⁠",
+     "start": 4.69,
+     "end": 5.09
+    },
+    {
+     "word": "eu⁠",
+     "start": 5.09,
+     "end": 5.49
+    },
+    {
+     "word": "tô⁠",
+     "start": 5.67,
+     "end": 6.31
+    },
+    {
+     "word": "achando⁠",
+     "start": 6.31,
+     "end": 8.27
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 8.31,
+   "end": 8.99,
+   "text": "que⁠ esse⁠ cara⁠ aí⁠",
+   "words": [
+    {
+     "word": "que⁠",
+     "start": 8.31,
+     "end": 8.39
+    },
+    {
+     "word": "esse⁠",
+     "start": 8.39,
+     "end": 8.61
+    },
+    {
+     "word": "cara⁠",
+     "start": 8.61,
+     "end": 8.81
+    },
+    {
+     "word": "aí⁠",
+     "start": 8.81,
+     "end": 8.99
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 9.03,
+   "end": 11.34,
+   "text": "é⁠ o⁠ assassino,⁠ tá?⁠",
+   "words": [
+    {
+     "word": "é⁠",
+     "start": 9.03,
+     "end": 9.47
+    },
+    {
+     "word": "o⁠",
+     "start": 9.47,
+     "end": 9.81
+    },
+    {
+     "word": "assassino,⁠",
+     "start": 9.81,
+     "end": 10.79
+    },
+    {
+     "word": "tá?⁠",
+     "start": 10.99,
+     "end": 11.34
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 11.59,
+   "end": 12.73,
+   "text": "— Olha⁠ a⁠ vozinha⁠ dele⁠",
+   "words": [
+    {
+     "word": "— Olha⁠",
+     "start": 11.59,
+     "end": 11.97
+    },
+    {
+     "word": "a⁠",
+     "start": 11.97,
+     "end": 12.11
+    },
+    {
+     "word": "vozinha⁠",
+     "start": 12.11,
+     "end": 12.49
+    },
+    {
+     "word": "dele⁠",
+     "start": 12.49,
+     "end": 12.73
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 12.77,
+   "end": 13.75,
+   "text": "falando,⁠ uau⁠",
+   "words": [
+    {
+     "word": "falando,⁠",
+     "start": 12.77,
+     "end": 13.35
+    },
+    {
+     "word": "uau⁠",
+     "start": 13.49,
+     "end": 13.75
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 13.79,
+   "end": 14.98,
+   "text": "ninguém⁠ falou,⁠ uau⁠",
+   "words": [
+    {
+     "word": "ninguém⁠",
+     "start": 13.79,
+     "end": 14.11
+    },
+    {
+     "word": "falou,⁠",
+     "start": 14.11,
+     "end": 14.47
+    },
+    {
+     "word": "uau⁠",
+     "start": 14.61,
+     "end": 14.98
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 15.81,
+   "end": 16.61,
+   "text": "100%⁠",
+   "words": [
+    {
+     "word": "100%⁠",
+     "start": 15.81,
+     "end": 16.61
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 16.65,
+   "end": 17.61,
+   "text": "assassino,⁠ mano!⁠",
+   "words": [
+    {
+     "word": "assassino,⁠",
+     "start": 16.65,
+     "end": 17.29
+    },
+    {
+     "word": "mano!⁠",
+     "start": 17.43,
+     "end": 17.61
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 17.65,
+   "end": 20.48,
+   "text": "— 100%⁠",
+   "words": [
+    {
+     "word": "— 100%⁠",
+     "start": 17.65,
+     "end": 20.48
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 20.52,
+   "end": 21.2,
+   "text": "assassino",
+   "words": [
+    {
+     "word": "assassino",
+     "start": 20.52,
+     "end": 21.2
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 21.24,
+   "end": 21.84,
+   "text": "velho",
+   "words": [
+    {
+     "word": "velho",
+     "start": 21.24,
+     "end": 21.84
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 22.37,
+   "end": 23.46,
+   "text": "impossível não ser",
+   "words": [
+    {
+     "word": "impossível",
+     "start": 22.37,
+     "end": 22.89
+    },
+    {
+     "word": "não",
+     "start": 22.89,
+     "end": 23.05
+    },
+    {
+     "word": "ser",
+     "start": 23.05,
+     "end": 23.46
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 23.57,
+   "end": 24.19,
+   "text": "agora falta",
+   "words": [
+    {
+     "word": "agora",
+     "start": 23.57,
+     "end": 23.81
+    },
+    {
+     "word": "falta",
+     "start": 23.81,
+     "end": 24.19
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 24.23,
+   "end": 25.29,
+   "text": "o último, mano, o último",
+   "words": [
+    {
+     "word": "o",
+     "start": 24.23,
+     "end": 24.41
+    },
+    {
+     "word": "último,",
+     "start": 24.41,
+     "end": 24.61
+    },
+    {
+     "word": "mano,",
+     "start": 24.81,
+     "end": 24.93
+    },
+    {
+     "word": "o",
+     "start": 25.07,
+     "end": 25.17
+    },
+    {
+     "word": "último",
+     "start": 25.17,
+     "end": 25.29
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 25.33,
+   "end": 26.17,
+   "text": "é impossível não ser",
+   "words": [
+    {
+     "word": "é",
+     "start": 25.33,
+     "end": 25.47
+    },
+    {
+     "word": "impossível",
+     "start": 25.47,
+     "end": 25.91
+    },
+    {
+     "word": "não",
+     "start": 25.91,
+     "end": 26.05
+    },
+    {
+     "word": "ser",
+     "start": 26.05,
+     "end": 26.17
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 26.21,
+   "end": 26.9,
+   "text": "aqui, velho",
+   "words": [
+    {
+     "word": "aqui,",
+     "start": 26.21,
+     "end": 26.41
+    },
+    {
+     "word": "velho",
+     "start": 26.55,
+     "end": 26.9
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 27.07,
+   "end": 27.63,
+   "text": "literalmente tinha",
+   "words": [
+    {
+     "word": "literalmente",
+     "start": 27.07,
+     "end": 27.51
+    },
+    {
+     "word": "tinha",
+     "start": 27.51,
+     "end": 27.63
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 27.67,
+   "end": 28.61,
+   "text": "uma bola, aqui tem",
+   "words": [
+    {
+     "word": "uma",
+     "start": 27.67,
+     "end": 27.83
+    },
+    {
+     "word": "bola,",
+     "start": 27.83,
+     "end": 28.19
+    },
+    {
+     "word": "aqui",
+     "start": 28.35,
+     "end": 28.53
+    },
+    {
+     "word": "tem",
+     "start": 28.53,
+     "end": 28.61
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 28.65,
+   "end": 29.38,
+   "text": "uma bola",
+   "words": [
+    {
+     "word": "uma",
+     "start": 28.65,
+     "end": 28.79
+    },
+    {
+     "word": "bola",
+     "start": 28.79,
+     "end": 29.38
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 30.13,
+   "end": 31.14,
+   "text": "e tinha um rio",
+   "words": [
+    {
+     "word": "e",
+     "start": 30.13,
+     "end": 30.43
+    },
+    {
+     "word": "tinha",
+     "start": 30.43,
+     "end": 30.57
+    },
+    {
+     "word": "um",
+     "start": 30.57,
+     "end": 30.69
+    },
+    {
+     "word": "rio",
+     "start": 30.69,
+     "end": 31.14
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 32.32,
+   "end": 33.09,
+   "text": "é aqui o rio",
+   "words": [
+    {
+     "word": "é",
+     "start": 32.32,
+     "end": 32.44
+    },
+    {
+     "word": "aqui",
+     "start": 32.44,
+     "end": 32.58
+    },
+    {
+     "word": "o",
+     "start": 32.58,
+     "end": 32.68
+    },
+    {
+     "word": "rio",
+     "start": 32.68,
+     "end": 33.09
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 33.16,
+   "end": 33.78,
+   "text": "aqui não é, porque",
+   "words": [
+    {
+     "word": "aqui",
+     "start": 33.16,
+     "end": 33.42
+    },
+    {
+     "word": "não",
+     "start": 33.42,
+     "end": 33.56
+    },
+    {
+     "word": "é,",
+     "start": 33.56,
+     "end": 33.68
+    },
+    {
+     "word": "porque",
+     "start": 33.72,
+     "end": 33.78
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 33.82,
+   "end": 34.42,
+   "text": "aqui a gente tá",
+   "words": [
+    {
+     "word": "aqui",
+     "start": 33.82,
+     "end": 33.96
+    },
+    {
+     "word": "a",
+     "start": 33.96,
+     "end": 34.08
+    },
+    {
+     "word": "gente",
+     "start": 34.08,
+     "end": 34.13
+    },
+    {
+     "word": "tá",
+     "start": 34.13,
+     "end": 34.42
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 34.46,
+   "end": 35.26,
+   "text": "longe, aqui, velho",
+   "words": [
+    {
+     "word": "longe,",
+     "start": 34.46,
+     "end": 34.74
+    },
+    {
+     "word": "aqui,",
+     "start": 34.9,
+     "end": 35.02
+    },
+    {
+     "word": "velho",
+     "start": 35.14,
+     "end": 35.26
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 35.3,
+   "end": 36.19,
+   "text": "algum lugar aqui, ó",
+   "words": [
+    {
+     "word": "algum",
+     "start": 35.3,
+     "end": 35.42
+    },
+    {
+     "word": "lugar",
+     "start": 35.42,
+     "end": 35.62
+    },
+    {
+     "word": "aqui,",
+     "start": 35.62,
+     "end": 35.82
+    },
+    {
+     "word": "ó",
+     "start": 35.86,
+     "end": 36.19
+    }
+   ],
+   "pos": 0.76
+  },
+  {
+   "start": 39.05,
+   "end": 40.02,
+   "text": "Ah, caralho!",
+   "words": [
+    {
+     "word": "Ah,",
+     "start": 39.05,
+     "end": 39.41
+    },
+    {
+     "word": "caralho!",
+     "start": 39.41,
+     "end": 40.02
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 40.56,
+   "end": 41.33,
+   "text": "Ah, caralho",
+   "words": [
+    {
+     "word": "Ah,",
+     "start": 40.56,
+     "end": 40.68
+    },
+    {
+     "word": "caralho",
+     "start": 40.82,
+     "end": 41.33
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 49.5,
+   "end": 50.11,
+   "text": "— O⁠ assassino⁠ é⁠",
+   "words": [
+    {
+     "word": "— O⁠",
+     "start": 49.5,
+     "end": 49.66
+    },
+    {
+     "word": "assassino⁠",
+     "start": 49.66,
+     "end": 50.06
+    },
+    {
+     "word": "é⁠",
+     "start": 50.06,
+     "end": 50.11
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 50.12,
+   "end": 50.93,
+   "text": "o⁠ Liminha?⁠",
+   "words": [
+    {
+     "word": "o⁠",
+     "start": 50.12,
+     "end": 50.18
+    },
+    {
+     "word": "Liminha?⁠",
+     "start": 50.18,
+     "end": 50.93
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}

@@ -1,0 +1,1267 @@
+{
+ "segments": [
+  {
+   "start": 0.36,
+   "end": 1.6,
+   "text": "Quem que falou Hank's Waffles?",
+   "words": [
+    {
+     "word": "Quem",
+     "start": 0.36,
+     "end": 0.54
+    },
+    {
+     "word": "que",
+     "start": 0.54,
+     "end": 0.68
+    },
+    {
+     "word": "falou",
+     "start": 0.68,
+     "end": 0.84
+    },
+    {
+     "word": "Hank's",
+     "start": 0.84,
+     "end": 1.2
+    },
+    {
+     "word": "Waffles?",
+     "start": 1.2,
+     "end": 1.6
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 1.64,
+   "end": 2.34,
+   "text": "Alguém falou Hank's",
+   "words": [
+    {
+     "word": "Alguém",
+     "start": 1.64,
+     "end": 1.84
+    },
+    {
+     "word": "falou",
+     "start": 1.84,
+     "end": 2.06
+    },
+    {
+     "word": "Hank's",
+     "start": 2.06,
+     "end": 2.34
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 2.38,
+   "end": 3.0,
+   "text": "Waffles, em algum",
+   "words": [
+    {
+     "word": "Waffles,",
+     "start": 2.38,
+     "end": 2.72
+    },
+    {
+     "word": "em",
+     "start": 2.76,
+     "end": 2.88
+    },
+    {
+     "word": "algum",
+     "start": 2.88,
+     "end": 3.0
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 3.04,
+   "end": 3.86,
+   "text": "lugar tava escrito",
+   "words": [
+    {
+     "word": "lugar",
+     "start": 3.04,
+     "end": 3.3
+    },
+    {
+     "word": "tava",
+     "start": 3.3,
+     "end": 3.48
+    },
+    {
+     "word": "escrito",
+     "start": 3.48,
+     "end": 3.86
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 3.9,
+   "end": 4.87,
+   "text": "era na foto?",
+   "words": [
+    {
+     "word": "era",
+     "start": 3.9,
+     "end": 4.02
+    },
+    {
+     "word": "na",
+     "start": 4.02,
+     "end": 4.2
+    },
+    {
+     "word": "foto?",
+     "start": 4.2,
+     "end": 4.87
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 9.07,
+   "end": 10.43,
+   "text": "Cara, mano, chat, eu",
+   "words": [
+    {
+     "word": "Cara,",
+     "start": 9.07,
+     "end": 9.35
+    },
+    {
+     "word": "mano,",
+     "start": 9.55,
+     "end": 9.73
+    },
+    {
+     "word": "chat,",
+     "start": 9.85,
+     "end": 10.13
+    },
+    {
+     "word": "eu",
+     "start": 10.25,
+     "end": 10.43
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 10.47,
+   "end": 11.45,
+   "text": "achei a segundo",
+   "words": [
+    {
+     "word": "achei",
+     "start": 10.47,
+     "end": 10.91
+    },
+    {
+     "word": "a",
+     "start": 10.91,
+     "end": 11.15
+    },
+    {
+     "word": "segundo",
+     "start": 11.15,
+     "end": 11.45
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 11.49,
+   "end": 12.15,
+   "text": "lugar, é aqui",
+   "words": [
+    {
+     "word": "lugar,",
+     "start": 11.49,
+     "end": 11.79
+    },
+    {
+     "word": "é",
+     "start": 11.93,
+     "end": 12.01
+    },
+    {
+     "word": "aqui",
+     "start": 12.01,
+     "end": 12.15
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 12.19,
+   "end": 12.98,
+   "text": "pra caralho",
+   "words": [
+    {
+     "word": "pra",
+     "start": 12.19,
+     "end": 12.33
+    },
+    {
+     "word": "caralho",
+     "start": 12.33,
+     "end": 12.98
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 13.39,
+   "end": 14.11,
+   "text": "é aqui pra caralho!",
+   "words": [
+    {
+     "word": "é",
+     "start": 13.39,
+     "end": 13.49
+    },
+    {
+     "word": "aqui",
+     "start": 13.49,
+     "end": 13.63
+    },
+    {
+     "word": "pra",
+     "start": 13.63,
+     "end": 13.77
+    },
+    {
+     "word": "caralho!",
+     "start": 13.77,
+     "end": 14.11
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 14.15,
+   "end": 14.67,
+   "text": "é impossível não",
+   "words": [
+    {
+     "word": "é",
+     "start": 14.15,
+     "end": 14.19
+    },
+    {
+     "word": "impossível",
+     "start": 14.19,
+     "end": 14.57
+    },
+    {
+     "word": "não",
+     "start": 14.57,
+     "end": 14.67
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 14.71,
+   "end": 15.31,
+   "text": "ser",
+   "words": [
+    {
+     "word": "ser",
+     "start": 14.71,
+     "end": 15.31
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 19.85,
+   "end": 21.5,
+   "text": "\"Fotos macabras.\" Cara",
+   "words": [
+    {
+     "word": "\"Fotos",
+     "start": 19.85,
+     "end": 20.09
+    },
+    {
+     "word": "macabras.\"",
+     "start": 20.09,
+     "end": 20.73
+    },
+    {
+     "word": "Cara",
+     "start": 20.73,
+     "end": 21.5
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 28.46,
+   "end": 29.02,
+   "text": "tô com vergonha",
+   "words": [
+    {
+     "word": "tô",
+     "start": 28.46,
+     "end": 28.52
+    },
+    {
+     "word": "com",
+     "start": 28.52,
+     "end": 28.62
+    },
+    {
+     "word": "vergonha",
+     "start": 28.62,
+     "end": 29.02
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 29.06,
+   "end": 29.86,
+   "text": "porque parece que eu olhei, eu fui",
+   "words": [
+    {
+     "word": "porque",
+     "start": 29.06,
+     "end": 29.1
+    },
+    {
+     "word": "parece",
+     "start": 29.1,
+     "end": 29.36
+    },
+    {
+     "word": "que",
+     "start": 29.36,
+     "end": 29.52
+    },
+    {
+     "word": "eu",
+     "start": 29.52,
+     "end": 29.58
+    },
+    {
+     "word": "olhei,",
+     "start": 29.58,
+     "end": 29.66
+    },
+    {
+     "word": "eu",
+     "start": 29.76,
+     "end": 29.81
+    },
+    {
+     "word": "fui",
+     "start": 29.81,
+     "end": 29.86
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 29.86,
+   "end": 30.98,
+   "text": "direto, mano, gente",
+   "words": [
+    {
+     "word": "direto,",
+     "start": 29.86,
+     "end": 30.26
+    },
+    {
+     "word": "mano,",
+     "start": 30.38,
+     "end": 30.52
+    },
+    {
+     "word": "gente",
+     "start": 30.76,
+     "end": 30.98
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 31.02,
+   "end": 31.52,
+   "text": "eu juro pra vocês",
+   "words": [
+    {
+     "word": "eu",
+     "start": 31.02,
+     "end": 31.08
+    },
+    {
+     "word": "juro",
+     "start": 31.08,
+     "end": 31.24
+    },
+    {
+     "word": "pra",
+     "start": 31.24,
+     "end": 31.36
+    },
+    {
+     "word": "vocês",
+     "start": 31.36,
+     "end": 31.52
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 31.56,
+   "end": 32.18,
+   "text": "que eu não olhei",
+   "words": [
+    {
+     "word": "que",
+     "start": 31.56,
+     "end": 31.68
+    },
+    {
+     "word": "eu",
+     "start": 31.68,
+     "end": 31.76
+    },
+    {
+     "word": "não",
+     "start": 31.76,
+     "end": 31.9
+    },
+    {
+     "word": "olhei",
+     "start": 31.9,
+     "end": 32.18
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 32.22,
+   "end": 33.14,
+   "text": "onde tá os lugares",
+   "words": [
+    {
+     "word": "onde",
+     "start": 32.22,
+     "end": 32.48
+    },
+    {
+     "word": "tá",
+     "start": 32.48,
+     "end": 32.62
+    },
+    {
+     "word": "os",
+     "start": 32.62,
+     "end": 32.76
+    },
+    {
+     "word": "lugares",
+     "start": 32.76,
+     "end": 33.14
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 33.18,
+   "end": 33.78,
+   "text": "tá?",
+   "words": [
+    {
+     "word": "tá?",
+     "start": 33.18,
+     "end": 33.78
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 33.87,
+   "end": 34.67,
+   "text": "Cara, é que, mano",
+   "words": [
+    {
+     "word": "Cara,",
+     "start": 33.87,
+     "end": 34.13
+    },
+    {
+     "word": "é",
+     "start": 34.21,
+     "end": 34.27
+    },
+    {
+     "word": "que,",
+     "start": 34.27,
+     "end": 34.41
+    },
+    {
+     "word": "mano",
+     "start": 34.47,
+     "end": 34.67
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 34.71,
+   "end": 35.41,
+   "text": "foi o... é que era",
+   "words": [
+    {
+     "word": "foi",
+     "start": 34.71,
+     "end": 34.79
+    },
+    {
+     "word": "o...",
+     "start": 34.79,
+     "end": 35.05
+    },
+    {
+     "word": "é",
+     "start": 35.05,
+     "end": 35.19
+    },
+    {
+     "word": "que",
+     "start": 35.19,
+     "end": 35.31
+    },
+    {
+     "word": "era",
+     "start": 35.31,
+     "end": 35.41
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 35.45,
+   "end": 35.97,
+   "text": "o único lugar",
+   "words": [
+    {
+     "word": "o",
+     "start": 35.45,
+     "end": 35.55
+    },
+    {
+     "word": "único",
+     "start": 35.55,
+     "end": 35.75
+    },
+    {
+     "word": "lugar",
+     "start": 35.75,
+     "end": 35.97
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 36.01,
+   "end": 36.89,
+   "text": "que parecia, cara",
+   "words": [
+    {
+     "word": "que",
+     "start": 36.01,
+     "end": 36.11
+    },
+    {
+     "word": "parecia,",
+     "start": 36.11,
+     "end": 36.53
+    },
+    {
+     "word": "cara",
+     "start": 36.67,
+     "end": 36.89
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 36.93,
+   "end": 37.56,
+   "text": "é tipo",
+   "words": [
+    {
+     "word": "é",
+     "start": 36.93,
+     "end": 37.05
+    },
+    {
+     "word": "tipo",
+     "start": 37.05,
+     "end": 37.56
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 37.99,
+   "end": 39.03,
+   "text": "era literalmente o único lugar",
+   "words": [
+    {
+     "word": "era",
+     "start": 37.99,
+     "end": 38.11
+    },
+    {
+     "word": "literalmente",
+     "start": 38.11,
+     "end": 38.63
+    },
+    {
+     "word": "o",
+     "start": 38.63,
+     "end": 38.75
+    },
+    {
+     "word": "único",
+     "start": 38.75,
+     "end": 38.87
+    },
+    {
+     "word": "lugar",
+     "start": 38.87,
+     "end": 39.03
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 39.07,
+   "end": 39.83,
+   "text": "que parecia, mano",
+   "words": [
+    {
+     "word": "que",
+     "start": 39.07,
+     "end": 39.17
+    },
+    {
+     "word": "parecia,",
+     "start": 39.17,
+     "end": 39.55
+    },
+    {
+     "word": "mano",
+     "start": 39.65,
+     "end": 39.83
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 39.87,
+   "end": 40.47,
+   "text": "Mano",
+   "words": [
+    {
+     "word": "Mano",
+     "start": 39.87,
+     "end": 40.47
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 40.57,
+   "end": 41.23,
+   "text": "tinha duas caixas",
+   "words": [
+    {
+     "word": "tinha",
+     "start": 40.57,
+     "end": 40.65
+    },
+    {
+     "word": "duas",
+     "start": 40.65,
+     "end": 40.93
+    },
+    {
+     "word": "caixas",
+     "start": 40.93,
+     "end": 41.23
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 41.27,
+   "end": 42.17,
+   "text": "d'água. Essa daqui era",
+   "words": [
+    {
+     "word": "d'água.",
+     "start": 41.27,
+     "end": 41.61
+    },
+    {
+     "word": "Essa",
+     "start": 41.71,
+     "end": 41.89
+    },
+    {
+     "word": "daqui",
+     "start": 41.89,
+     "end": 42.09
+    },
+    {
+     "word": "era",
+     "start": 42.09,
+     "end": 42.17
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 42.21,
+   "end": 43.09,
+   "text": "a única que parecia",
+   "words": [
+    {
+     "word": "a",
+     "start": 42.21,
+     "end": 42.29
+    },
+    {
+     "word": "única",
+     "start": 42.29,
+     "end": 42.47
+    },
+    {
+     "word": "que",
+     "start": 42.47,
+     "end": 42.61
+    },
+    {
+     "word": "parecia",
+     "start": 42.61,
+     "end": 43.09
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 43.13,
+   "end": 43.77,
+   "text": "velho. Foi mal, mano",
+   "words": [
+    {
+     "word": "velho.",
+     "start": 43.13,
+     "end": 43.25
+    },
+    {
+     "word": "Foi",
+     "start": 43.29,
+     "end": 43.39
+    },
+    {
+     "word": "mal,",
+     "start": 43.39,
+     "end": 43.61
+    },
+    {
+     "word": "mano",
+     "start": 43.69,
+     "end": 43.77
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 43.81,
+   "end": 44.52,
+   "text": "E o outro eu achei no meio",
+   "words": [
+    {
+     "word": "E",
+     "start": 43.81,
+     "end": 43.89
+    },
+    {
+     "word": "o",
+     "start": 43.89,
+     "end": 44.01
+    },
+    {
+     "word": "outro",
+     "start": 44.01,
+     "end": 44.15
+    },
+    {
+     "word": "eu",
+     "start": 44.15,
+     "end": 44.25
+    },
+    {
+     "word": "achei",
+     "start": 44.25,
+     "end": 44.37
+    },
+    {
+     "word": "no",
+     "start": 44.37,
+     "end": 44.47
+    },
+    {
+     "word": "meio",
+     "start": 44.47,
+     "end": 44.52
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 44.55,
+   "end": 45.19,
+   "text": "do caminho, mano",
+   "words": [
+    {
+     "word": "do",
+     "start": 44.55,
+     "end": 44.63
+    },
+    {
+     "word": "caminho,",
+     "start": 44.63,
+     "end": 44.93
+    },
+    {
+     "word": "mano",
+     "start": 45.07,
+     "end": 45.19
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 45.23,
+   "end": 45.81,
+   "text": "Eu peço desculpas",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 45.23,
+     "end": 45.27
+    },
+    {
+     "word": "peço",
+     "start": 45.27,
+     "end": 45.37
+    },
+    {
+     "word": "desculpas",
+     "start": 45.37,
+     "end": 45.81
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 45.85,
+   "end": 46.51,
+   "text": "velho. O outro",
+   "words": [
+    {
+     "word": "velho.",
+     "start": 45.85,
+     "end": 46.03
+    },
+    {
+     "word": "O",
+     "start": 46.25,
+     "end": 46.31
+    },
+    {
+     "word": "outro",
+     "start": 46.31,
+     "end": 46.51
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 46.55,
+   "end": 47.17,
+   "text": "Mano, eu nem tava",
+   "words": [
+    {
+     "word": "Mano,",
+     "start": 46.55,
+     "end": 46.81
+    },
+    {
+     "word": "eu",
+     "start": 46.85,
+     "end": 46.9
+    },
+    {
+     "word": "nem",
+     "start": 46.9,
+     "end": 47.01
+    },
+    {
+     "word": "tava",
+     "start": 47.01,
+     "end": 47.17
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 47.21,
+   "end": 48.09,
+   "text": "indo pro outro. Vocês viram?",
+   "words": [
+    {
+     "word": "indo",
+     "start": 47.21,
+     "end": 47.39
+    },
+    {
+     "word": "pro",
+     "start": 47.39,
+     "end": 47.53
+    },
+    {
+     "word": "outro.",
+     "start": 47.53,
+     "end": 47.69
+    },
+    {
+     "word": "Vocês",
+     "start": 47.77,
+     "end": 47.85
+    },
+    {
+     "word": "viram?",
+     "start": 47.85,
+     "end": 48.09
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 48.13,
+   "end": 48.87,
+   "text": "Eu não estava indo",
+   "words": [
+    {
+     "word": "Eu",
+     "start": 48.13,
+     "end": 48.23
+    },
+    {
+     "word": "não",
+     "start": 48.23,
+     "end": 48.37
+    },
+    {
+     "word": "estava",
+     "start": 48.37,
+     "end": 48.69
+    },
+    {
+     "word": "indo",
+     "start": 48.69,
+     "end": 48.87
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 48.91,
+   "end": 49.71,
+   "text": "— pro⁠ outro.⁠ Eu⁠ literalmente⁠",
+   "words": [
+    {
+     "word": "— pro⁠",
+     "start": 48.91,
+     "end": 49.07
+    },
+    {
+     "word": "outro.⁠",
+     "start": 49.07,
+     "end": 49.25
+    },
+    {
+     "word": "Eu⁠",
+     "start": 49.31,
+     "end": 49.39
+    },
+    {
+     "word": "literalmente⁠",
+     "start": 49.39,
+     "end": 49.71
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 49.75,
+   "end": 50.89,
+   "text": "estava⁠ indo⁠ pra⁠ cá⁠",
+   "words": [
+    {
+     "word": "estava⁠",
+     "start": 49.75,
+     "end": 49.99
+    },
+    {
+     "word": "indo⁠",
+     "start": 49.99,
+     "end": 50.27
+    },
+    {
+     "word": "pra⁠",
+     "start": 50.27,
+     "end": 50.45
+    },
+    {
+     "word": "cá⁠",
+     "start": 50.45,
+     "end": 50.89
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 50.93,
+   "end": 51.49,
+   "text": "Quando⁠ eu⁠ olhei⁠",
+   "words": [
+    {
+     "word": "Quando⁠",
+     "start": 50.93,
+     "end": 51.21
+    },
+    {
+     "word": "eu⁠",
+     "start": 51.21,
+     "end": 51.33
+    },
+    {
+     "word": "olhei⁠",
+     "start": 51.33,
+     "end": 51.49
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 51.53,
+   "end": 52.17,
+   "text": "pro⁠ lado,⁠ tinha⁠ uma⁠",
+   "words": [
+    {
+     "word": "pro⁠",
+     "start": 51.53,
+     "end": 51.61
+    },
+    {
+     "word": "lado,⁠",
+     "start": 51.61,
+     "end": 51.75
+    },
+    {
+     "word": "tinha⁠",
+     "start": 51.79,
+     "end": 51.87
+    },
+    {
+     "word": "uma⁠",
+     "start": 51.87,
+     "end": 52.17
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 52.21,
+   "end": 52.88,
+   "text": "— um⁠",
+   "words": [
+    {
+     "word": "— um⁠",
+     "start": 52.21,
+     "end": 52.88
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 52.97,
+   "end": 54.73,
+   "text": "De⁠ um⁠",
+   "words": [
+    {
+     "word": "De⁠",
+     "start": 52.97,
+     "end": 53.21
+    },
+    {
+     "word": "um⁠",
+     "start": 53.21,
+     "end": 54.73
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 54.77,
+   "end": 55.66,
+   "text": "— bagulho,⁠ pô⁠",
+   "words": [
+    {
+     "word": "— bagulho,⁠",
+     "start": 54.77,
+     "end": 55.19
+    },
+    {
+     "word": "pô⁠",
+     "start": 55.25,
+     "end": 55.66
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 60.24,
+   "end": 61.0,
+   "text": "Mas onde que tá",
+   "words": [
+    {
+     "word": "Mas",
+     "start": 60.24,
+     "end": 60.52
+    },
+    {
+     "word": "onde",
+     "start": 60.52,
+     "end": 60.8
+    },
+    {
+     "word": "que",
+     "start": 60.8,
+     "end": 60.88
+    },
+    {
+     "word": "tá",
+     "start": 60.88,
+     "end": 61.0
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 61.04,
+   "end": 61.82,
+   "text": "o turista, mano?",
+   "words": [
+    {
+     "word": "o",
+     "start": 61.04,
+     "end": 61.16
+    },
+    {
+     "word": "turista,",
+     "start": 61.16,
+     "end": 61.54
+    },
+    {
+     "word": "mano?",
+     "start": 61.68,
+     "end": 61.82
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 61.86,
+   "end": 62.78,
+   "text": "Tá no esgoto?",
+   "words": [
+    {
+     "word": "Tá",
+     "start": 61.86,
+     "end": 61.92
+    },
+    {
+     "word": "no",
+     "start": 61.92,
+     "end": 62.1
+    },
+    {
+     "word": "esgoto?",
+     "start": 62.1,
+     "end": 62.78
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 62.82,
+   "end": 63.74,
+   "text": "Tá no trailer?",
+   "words": [
+    {
+     "word": "Tá",
+     "start": 62.82,
+     "end": 62.9
+    },
+    {
+     "word": "no",
+     "start": 62.9,
+     "end": 63.06
+    },
+    {
+     "word": "trailer?",
+     "start": 63.06,
+     "end": 63.74
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 63.78,
+   "end": 64.39,
+   "text": "Tá onde?",
+   "words": [
+    {
+     "word": "Tá",
+     "start": 63.78,
+     "end": 63.86
+    },
+    {
+     "word": "onde?",
+     "start": 63.86,
+     "end": 64.39
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}

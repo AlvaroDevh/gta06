@@ -1,0 +1,633 @@
+{
+ "segments": [
+  {
+   "start": 4.59,
+   "end": 5.55,
+   "text": "Cara, pior que o cara é bom",
+   "words": [
+    {
+     "word": "Cara,",
+     "start": 4.59,
+     "end": 4.83
+    },
+    {
+     "word": "pior",
+     "start": 4.91,
+     "end": 5.01
+    },
+    {
+     "word": "que",
+     "start": 5.01,
+     "end": 5.11
+    },
+    {
+     "word": "o",
+     "start": 5.11,
+     "end": 5.19
+    },
+    {
+     "word": "cara",
+     "start": 5.19,
+     "end": 5.27
+    },
+    {
+     "word": "é",
+     "start": 5.27,
+     "end": 5.39
+    },
+    {
+     "word": "bom",
+     "start": 5.39,
+     "end": 5.55
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 5.59,
+   "end": 6.69,
+   "text": "não tenho o que falar, ele",
+   "words": [
+    {
+     "word": "não",
+     "start": 5.59,
+     "end": 5.65
+    },
+    {
+     "word": "tenho",
+     "start": 5.65,
+     "end": 5.79
+    },
+    {
+     "word": "o",
+     "start": 5.79,
+     "end": 5.85
+    },
+    {
+     "word": "que",
+     "start": 5.85,
+     "end": 5.9
+    },
+    {
+     "word": "falar,",
+     "start": 5.9,
+     "end": 6.07
+    },
+    {
+     "word": "ele",
+     "start": 6.39,
+     "end": 6.69
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 6.73,
+   "end": 7.33,
+   "text": "realmente não bate",
+   "words": [
+    {
+     "word": "realmente",
+     "start": 6.73,
+     "end": 7.03
+    },
+    {
+     "word": "não",
+     "start": 7.03,
+     "end": 7.17
+    },
+    {
+     "word": "bate",
+     "start": 7.17,
+     "end": 7.33
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 7.37,
+   "end": 8.22,
+   "text": "o carro, velho",
+   "words": [
+    {
+     "word": "o",
+     "start": 7.37,
+     "end": 7.49
+    },
+    {
+     "word": "carro,",
+     "start": 7.49,
+     "end": 7.67
+    },
+    {
+     "word": "velho",
+     "start": 7.75,
+     "end": 8.22
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 13.24,
+   "end": 14.41,
+   "text": "não tem muito o que falar, né?",
+   "words": [
+    {
+     "word": "não",
+     "start": 13.24,
+     "end": 13.36
+    },
+    {
+     "word": "tem",
+     "start": 13.36,
+     "end": 13.46
+    },
+    {
+     "word": "muito",
+     "start": 13.46,
+     "end": 13.66
+    },
+    {
+     "word": "o",
+     "start": 13.66,
+     "end": 13.72
+    },
+    {
+     "word": "que",
+     "start": 13.72,
+     "end": 13.78
+    },
+    {
+     "word": "falar,",
+     "start": 13.78,
+     "end": 14.0
+    },
+    {
+     "word": "né?",
+     "start": 14.08,
+     "end": 14.41
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 19.65,
+   "end": 20.55,
+   "text": "— eu⁠ chegaria⁠ mais⁠",
+   "words": [
+    {
+     "word": "— eu⁠",
+     "start": 19.65,
+     "end": 19.89
+    },
+    {
+     "word": "chegaria⁠",
+     "start": 19.89,
+     "end": 20.37
+    },
+    {
+     "word": "mais⁠",
+     "start": 20.37,
+     "end": 20.55
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 20.59,
+   "end": 21.77,
+   "text": "rápido⁠ que⁠ ele,⁠ ele⁠",
+   "words": [
+    {
+     "word": "rápido⁠",
+     "start": 20.59,
+     "end": 20.89
+    },
+    {
+     "word": "que⁠",
+     "start": 20.89,
+     "end": 21.07
+    },
+    {
+     "word": "ele,⁠",
+     "start": 21.07,
+     "end": 21.27
+    },
+    {
+     "word": "ele⁠",
+     "start": 21.61,
+     "end": 21.77
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 21.81,
+   "end": 22.53,
+   "text": "não⁠ anda⁠ na⁠ força⁠",
+   "words": [
+    {
+     "word": "não⁠",
+     "start": 21.81,
+     "end": 21.97
+    },
+    {
+     "word": "anda⁠",
+     "start": 21.97,
+     "end": 22.17
+    },
+    {
+     "word": "na⁠",
+     "start": 22.17,
+     "end": 22.29
+    },
+    {
+     "word": "força⁠",
+     "start": 22.29,
+     "end": 22.53
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 22.57,
+   "end": 23.21,
+   "text": "total⁠ do⁠ carro⁠",
+   "words": [
+    {
+     "word": "total⁠",
+     "start": 22.57,
+     "end": 22.91
+    },
+    {
+     "word": "do⁠",
+     "start": 22.91,
+     "end": 23.07
+    },
+    {
+     "word": "carro⁠",
+     "start": 23.07,
+     "end": 23.21
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 23.25,
+   "end": 24.01,
+   "text": "do⁠ Mega⁠ Brain,⁠ mano⁠",
+   "words": [
+    {
+     "word": "do⁠",
+     "start": 23.25,
+     "end": 23.37
+    },
+    {
+     "word": "Mega⁠",
+     "start": 23.37,
+     "end": 23.57
+    },
+    {
+     "word": "Brain,⁠",
+     "start": 23.57,
+     "end": 23.85
+    },
+    {
+     "word": "mano⁠",
+     "start": 23.95,
+     "end": 24.01
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 24.05,
+   "end": 24.8,
+   "text": "Eu⁠",
+   "words": [
+    {
+     "word": "Eu⁠",
+     "start": 24.05,
+     "end": 24.8
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 34.33,
+   "end": 34.93,
+   "text": "ando mais rápido",
+   "words": [
+    {
+     "word": "ando",
+     "start": 34.33,
+     "end": 34.53
+    },
+    {
+     "word": "mais",
+     "start": 34.53,
+     "end": 34.71
+    },
+    {
+     "word": "rápido",
+     "start": 34.71,
+     "end": 34.93
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 34.97,
+   "end": 35.98,
+   "text": "que ele, velho",
+   "words": [
+    {
+     "word": "que",
+     "start": 34.97,
+     "end": 35.13
+    },
+    {
+     "word": "ele,",
+     "start": 35.13,
+     "end": 35.31
+    },
+    {
+     "word": "velho",
+     "start": 35.39,
+     "end": 35.98
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 41.86,
+   "end": 42.54,
+   "text": "mais rápido e",
+   "words": [
+    {
+     "word": "mais",
+     "start": 41.86,
+     "end": 42.14
+    },
+    {
+     "word": "rápido",
+     "start": 42.14,
+     "end": 42.46
+    },
+    {
+     "word": "e",
+     "start": 42.46,
+     "end": 42.54
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 42.58,
+   "end": 43.81,
+   "text": "com metade do carro",
+   "words": [
+    {
+     "word": "com",
+     "start": 42.58,
+     "end": 42.68
+    },
+    {
+     "word": "metade",
+     "start": 42.68,
+     "end": 43.02
+    },
+    {
+     "word": "do",
+     "start": 43.02,
+     "end": 43.16
+    },
+    {
+     "word": "carro",
+     "start": 43.16,
+     "end": 43.81
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 44.11,
+   "end": 45.49,
+   "text": "ué, cara, alívio",
+   "words": [
+    {
+     "word": "ué,",
+     "start": 44.11,
+     "end": 44.61
+    },
+    {
+     "word": "cara,",
+     "start": 44.71,
+     "end": 44.89
+    },
+    {
+     "word": "alívio",
+     "start": 45.19,
+     "end": 45.49
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 45.53,
+   "end": 46.52,
+   "text": "de peso, mano",
+   "words": [
+    {
+     "word": "de",
+     "start": 45.53,
+     "end": 45.67
+    },
+    {
+     "word": "peso,",
+     "start": 45.67,
+     "end": 46.03
+    },
+    {
+     "word": "mano",
+     "start": 46.17,
+     "end": 46.52
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 47.09,
+   "end": 47.94,
+   "text": "eu entendi?",
+   "words": [
+    {
+     "word": "eu",
+     "start": 47.09,
+     "end": 47.21
+    },
+    {
+     "word": "entendi?",
+     "start": 47.21,
+     "end": 47.94
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 50.45,
+   "end": 51.39,
+   "text": "Alívio de peso",
+   "words": [
+    {
+     "word": "Alívio",
+     "start": 50.45,
+     "end": 50.81
+    },
+    {
+     "word": "de",
+     "start": 50.81,
+     "end": 50.91
+    },
+    {
+     "word": "peso",
+     "start": 50.91,
+     "end": 51.39
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 51.43,
+   "end": 53.03,
+   "text": "mano, você não viu os caras arrancados? Os caras arrancam",
+   "words": [
+    {
+     "word": "mano,",
+     "start": 51.43,
+     "end": 51.49
+    },
+    {
+     "word": "você",
+     "start": 51.59,
+     "end": 51.64
+    },
+    {
+     "word": "não",
+     "start": 51.64,
+     "end": 51.71
+    },
+    {
+     "word": "viu",
+     "start": 51.71,
+     "end": 51.85
+    },
+    {
+     "word": "os",
+     "start": 51.85,
+     "end": 51.99
+    },
+    {
+     "word": "caras",
+     "start": 51.99,
+     "end": 52.11
+    },
+    {
+     "word": "arrancados?",
+     "start": 52.11,
+     "end": 52.57
+    },
+    {
+     "word": "Os",
+     "start": 52.59,
+     "end": 52.71
+    },
+    {
+     "word": "caras",
+     "start": 52.71,
+     "end": 52.83
+    },
+    {
+     "word": "arrancam",
+     "start": 52.83,
+     "end": 53.03
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 53.07,
+   "end": 54.36,
+   "text": "o banco do carro",
+   "words": [
+    {
+     "word": "o",
+     "start": 53.07,
+     "end": 53.21
+    },
+    {
+     "word": "banco",
+     "start": 53.21,
+     "end": 53.45
+    },
+    {
+     "word": "do",
+     "start": 53.45,
+     "end": 53.59
+    },
+    {
+     "word": "carro",
+     "start": 53.59,
+     "end": 54.36
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 55.35,
+   "end": 56.47,
+   "text": "arrancam o capô",
+   "words": [
+    {
+     "word": "arrancam",
+     "start": 55.35,
+     "end": 55.69
+    },
+    {
+     "word": "o",
+     "start": 55.69,
+     "end": 55.83
+    },
+    {
+     "word": "capô",
+     "start": 55.83,
+     "end": 56.47
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 56.51,
+   "end": 57.74,
+   "text": "arrancam tudo, pô!",
+   "words": [
+    {
+     "word": "arrancam",
+     "start": 56.51,
+     "end": 56.79
+    },
+    {
+     "word": "tudo,",
+     "start": 56.79,
+     "end": 57.15
+    },
+    {
+     "word": "pô!",
+     "start": 57.23,
+     "end": 57.74
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}
