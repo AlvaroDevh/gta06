@@ -1,0 +1,507 @@
+{
+ "segments": [
+  {
+   "start": 1.51,
+   "end": 2.03,
+   "text": "Oxi, cara",
+   "words": [
+    {
+     "word": "Oxi,",
+     "start": 1.51,
+     "end": 1.89
+    },
+    {
+     "word": "cara",
+     "start": 1.93,
+     "end": 2.03
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 2.07,
+   "end": 2.8,
+   "text": "minha moto",
+   "words": [
+    {
+     "word": "minha",
+     "start": 2.07,
+     "end": 2.19
+    },
+    {
+     "word": "moto",
+     "start": 2.19,
+     "end": 2.8
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 3.54,
+   "end": 4.61,
+   "text": "— ué,⁠ minha⁠",
+   "words": [
+    {
+     "word": "— ué,⁠",
+     "start": 3.54,
+     "end": 4.06
+    },
+    {
+     "word": "minha⁠",
+     "start": 4.2,
+     "end": 4.61
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 7.52,
+   "end": 8.83,
+   "text": "moto⁠ foi⁠ parar⁠ lá⁠ dentro⁠",
+   "words": [
+    {
+     "word": "moto⁠",
+     "start": 7.52,
+     "end": 7.66
+    },
+    {
+     "word": "foi⁠",
+     "start": 7.66,
+     "end": 7.8
+    },
+    {
+     "word": "parar⁠",
+     "start": 7.8,
+     "end": 8.02
+    },
+    {
+     "word": "lá⁠",
+     "start": 8.02,
+     "end": 8.16
+    },
+    {
+     "word": "dentro⁠",
+     "start": 8.16,
+     "end": 8.83
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 13.71,
+   "end": 14.47,
+   "text": "Chat,⁠ eu⁠ parei⁠ ali⁠",
+   "words": [
+    {
+     "word": "Chat,⁠",
+     "start": 13.71,
+     "end": 13.87
+    },
+    {
+     "word": "eu⁠",
+     "start": 13.97,
+     "end": 14.09
+    },
+    {
+     "word": "parei⁠",
+     "start": 14.09,
+     "end": 14.41
+    },
+    {
+     "word": "ali⁠",
+     "start": 14.41,
+     "end": 14.47
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 14.51,
+   "end": 15.14,
+   "text": "dentro?⁠",
+   "words": [
+    {
+     "word": "dentro?⁠",
+     "start": 14.51,
+     "end": 15.14
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 18.72,
+   "end": 19.37,
+   "text": "eu não parei ali",
+   "words": [
+    {
+     "word": "eu",
+     "start": 18.72,
+     "end": 18.86
+    },
+    {
+     "word": "não",
+     "start": 18.86,
+     "end": 18.94
+    },
+    {
+     "word": "parei",
+     "start": 18.94,
+     "end": 19.32
+    },
+    {
+     "word": "ali",
+     "start": 19.32,
+     "end": 19.37
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 19.38,
+   "end": 20.12,
+   "text": "dentro, eu parei",
+   "words": [
+    {
+     "word": "dentro,",
+     "start": 19.38,
+     "end": 19.72
+    },
+    {
+     "word": "eu",
+     "start": 19.9,
+     "end": 19.95
+    },
+    {
+     "word": "parei",
+     "start": 19.95,
+     "end": 20.12
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 20.16,
+   "end": 21.83,
+   "text": "fora, pô! Tô louco?",
+   "words": [
+    {
+     "word": "fora,",
+     "start": 20.16,
+     "end": 20.44
+    },
+    {
+     "word": "pô!",
+     "start": 20.64,
+     "end": 20.8
+    },
+    {
+     "word": "Tô",
+     "start": 21.21,
+     "end": 21.45
+    },
+    {
+     "word": "louco?",
+     "start": 21.45,
+     "end": 21.83
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 21.87,
+   "end": 22.62,
+   "text": "Meu",
+   "words": [
+    {
+     "word": "Meu",
+     "start": 21.87,
+     "end": 22.62
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 22.93,
+   "end": 24.28,
+   "text": "Deus, tô com amnésia, mano",
+   "words": [
+    {
+     "word": "Deus,",
+     "start": 22.93,
+     "end": 23.03
+    },
+    {
+     "word": "tô",
+     "start": 23.11,
+     "end": 23.17
+    },
+    {
+     "word": "com",
+     "start": 23.17,
+     "end": 23.35
+    },
+    {
+     "word": "amnésia,",
+     "start": 23.35,
+     "end": 23.69
+    },
+    {
+     "word": "mano",
+     "start": 23.75,
+     "end": 24.28
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 28.01,
+   "end": 28.51,
+   "text": "cara, preciso fazer",
+   "words": [
+    {
+     "word": "cara,",
+     "start": 28.01,
+     "end": 28.21
+    },
+    {
+     "word": "preciso",
+     "start": 28.23,
+     "end": 28.33
+    },
+    {
+     "word": "fazer",
+     "start": 28.33,
+     "end": 28.51
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 28.55,
+   "end": 29.33,
+   "text": "carinho em cachorro",
+   "words": [
+    {
+     "word": "carinho",
+     "start": 28.55,
+     "end": 28.77
+    },
+    {
+     "word": "em",
+     "start": 28.77,
+     "end": 28.83
+    },
+    {
+     "word": "cachorro",
+     "start": 28.83,
+     "end": 29.33
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 29.37,
+   "end": 29.96,
+   "text": "porque, mano, esse",
+   "words": [
+    {
+     "word": "porque,",
+     "start": 29.37,
+     "end": 29.49
+    },
+    {
+     "word": "mano,",
+     "start": 29.63,
+     "end": 29.81
+    },
+    {
+     "word": "esse",
+     "start": 29.91,
+     "end": 29.96
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 29.97,
+   "end": 30.77,
+   "text": "cachorro não tá com cara de quem",
+   "words": [
+    {
+     "word": "cachorro",
+     "start": 29.97,
+     "end": 30.17
+    },
+    {
+     "word": "não",
+     "start": 30.17,
+     "end": 30.27
+    },
+    {
+     "word": "tá",
+     "start": 30.27,
+     "end": 30.39
+    },
+    {
+     "word": "com",
+     "start": 30.39,
+     "end": 30.51
+    },
+    {
+     "word": "cara",
+     "start": 30.51,
+     "end": 30.65
+    },
+    {
+     "word": "de",
+     "start": 30.65,
+     "end": 30.71
+    },
+    {
+     "word": "quem",
+     "start": 30.71,
+     "end": 30.77
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 30.81,
+   "end": 31.63,
+   "text": "vai querer um carinho, não",
+   "words": [
+    {
+     "word": "vai",
+     "start": 30.81,
+     "end": 30.91
+    },
+    {
+     "word": "querer",
+     "start": 30.91,
+     "end": 31.09
+    },
+    {
+     "word": "um",
+     "start": 31.09,
+     "end": 31.17
+    },
+    {
+     "word": "carinho,",
+     "start": 31.17,
+     "end": 31.51
+    },
+    {
+     "word": "não",
+     "start": 31.55,
+     "end": 31.63
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 31.67,
+   "end": 32.58,
+   "text": "com todo respeito",
+   "words": [
+    {
+     "word": "com",
+     "start": 31.67,
+     "end": 31.75
+    },
+    {
+     "word": "todo",
+     "start": 31.75,
+     "end": 31.85
+    },
+    {
+     "word": "respeito",
+     "start": 31.85,
+     "end": 32.58
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 34.54,
+   "end": 35.61,
+   "text": "Aqui, filho, tô",
+   "words": [
+    {
+     "word": "Aqui,",
+     "start": 34.54,
+     "end": 34.82
+    },
+    {
+     "word": "filho,",
+     "start": 35.0,
+     "end": 35.16
+    },
+    {
+     "word": "tô",
+     "start": 35.28,
+     "end": 35.61
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 39.39,
+   "end": 40.43,
+   "text": "desculpa, cachorro",
+   "words": [
+    {
+     "word": "desculpa,",
+     "start": 39.39,
+     "end": 40.01
+    },
+    {
+     "word": "cachorro",
+     "start": 40.07,
+     "end": 40.43
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 40.47,
+   "end": 41.12,
+   "text": "aqui, mano, eu não",
+   "words": [
+    {
+     "word": "aqui,",
+     "start": 40.47,
+     "end": 40.69
+    },
+    {
+     "word": "mano,",
+     "start": 40.85,
+     "end": 40.91
+    },
+    {
+     "word": "eu",
+     "start": 40.99,
+     "end": 41.07
+    },
+    {
+     "word": "não",
+     "start": 41.07,
+     "end": 41.12
+    }
+   ],
+   "pos": 0.6
+  },
+  {
+   "start": 41.13,
+   "end": 41.84,
+   "text": "resisti",
+   "words": [
+    {
+     "word": "resisti",
+     "start": 41.13,
+     "end": 41.84
+    }
+   ],
+   "pos": 0.6
+  }
+ ]
+}
