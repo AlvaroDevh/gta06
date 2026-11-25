@@ -1,0 +1,9 @@
+{
+ "formato": "vertical", "layout": "auto", "legenda": false, "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, Shayna, chat, save, prisão, foragida, timer, polícia, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:11:08", "fim": "0:12:20", "titulo": "NAO QUERO QUE A SHAYNA MORRA"},
+  {"id": "02", "inicio": "0:03:50", "fim": "0:04:38", "titulo": "FORAGIDA INDO PRA PRISAO"},
+  {"id": "03", "inicio": "0:12:40", "fim": "0:13:20", "titulo": "ACHEI QUE ELE IA CONVERSAR"}
+ ]
+}
