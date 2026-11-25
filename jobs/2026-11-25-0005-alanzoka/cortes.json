@@ -1,0 +1,9 @@
+{
+ "formato": "vertical", "layout": "auto", "legenda": false, "titulo_no_video": false,
+ "vocabulario": "alanzoka, GTA 6, Jason, Lucia, chat, caixa d'água, ferro velho, assassino, turista, fotos macabras, árvore torta, Foreva, mano, velho",
+ "cortes": [
+  {"id": "01", "inicio": "0:02:07", "fim": "0:03:12", "titulo": "EU JURO QUE NAO OLHEI"},
+  {"id": "02", "inicio": "0:04:32", "fim": "0:05:34", "titulo": "100% ASSASSINO"},
+  {"id": "03", "inicio": "0:18:50", "fim": "0:19:50", "titulo": "O QUE QUE EU VI"}
+ ]
+}
