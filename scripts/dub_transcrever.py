@@ -7,7 +7,9 @@ Transcreve o vídeo original (qualquer língua) com faster-whisper, rodando no p
 -> jobs/J/fonte_transcricao.json   [{"start","end","text"}, ...]
    jobs/J/fonte_transcricao.txt    uma linha por trecho, legível
 """
-import argparse, json, os, subprocess, time
+import argparse, json, os, subprocess, time, wave
+
+import numpy as np
 
 
 def main():
@@ -24,10 +26,15 @@ def main():
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", a.video, "-vn", "-ac", "1", "-ar", "16000",
                     "-c:a", "pcm_s16le", wav], check=True)
 
+    # lê o WAV aqui mesmo (16 kHz, mono) e entrega ao Whisper como lista de números:
+    # assim o faster-whisper não usa o PyAV para abrir arquivo (que quebra em algumas versões)
+    with wave.open(wav) as w:
+        audio = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+
     from faster_whisper import WhisperModel
     m = WhisperModel(a.modelo, device="cpu", compute_type="int8", cpu_threads=os.cpu_count() or 2)
     t0 = time.time()
-    segs, info = m.transcribe(wav, language=None if a.idioma == "auto" else a.idioma, vad_filter=True,
+    segs, info = m.transcribe(audio, language=None if a.idioma == "auto" else a.idioma, vad_filter=True,
                               beam_size=1, condition_on_previous_text=False)
     out, ultimo = [], 0
     for s in segs:
