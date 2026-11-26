@@ -1,4 +1,4 @@
-name: 5 - Resumir e dublar vídeo
+name: 7 - Resumir e dublar vídeo
 
 # Pega UM vídeo (ex.: 25 min em inglês), resume o roteiro, divide em partes, dubla em português,
 # legenda palavra por palavra e monta em 9:16 (fundo borrado + vídeo no meio + legenda roxa).
@@ -87,6 +87,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # o yt-dlp precisa de um interpretador de JavaScript para o YouTube (sem ele: "Requested format is not available")
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
 
       # modelo do Whisper e pacotes guardados entre execuções
       - uses: actions/cache@v4
