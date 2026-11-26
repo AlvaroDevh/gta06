@@ -1,0 +1,1 @@
+Coloque aqui músicas LIVRES DE DIREITOS (ex.: fundo.mp3) e aponte em jobs/<job>/roteiro.json -> config.musica.

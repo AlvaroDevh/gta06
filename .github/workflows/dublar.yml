@@ -1,0 +1,160 @@
+name: 5 - Resumir e dublar vídeo
+
+# Pega UM vídeo (ex.: 25 min em inglês), resume o roteiro, divide em partes, dubla em português,
+# legenda palavra por palavra e monta em 9:16 (fundo borrado + vídeo no meio + legenda roxa).
+# Tudo grátis: Whisper (transcrição), GitHub Models ou Gemini (roteiro), edge-tts (voz), ffmpeg (edição).
+# Detalhes em DUBLAR.md.
+#
+#   etapa = tudo       -> baixa, transcreve, escreve o roteiro e já renderiza as partes
+#   etapa = roteiro    -> para depois do roteiro (jobs/<job>/roteiro.json) para você/Claude revisar
+#   etapa = renderizar -> usa o jobs/<job>/roteiro.json já salvo (pode ter sido editado à mão)
+on:
+  workflow_dispatch:
+    inputs:
+      etapa:
+        description: "tudo | roteiro | renderizar"
+        required: true
+        default: "tudo"
+      url:
+        description: "Link do vídeo (YouTube etc.) ou release:<tag>/<arquivo.mp4>"
+        required: true
+      job:
+        description: "Nome do trabalho (ex.: 2026-11-25-gta6-dinheiro)"
+        required: true
+      idioma:
+        description: "Idioma do vídeo original: en, es, auto..."
+        required: false
+        default: "en"
+      partes:
+        description: "Quantas partes (0 = automático)"
+        required: false
+        default: "0"
+      alvo:
+        description: "Duração alvo de cada parte, em segundos"
+        required: false
+        default: "60"
+      voz:
+        description: "Voz: pt-BR-AntonioNeural (homem) ou pt-BR-FranciscaNeural (mulher)"
+        required: false
+        default: "pt-BR-AntonioNeural"
+      so:
+        description: "Opcional: renderizar só estas partes (ex.: 01,03)"
+        required: false
+        default: ""
+      opcoes:
+        description: 'JSON opcional: {"ritmo":"+8%","llm":"auto|github|gemini","modelo_llm":"","whisper":"small","resumo":0.35}'
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: dublar-${{ inputs.job }}
+  cancel-in-progress: false
+
+jobs:
+  dublar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      ETAPA: ${{ inputs.etapa }}
+      URL: ${{ inputs.url }}
+      JOB: ${{ inputs.job }}
+      IDIOMA: ${{ inputs.idioma }}
+      PARTES: ${{ inputs.partes }}
+      ALVO: ${{ inputs.alvo }}
+      VOZ: ${{ inputs.voz }}
+      SO: ${{ inputs.so }}
+      OPCOES: ${{ inputs.opcoes }}
+      GH_TOKEN: ${{ github.token }}
+      GITHUB_TOKEN: ${{ github.token }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cookies do YouTube (se houver o segredo YT_COOKIES)
+        env:
+          YT_COOKIES: ${{ secrets.YT_COOKIES }}
+        run: |
+          if [ -n "$YT_COOKIES" ]; then
+            printf '%s\n' "$YT_COOKIES" > "$RUNNER_TEMP/cookies.txt"
+            echo "YTDLP_COOKIES=$RUNNER_TEMP/cookies.txt" >> "$GITHUB_ENV"
+            echo "cookies do YouTube: sim"
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # modelo do Whisper e pacotes guardados entre execuções
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: dublar-modelos-v1
+
+      # o vídeo baixado fica guardado (por trabalho) para refazer a dublagem sem baixar de novo
+      - uses: actions/cache@v4
+        with:
+          path: tmp/dub/${{ inputs.job }}/fonte.mp4
+          key: dublar-fonte-${{ inputs.job }}
+
+      - name: Instalar ferramentas
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q -U "yt-dlp[default,curl-cffi]" faster-whisper edge-tts gTTS fonttools brotli pillow numpy
+
+      - name: Ler opções
+        run: |
+          opt() { python3 -c "import json,os;print(json.loads(os.environ.get('OPCOES') or '{}').get('$1','$2'))"; }
+          {
+            echo "RITMO=$(opt ritmo '+8%')"
+            echo "LLM=$(opt llm auto)"
+            echo "MODELO_LLM=$(opt modelo_llm '')"
+            echo "WHISPER=$(opt whisper small)"
+            echo "RESUMO=$(opt resumo 0.35)"
+          } >> "$GITHUB_ENV"
+
+      - name: Baixar o vídeo original
+        run: python scripts/dub_baixar.py "$URL" --job "$JOB"
+
+      - name: Transcrever (Whisper, de graça)
+        if: env.ETAPA != 'renderizar'
+        run: python scripts/dub_transcrever.py tmp/dub/"$JOB"/fonte.mp4 --job "$JOB" --idioma "$IDIOMA" --modelo "$WHISPER"
+
+      - name: Escrever o roteiro (resumo + português + partes)
+        if: env.ETAPA != 'renderizar'
+        run: |
+          python scripts/dub_roteiro.py --job "$JOB" --partes "${PARTES:-0}" --alvo "${ALVO:-60}" \
+            --resumo "$RESUMO" --llm "$LLM" --modelo-llm "$MODELO_LLM"
+
+      - name: Salvar transcrição e roteiro no repositório
+        if: env.ETAPA != 'renderizar'
+        run: |
+          git config user.name "robo-cortes"
+          git config user.email "robo-cortes@users.noreply.github.com"
+          git add jobs/"$JOB"
+          git commit -m "roteiro dublado: $JOB" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && exit 0; sleep $((i*5)); done
+          exit 1
+
+      - name: Dublar e montar as partes
+        if: env.ETAPA != 'roteiro'
+        run: |
+          python scripts/dub_render.py --job "$JOB" --video tmp/dub/"$JOB"/fonte.mp4 \
+            --voz "$VOZ" --ritmo "$RITMO" --so "$SO"
+
+      - name: Publicar na Release
+        if: env.ETAPA != 'roteiro'
+        run: |
+          TAG="dub-$JOB"
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            gh release upload "$TAG" saida/"$JOB"/* --clobber
+          else
+            gh release create "$TAG" saida/"$JOB"/* --title "Dublado: $JOB" --notes-file saida/"$JOB"/publicacao.md \
+              || gh release create "$TAG" saida/"$JOB"/* --title "Dublado: $JOB" --notes "Partes dubladas automaticamente."
+          fi
+          echo "Release: https://github.com/$GITHUB_REPOSITORY/releases/tag/$TAG"
