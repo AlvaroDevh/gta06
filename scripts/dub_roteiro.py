@@ -33,9 +33,28 @@ class _Redir(urllib.request.HTTPRedirectHandler):
 _abrir = urllib.request.build_opener(_Redir).open
 
 
+GEMINI_BASE = os.environ.get("GEMINI_BASE_URL", "https://generativelanguage.googleapis.com/v1beta")
+
+
+def http_get_json(url, cab, tentativas=3):
+    ultimo = ""
+    for t in range(tentativas):
+        try:
+            with _abrir(urllib.request.Request(url, headers=cab), timeout=60) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            ultimo = f"HTTP {e.code}: {e.read().decode('utf-8', 'ignore')[:300]}"
+            if e.code < 500 and e.code != 429:
+                break
+        except (urllib.error.URLError, TimeoutError, ValueError) as e:
+            ultimo = str(e)
+        time.sleep(3 * (t + 1))
+    raise RuntimeError(ultimo)
+
+
 def http_json(url, corpo, cab, tentativas=6):
     dados = json.dumps(corpo).encode()
-    ultimo = ""
+    ultimo, nao_json = "", 0
     for t in range(tentativas):
         req = urllib.request.Request(url, data=dados, headers=cab, method="POST")
         try:
@@ -46,10 +65,15 @@ def http_json(url, corpo, cab, tentativas=6):
                 except ValueError:
                     ultimo = f"resposta que não é JSON (status {r.status}, de {r.geturl()}): {bruto[:300]!r}"
                     print("   " + ultimo, flush=True)
-                    time.sleep(6 * (t + 1))
+                    nao_json += 1
+                    if nao_json >= 2:
+                        break
+                    time.sleep(6)
                     continue
         except urllib.error.HTTPError as e:
             ultimo = f"HTTP {e.code}: {e.read().decode('utf-8', 'ignore')[:300]}"
+            if e.code == 429 and re.search(r"per ?day|PerDay|daily", ultimo, re.I):
+                raise RuntimeError(ultimo)  # cota do dia acabou: esperar não adianta
             if e.code in (429, 500, 502, 503, 504):
                 espera = min(90.0, float(e.headers.get("Retry-After") or 0) or 10.0 * (t + 1))
                 print(f"   LLM {e.code}, esperando {espera:.0f}s (tentativa {t + 1}/{tentativas})", flush=True)
@@ -62,6 +86,32 @@ def http_json(url, corpo, cab, tentativas=6):
     raise RuntimeError("LLM indisponível: " + ultimo)
 
 
+def modelos_gemini(chave, preferido=""):
+    """Modelos 'flash' de texto que a SUA chave enxerga, do mais novo ao mais antigo (flash antes de flash-lite)."""
+    achados = []
+    try:
+        r = http_get_json(f"{GEMINI_BASE}/models?pageSize=200", {"x-goog-api-key": chave})
+        for m in r.get("models", []):
+            nome = m.get("name", "").split("/")[-1]
+            if "generateContent" not in m.get("supportedGenerationMethods", []):
+                continue
+            mm = re.fullmatch(r"gemini-(\d+(?:\.\d+)*)-flash(-lite)?", nome)
+            if mm:
+                achados.append((bool(mm.group(2)), [-int(x) for x in mm.group(1).split(".")], nome))
+    except RuntimeError as e:
+        if "API key not valid" in str(e) or "API_KEY_INVALID" in str(e):
+            sys.exit("ERRO_ROTEIRO a GEMINI_API_KEY não é válida: copie a chave de novo em aistudio.google.com e atualize o segredo")
+        print(f"   não consegui listar os modelos do Gemini ({str(e)[:140]})", flush=True)
+    achados.sort(key=lambda x: (x[0], x[1]))
+    lista = [n for _, _, n in achados]
+    reserva = ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-2.5-flash", "gemini-2.0-flash"]
+    out = []
+    for m in ([preferido] if preferido else []) + lista + reserva:
+        if m and m not in out:
+            out.append(m)
+    return out
+
+
 class LLM:
     def __init__(self, provedor, modelo):
         gem = os.environ.get("GEMINI_API_KEY", "")
@@ -71,7 +121,10 @@ class LLM:
         if provedor == "gemini":
             if not gem:
                 sys.exit("ERRO_ROTEIRO falta o segredo GEMINI_API_KEY")
-            self.modelo = modelo or "gemini-2.5-flash"
+            self.candidatos = modelos_gemini(gem, modelo)
+            self.idx = 0
+            self.modelo = self.candidatos[0]
+            print("   modelos Gemini disponíveis (ordem de tentativa):", ", ".join(self.candidatos[:5]), flush=True)
         else:
             if not os.environ.get("GITHUB_TOKEN"):
                 sys.exit("ERRO_ROTEIRO falta GITHUB_TOKEN (e a permissão `models: read` no workflow)")
@@ -92,16 +145,30 @@ class LLM:
 
     def _chamar(self, usuario, max_saida):
         if self.provedor == "gemini":
-            r = http_json(
-                f"https://generativelanguage.googleapis.com/v1beta/models/{self.modelo}:generateContent",
-                {"systemInstruction": {"parts": [{"text": SISTEMA}]},
-                 "contents": [{"role": "user", "parts": [{"text": usuario}]}],
-                 "generationConfig": {"temperature": 0.4, "responseMimeType": "application/json",
-                                      "maxOutputTokens": max_saida + 4000}},
-                {"Content-Type": "application/json", "x-goog-api-key": os.environ["GEMINI_API_KEY"]})
-            if not r.get("candidates"):
-                raise RuntimeError("Gemini sem resposta: " + json.dumps(r, ensure_ascii=False)[:300])
-            return "".join(p.get("text", "") for p in r["candidates"][0]["content"]["parts"])
+            cab = {"Content-Type": "application/json", "x-goog-api-key": os.environ["GEMINI_API_KEY"]}
+            corpo = {"systemInstruction": {"parts": [{"text": SISTEMA}]},
+                     "contents": [{"role": "user", "parts": [{"text": usuario}]}],
+                     "generationConfig": {"temperature": 0.4, "responseMimeType": "application/json",
+                                          "maxOutputTokens": max_saida + 4000}}
+            while True:
+                try:
+                    r = http_json(f"{GEMINI_BASE}/models/{self.modelo}:generateContent", corpo, cab)
+                    if not r.get("candidates"):
+                        raise RuntimeError("Gemini sem resposta: " + json.dumps(r, ensure_ascii=False)[:300])
+                    txt = "".join(p.get("text", "") for p in r["candidates"][0].get("content", {}).get("parts", []))
+                    if not txt.strip():
+                        raise RuntimeError("Gemini devolveu texto vazio")
+                    time.sleep(13)  # o plano grátis aceita poucos pedidos por minuto (~5 nos modelos flash)
+                    return txt
+                except RuntimeError as e:
+                    if "API key not valid" in str(e) or "API_KEY_INVALID" in str(e):
+                        sys.exit("ERRO_ROTEIRO a GEMINI_API_KEY não é válida: gere outra em aistudio.google.com e atualize o segredo")
+                    if self.idx + 1 >= len(self.candidatos):
+                        raise RuntimeError(f"{e}\n   Nenhum modelo Gemini funcionou. Veja os limites da sua chave em "
+                                           "aistudio.google.com (Rate limits) ou tente de novo mais tarde.")
+                    print(f"   modelo {self.modelo} falhou ({str(e)[:180]}); tentando {self.candidatos[self.idx + 1]}", flush=True)
+                    self.idx += 1
+                    self.modelo = self.candidatos[self.idx]
         corpo = {"model": self.modelo, "temperature": 0.4, "max_tokens": max_saida,
                  "messages": [{"role": "system", "content": SISTEMA}, {"role": "user", "content": usuario}]}
         if self.json_mode:
