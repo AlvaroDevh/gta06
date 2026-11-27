@@ -10,7 +10,7 @@ falado e divide em partes para vídeos curtos. De graça:
 Lê   jobs/J/fonte_transcricao.json  e  jobs/J/meta.json
 Grava jobs/J/roteiro.json   (pode ser editado à mão depois; ver DUBLAR.md)
 """
-import argparse, json, math, os, re, sys, time, urllib.error, urllib.request
+import argparse, json, math, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 
 WPS = 2.6  # palavras por segundo da voz (estimativa; o áudio real manda na hora de renderizar)
 MAX_PARTE = 85.0
@@ -21,14 +21,33 @@ SISTEMA = ("Você é roteirista de vídeos curtos verticais (Shorts, Reels, TikT
 
 
 # ------------------------------------------------------------------ LLM
+class _Redir(urllib.request.HTTPRedirectHandler):
+    """Segue redirecionamentos mantendo POST + corpo (como `curl -L`); não manda o token para outro domínio."""
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        cab = dict(req.header_items())
+        if urllib.parse.urlparse(newurl).netloc != urllib.parse.urlparse(req.full_url).netloc:
+            cab = {k: v for k, v in cab.items() if k.lower() not in ("authorization", "x-goog-api-key")}
+        return urllib.request.Request(newurl, data=req.data, headers=cab, method=req.get_method())
+
+
+_abrir = urllib.request.build_opener(_Redir).open
+
+
 def http_json(url, corpo, cab, tentativas=6):
     dados = json.dumps(corpo).encode()
     ultimo = ""
     for t in range(tentativas):
         req = urllib.request.Request(url, data=dados, headers=cab, method="POST")
         try:
-            with urllib.request.urlopen(req, timeout=180) as r:
-                return json.loads(r.read())
+            with _abrir(req, timeout=180) as r:
+                bruto = r.read()
+                try:
+                    return json.loads(bruto)
+                except ValueError:
+                    ultimo = f"resposta que não é JSON (status {r.status}, de {r.geturl()}): {bruto[:300]!r}"
+                    print("   " + ultimo, flush=True)
+                    time.sleep(6 * (t + 1))
+                    continue
         except urllib.error.HTTPError as e:
             ultimo = f"HTTP {e.code}: {e.read().decode('utf-8', 'ignore')[:300]}"
             if e.code in (429, 500, 502, 503, 504):
@@ -57,6 +76,7 @@ class LLM:
             if not os.environ.get("GITHUB_TOKEN"):
                 sys.exit("ERRO_ROTEIRO falta GITHUB_TOKEN (e a permissão `models: read` no workflow)")
             self.modelo = modelo or "openai/gpt-4.1-mini"
+            self.reservas = [m for m in ("openai/gpt-4o-mini", "openai/gpt-4.1") if m != self.modelo]
         self.json_mode = True
         print(f"LLM: {self.provedor} / {self.modelo}", flush=True)
 
@@ -79,6 +99,8 @@ class LLM:
                  "generationConfig": {"temperature": 0.4, "responseMimeType": "application/json",
                                       "maxOutputTokens": max_saida + 4000}},
                 {"Content-Type": "application/json", "x-goog-api-key": os.environ["GEMINI_API_KEY"]})
+            if not r.get("candidates"):
+                raise RuntimeError("Gemini sem resposta: " + json.dumps(r, ensure_ascii=False)[:300])
             return "".join(p.get("text", "") for p in r["candidates"][0]["content"]["parts"])
         corpo = {"model": self.modelo, "temperature": 0.4, "max_tokens": max_saida,
                  "messages": [{"role": "system", "content": SISTEMA}, {"role": "user", "content": usuario}]}
@@ -88,7 +110,13 @@ class LLM:
                "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}", "X-GitHub-Api-Version": "2022-11-28"}
         try:
             r = http_json("https://models.github.ai/inference/chat/completions", corpo, cab)
+            if "choices" not in r:
+                raise RuntimeError("resposta sem 'choices': " + json.dumps(r, ensure_ascii=False)[:300])
         except RuntimeError as e:
+            if self.reservas and "429" not in str(e) and "RateLimit" not in str(e):
+                print(f"   modelo {self.modelo} falhou ({str(e)[:160]}); tentando {self.reservas[0]}", flush=True)
+                self.modelo = self.reservas.pop(0)
+                return self._chamar(usuario, max_saida)
             if self.json_mode and "response_format" in str(e):
                 self.json_mode = False
                 return self._chamar(usuario, max_saida)
