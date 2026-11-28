@@ -1,0 +1,44 @@
+name: 6 - Testar vozes (ouvir antes de escolher)
+
+# Gera uma amostra de cada voz em português do Brasil (e das vozes Multilingual, que também falam português)
+# lendo o mesmo texto. Baixe o arquivo "vozes" em Artifacts, no fim da execução, e ouça.
+on:
+  workflow_dispatch:
+    inputs:
+      texto:
+        description: "Frase para as vozes lerem (deixe vazio para usar a de exemplo)"
+        required: false
+        default: ""
+      ritmo:
+        description: "Velocidade (ex.: +8%, +0%, -5%)"
+        required: false
+        default: "+8%"
+
+permissions:
+  contents: read
+
+jobs:
+  vozes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TEXTO: ${{ inputs.texto }}
+      RITMO: ${{ inputs.ritmo }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -U edge-tts
+      - name: Gerar amostras
+        run: |
+          if [ -n "$TEXTO" ]; then
+            python scripts/dub_vozes.py --texto "$TEXTO" --ritmo "${RITMO:-+8%}"
+          else
+            python scripts/dub_vozes.py --ritmo "${RITMO:-+8%}"
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vozes
+          path: saida/vozes
+          retention-days: 7

@@ -1,0 +1,9 @@
+MARCA D'AGUA
+
+Opcao 1 (logo): coloque aqui um arquivo chamado marca.png (PNG com fundo transparente, de preferencia branco/claro,
+largura de 500 px ou mais). Ele sera usado automaticamente em todos os videos.
+
+Opcao 2 (so texto): no workflow "5 - Resumir e dublar video", campo opcoes:  {"marca_texto":"@seucanal"}
+
+Posicao (opcoes: marca_pos): painel_dir (padrao) | painel_esq | painel_centro | topo_centro
+Tamanho e transparencia: em jobs/<job>/roteiro.json, config.marca  ->  {"largura":260,"opacidade":0.8}
