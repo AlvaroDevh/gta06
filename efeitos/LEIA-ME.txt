@@ -1,0 +1,6 @@
+EFEITOS SONOROS
+
+Por padrao o robo GERA os efeitos por codigo (whoosh, pop, ding, coin, boom, riser), sem direitos autorais.
+Para usar um som seu, coloque aqui um arquivo com o MESMO NOME: whoosh.mp3, pop.wav, ding.mp3, coin.mp3, boom.wav, riser.mp3.
+Use so sons livres de direitos (ex.: bibliotecas de audio gratuitas com licenca clara). Sons "famosos" de meme costumam ter dono.
+Nivel (opcoes: sfx): off | leve | medio (padrao) | forte

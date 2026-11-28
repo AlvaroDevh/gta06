@@ -8,6 +8,8 @@ Robô de cortes de live: você manda **só o link** (Twitch, YouTube ou Kick) e 
 3. **Renderizar** (`.github/workflows/renderizar.yml`) – baixa **só os trechos escolhidos** em até 1080p, monta o vídeo vertical 9:16 com legenda e publica tudo numa **Release** com o nome do trabalho.
 
 - **Legenda inteligente** (`.github/workflows/legendar.yml`) – legenda gravada no vídeo como de editor: palavra por palavra, só branco com o amarelo passando na palavra dita, quem fala separado (itálico e travessão na troca), posição que sobe sozinha quando cobriria o personagem, e revisão do Claude antes de gravar. Serve para os cortes e para qualquer vídeo avulso. Detalhes em `LEGENDAR.md`.
+- **Resumir e dublar vídeo** (`.github/workflows/dublar.yml`) – pega um vídeo inteiro em outra língua (ex.: 25 min em inglês), resume o roteiro, divide em partes, dubla em português, legenda palavra por palavra e monta em 9:16 com fundo borrado. Tudo grátis. Detalhes em `DUBLAR.md`.
+
 Os cortes ficam em **Releases** (lado direito da página do repositório). Depois é só baixar e postar, com o título, a descrição e as hashtags do `publicacao.md`.
 
 ## Usar pelo Claude

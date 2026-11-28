@@ -2,6 +2,15 @@
 
 Pega **um vídeo inteiro** (ex.: 25 min em inglês), resume o roteiro, divide em partes, dubla em português, legenda palavra por palavra e monta em 9:16. Roda no GitHub Actions, sem pagar nada.
 
+## Novidades (v2)
+- **Roteiro de gamer:** linguagem simples com gírias (`giria`: leve/media/alta) e regras de gancho, retenção e SEO ([GUIA_ROTEIRO.md](GUIA_ROTEIRO.md)).
+- **Vídeos independentes:** cada parte tem começo, meio e fim. Só quando um tema fechado não cabe no máximo ele vira "Parte 1/2" (com `#parte1`).
+- **Mais de 1 minuto garantido:** alvo 75 s, mínimo 65 s no roteiro; na montagem, se ficar abaixo de 61 s a voz desacelera e as pausas aumentam.
+- **Efeitos sonoros** (whoosh, impacto, ding de grana, riser) gerados por código, sem direitos autorais. `sfx`: off/leve/medio/forte.
+- **Marca d'água** (logo PNG em `marca/marca.png` ou texto `marca_texto`).
+- **Texto do gancho** nos 3 primeiros segundos e **publicacao.md** completo (YouTube, TikTok, Instagram, comentário fixado).
+- **Testar vozes:** workflow **"6 - Testar vozes"** gera uma amostra de cada voz para você ouvir.
+
 ## O que sai
 - `parte_01.mp4`, `parte_02.mp4`... (1080x1920, ~60 s cada) + `publicacao.md` (título, descrição, hashtags e **crédito do vídeo original**) numa Release chamada `dub-<job>`.
 - Visual: fundo = o próprio vídeo ampliado e borrado, vídeo nítido 16:9 no meio, legenda em caixa alta (Montserrat Black) com a **palavra falada em caixa roxa**. Sem o áudio original (está em inglês); só a voz em português.
@@ -16,10 +25,10 @@ Pega **um vídeo inteiro** (ex.: 25 min em inglês), resume o roteiro, divide em
 | `job` | nome sem espaço, ex.: `2026-11-25-gta6-dinheiro` |
 | `idioma` | idioma do vídeo original (`en`, `es`, `auto`) |
 | `partes` | número de partes (`0` = a IA decide pelos assuntos do vídeo) |
-| `alvo` | duração alvo de cada parte, em segundos (60) |
+| `alvo` | duração alvo de cada vídeo, em segundos (75). Para o TikTok pagar, precisa passar de 60 |
 | `voz` | `pt-BR-AntonioNeural` (homem) · `pt-BR-FranciscaNeural` (mulher) |
 | `so` | refazer só algumas partes (`01,03`) |
-| `opcoes` | JSON: `{"ritmo":"+8%","llm":"auto","whisper":"small","resumo":0.35}` |
+| `opcoes` | JSON, tudo opcional: `{"giria":"media","sfx":"medio","marca_texto":"@seucanal","marca_pos":"painel_dir","tom":"+0Hz","ritmo":"+8%","min":65,"max":110,"llm":"auto","whisper":"small"}` |
 
 Fluxo recomendado na primeira vez: `etapa=roteiro` → abra `jobs/<job>/roteiro.json`, leia/ajuste as falas → rode de novo com `etapa=renderizar`. Se confiar no resultado, `tudo` já entrega as partes.
 

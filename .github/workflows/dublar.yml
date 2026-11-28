@@ -30,9 +30,9 @@ on:
         required: false
         default: "0"
       alvo:
-        description: "Duração alvo de cada parte, em segundos"
+        description: "Duração alvo de cada vídeo, em segundos (para monetizar no TikTok precisa passar de 60)"
         required: false
-        default: "60"
+        default: "75"
       voz:
         description: "Voz: pt-BR-AntonioNeural (homem) ou pt-BR-FranciscaNeural (mulher)"
         required: false
@@ -42,7 +42,7 @@ on:
         required: false
         default: ""
       opcoes:
-        description: 'JSON opcional: {"ritmo":"+8%","llm":"auto|github|gemini","modelo_llm":"","whisper":"small","resumo":0.35}'
+        description: 'JSON opcional (ver DUBLAR.md): {"giria":"media","sfx":"medio","marca_texto":"@seucanal","tom":"+0Hz","ritmo":"+8%","min":65,"max":110}'
         required: false
         default: ""
 
@@ -88,6 +88,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      # o yt-dlp precisa de um interpretador de JavaScript para o YouTube (sem ele: "Requested format is not available")
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
       # modelo do Whisper e pacotes guardados entre execuções
       - uses: actions/cache@v4
         with:
@@ -112,10 +117,17 @@ jobs:
           opt() { python3 -c "import json,os;print(json.loads(os.environ.get('OPCOES') or '{}').get('$1','$2'))"; }
           {
             echo "RITMO=$(opt ritmo '+8%')"
+            echo "TOM=$(opt tom '+0Hz')"
             echo "LLM=$(opt llm auto)"
             echo "MODELO_LLM=$(opt modelo_llm '')"
             echo "WHISPER=$(opt whisper small)"
-            echo "RESUMO=$(opt resumo 0.35)"
+            echo "RESUMO=$(opt resumo 0)"
+            echo "GIRIA=$(opt giria media)"
+            echo "MIN_PARTE=$(opt min 65)"
+            echo "MAX_PARTE=$(opt max 110)"
+            echo "SFX=$(opt sfx medio)"
+            echo "MARCA_TEXTO=$(opt marca_texto '')"
+            echo "MARCA_POS=$(opt marca_pos '')"
           } >> "$GITHUB_ENV"
 
       - name: Baixar o vídeo original
@@ -128,7 +140,8 @@ jobs:
       - name: Escrever o roteiro (resumo + português + partes)
         if: env.ETAPA != 'renderizar'
         run: |
-          python scripts/dub_roteiro.py --job "$JOB" --partes "${PARTES:-0}" --alvo "${ALVO:-60}" \
+          python scripts/dub_roteiro.py --job "$JOB" --partes "${PARTES:-0}" --alvo "${ALVO:-75}" \
+            --min-parte "$MIN_PARTE" --max-parte "$MAX_PARTE" --giria "$GIRIA" \
             --resumo "$RESUMO" --llm "$LLM" --modelo-llm "$MODELO_LLM"
 
       - name: Salvar transcrição e roteiro no repositório
@@ -145,7 +158,8 @@ jobs:
         if: env.ETAPA != 'roteiro'
         run: |
           python scripts/dub_render.py --job "$JOB" --video tmp/dub/"$JOB"/fonte.mp4 \
-            --voz "$VOZ" --ritmo "$RITMO" --so "$SO"
+            --voz "$VOZ" --ritmo "$RITMO" --tom "$TOM" --sfx "$SFX" --so "$SO" \
+            --marca-texto "$MARCA_TEXTO" --marca-pos "$MARCA_POS"
 
       - name: Publicar na Release
         if: env.ETAPA != 'roteiro'

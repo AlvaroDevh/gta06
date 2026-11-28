@@ -18,6 +18,7 @@ Como cada parte é montada (a locução manda no tempo):
 import argparse, asyncio, hashlib, json, math, os, re, shutil, subprocess, sys, wave
 
 import numpy as np
+import dub_sfx
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -27,14 +28,25 @@ W, H, FPS, SR = 1080, 1920, 30, 44100
 PADRAO = {
     "voz": "pt-BR-AntonioNeural",
     "ritmo": "+8%",            # velocidade da voz (edge-tts)
-    "gancho": True,            # abre cada parte com a frase de gancho do roteiro
+    "tom": "+0Hz",             # tom da voz (ex.: "-4Hz" mais grave, "+4Hz" mais agudo)
+    "gancho": True,            # (roteiros antigos) abre com a frase "gancho" do roteiro
+    "gancho_tela": True,       # texto grande do gancho nos primeiros 3 s, na parte de cima
     "rotulo_parte": False,     # "PARTE 1/8" no topo
     "cor_destaque": "#6D3EF2", # caixa roxa da palavra falada
     "painel_centro": 0.541,    # centro do vídeo nítido (fração da altura)
     "legenda_centro": 0.807,   # centro da legenda (fração da altura)
     "pausa": 0.22,             # silêncio entre falas (s)
-    "musica": "",              # arquivo opcional (ex.: musicas/fundo.mp3)
+    "min_parte": 61.0,         # duração mínima de cada vídeo (s). TikTok Creator Rewards exige mais de 60 s
+    "sfx": "medio",            # efeitos sonoros: off | leve | medio | forte
+    "musica": "",              # arquivo opcional (ex.: musicas/fundo.mp3), só se for livre de direitos
     "vol_musica": 0.07,
+    "marca": {                 # marca d'água
+        "arquivo": "marca/marca.png",   # logo PNG (fundo transparente). Se existir, é usado
+        "texto": "",                    # alternativa: só texto, ex.: "@seucanal"
+        "posicao": "painel_dir",        # painel_dir | painel_esq | painel_centro | topo_centro
+        "opacidade": 0.8,
+        "largura": 260,
+    },
 }
 
 
@@ -172,12 +184,15 @@ def aparar(x):
     return x[a:b], a / SR
 
 
-async def _edge(texto, voz, ritmo, saida_mp3):
+async def _edge(texto, voz, ritmo, tom, saida_mp3):
     import edge_tts
+    kw = {"rate": ritmo}
+    if tom and tom != "+0Hz":
+        kw["pitch"] = tom
     try:
-        com = edge_tts.Communicate(texto, voz, rate=ritmo, boundary="WordBoundary")
+        com = edge_tts.Communicate(texto, voz, boundary="WordBoundary", **kw)
     except TypeError:  # versão antiga: já manda palavra por palavra
-        com = edge_tts.Communicate(texto, voz, rate=ritmo)
+        com = edge_tts.Communicate(texto, voz, **kw)
     audio, marcas = bytearray(), []
     async for ch in com.stream():
         if ch["type"] == "audio":
@@ -209,7 +224,8 @@ def _fake(texto):
 def sintetizar(texto, cfg, cache, modo):
     """-> (amostras int16 mono 44,1 kHz, [(t0,t1)] por palavra)"""
     palavras = texto.split()
-    chave = hashlib.sha1(f"{modo}|{cfg['voz']}|{cfg['ritmo']}|{texto}".encode()).hexdigest()[:16]
+    tom = cfg.get("tom", "+0Hz")
+    chave = hashlib.sha1(f"{modo}|{cfg['voz']}|{cfg['ritmo']}|{tom}|{texto}".encode()).hexdigest()[:16]
     wav, js = os.path.join(cache, chave + ".wav"), os.path.join(cache, chave + ".json")
     if os.path.isfile(wav) and os.path.isfile(js):
         return ler_wav(wav), [tuple(p) for p in json.load(open(js))]
@@ -218,16 +234,19 @@ def sintetizar(texto, cfg, cache, modo):
         x = _fake(texto)
     else:
         mp3 = os.path.join(cache, chave + ".mp3")
-        ultimo = None
-        for tent in range(3):
+        vozes = [cfg["voz"], cfg["voz"], "pt-BR-AntonioNeural"]  # 3ª tentativa: voz padrão, se a escolhida falhar
+        ok = False
+        for tent, voz in enumerate(vozes):
             try:
-                marcas = asyncio.run(_edge(texto, cfg["voz"], cfg["ritmo"], mp3))
+                marcas = asyncio.run(_edge(texto, voz, cfg["ritmo"], tom, mp3))
+                if voz != cfg["voz"]:
+                    print(f"   AVISO: a voz {cfg['voz']} falhou; usando {voz} nesta fala", flush=True)
+                ok = True
                 break
             except Exception as e:
-                ultimo = e
                 print(f"   edge-tts falhou ({str(e)[:90]}), tentativa {tent + 1}/3", flush=True)
                 import time as _t; _t.sleep(2 * (tent + 1))
-        else:
+        if not ok:
             print("   usando gTTS (voz mais simples) como reserva", flush=True)
             _gtts(texto, mp3)
             marcas = []
@@ -239,7 +258,7 @@ def sintetizar(texto, cfg, cache, modo):
     dur = len(x) / SR
     marcas = [(a - lead, b - lead, t) for a, b, t in marcas]
     tempos = alinhar(palavras, marcas, dur) or tempos_proporcionais(palavras, dur)
-    tempos = [(max(0.0, min(a, dur)), max(0.0, min(b, dur))) for a, b in tempos]
+    tempos = [(float(max(0.0, min(a, dur))), float(max(0.0, min(b, dur)))) for a, b in tempos]
     with wave.open(wav, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(x.tobytes())
     json.dump(tempos, open(js, "w"))
@@ -363,6 +382,73 @@ def rotulo_png(texto, caminho):
     img.save(caminho)
 
 
+# ------------------------------------------------------------------ extras visuais
+def ajustar_ritmo(r, delta):
+    m = re.fullmatch(r"\s*([+-]?\d+)%\s*", r or "")
+    v = max(-30, min(40, (int(m.group(1)) if m else 0) + delta))
+    return f"{v:+d}%"
+
+
+def gancho_tela_png(texto, caminho):
+    """Texto grande do gancho (até 2 linhas, caixa alta, contorno preto). Devolve (largura, altura)."""
+    palavras = texto.upper().split()
+    tam = 92
+    while True:
+        f = fonte(tam)
+        linhas = [" ".join(palavras)]
+        if f.getlength(linhas[0]) > 940 and len(palavras) > 1:
+            m = (len(palavras) + 1) // 2
+            linhas = [" ".join(palavras[:m]), " ".join(palavras[m:])]
+        if max(f.getlength(l) for l in linhas) <= 960 or tam <= 56:
+            break
+        tam -= 4
+    alt = int(tam * 1.35)
+    img = Image.new("RGBA", (W, alt * len(linhas) + 60), (0, 0, 0, 0))
+    sombra = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    d, ds = ImageDraw.Draw(img), ImageDraw.Draw(sombra)
+    for i, l in enumerate(linhas):
+        y = 30 + alt * i + alt / 2
+        ds.text((W / 2, y + 6), l, font=f, fill=(0, 0, 0, 190), anchor="mm", stroke_width=9)
+        d.text((W / 2, y), l, font=f, fill=(255, 255, 255, 255), anchor="mm", stroke_width=9, stroke_fill=(0, 0, 0, 255))
+    out = Image.alpha_composite(sombra.filter(ImageFilter.GaussianBlur(5)), img)
+    out.save(caminho)
+    return out.size
+
+
+def marca_png(cfg, caminho):
+    """Prepara a marca d'água (logo PNG ou texto). Devolve (largura, altura) ou None se não houver."""
+    m = {**PADRAO["marca"], **(cfg.get("marca") or {})}
+    arq = m.get("arquivo") or ""
+    cand = arq if os.path.isabs(arq) else os.path.join(RAIZ, arq)
+    if arq and os.path.isfile(cand):
+        im = Image.open(cand).convert("RGBA")
+        larg = int(m["largura"])
+        im = im.resize((larg, max(1, int(im.height * larg / im.width))), Image.LANCZOS)
+    elif m.get("texto"):
+        f = fonte(46)
+        tw = int(f.getlength(m["texto"])) + 40
+        im = Image.new("RGBA", (tw, 90), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        d.text((tw / 2, 47), m["texto"], font=f, fill=(0, 0, 0, 200), anchor="mm", stroke_width=5, stroke_fill=(0, 0, 0, 200))
+        d.text((tw / 2, 45), m["texto"], font=f, fill=(255, 255, 255, 255), anchor="mm")
+    else:
+        return None
+    alfa = im.getchannel("A").point(lambda v: int(v * float(m["opacidade"])))
+    im.putalpha(alfa)
+    im.save(caminho)
+    return im.size
+
+
+def posicao_marca(pos, w, h, py):
+    if pos == "painel_esq":
+        return 40, py - h - 24
+    if pos == "painel_centro":
+        return (W - w) // 2, py - h - 24
+    if pos == "topo_centro":
+        return (W - w) // 2, 170
+    return W - w - 40, py - h - 24  # painel_dir (padrão): acima do vídeo, longe dos botões do app
+
+
 # ------------------------------------------------------------------ montagem
 def clamp(v, a, b):
     return max(a, min(b, v))
@@ -377,24 +463,40 @@ def renderizar_parte(parte, idx, total_partes, video, vdur, pw, ph, cfg, trab, s
     os.makedirs(cache, exist_ok=True)
 
     falas = list(parte["falas"])
-    if cfg["gancho"] and parte.get("gancho") and falas:
+    if cfg["gancho"] and parte.get("gancho") and falas:  # roteiros antigos: gancho separado
         falas.insert(0, {"texto": parte["gancho"], "src_inicio": falas[0]["src_inicio"],
                          "src_fim": falas[0]["src_fim"], "gancho": True})
 
-    # 1) voz + linha do tempo (tudo em quadros inteiros para áudio e vídeo nunca se afastarem)
-    audio, palavras_abs, clipes, t = [], [], [], 0.0
+    # 1) voz. Se o vídeo ficar com menos que o mínimo, a voz desacelera um pouco e as pausas aumentam
+    ritmo, pausa = cfg["ritmo"], cfg["pausa"]
+    for tent in range(3):
+        c = {**cfg, "ritmo": ritmo}
+        itens = [sintetizar(fa["texto"], c, cache, modo) for fa in falas]
+        quadros = [math.ceil((len(x) / SR + pausa) * FPS) for x, _ in itens]
+        total = sum(quadros) / FPS
+        if total >= cfg["min_parte"] or tent == 2:
+            break
+        print(f"   parte {pid} com {total:.0f}s (mínimo {cfg['min_parte']:.0f}s): desacelerando a voz", flush=True)
+        ritmo, pausa = ajustar_ritmo(ritmo, -7), min(0.45, pausa + 0.07)
+    falta = cfg["min_parte"] + 0.3 - total
+    if falta > 0:
+        if falta <= 6:  # pequena folga: estica o fim (a última imagem continua rolando)
+            quadros[-1] += math.ceil(falta * FPS)
+            total = sum(quadros) / FPS
+        else:
+            print(f"   AVISO parte {pid} ficou com {total:.0f}s, abaixo do mínimo de {cfg['min_parte']:.0f}s: "
+                  "acrescente falas no roteiro.json", flush=True)
+
+    # 2) linha do tempo (tudo em quadros inteiros: áudio e vídeo nunca se afastam)
+    audio, palavras_abs, clipes, inicios, t = [], [], [], [], 0.0
     cursor_ini = cursor_fim = -1.0
     for n, fa in enumerate(falas):
-        x, tempos = sintetizar(fa["texto"], cfg, cache, modo)
-        d = len(x) / SR
-        quadros = math.ceil((d + cfg["pausa"]) * FPS)
-        L = quadros / FPS
-        palavras = fa["texto"].split()
-        for w, (a, b) in zip(palavras, tempos):
+        x, tempos = itens[n]
+        L = quadros[n] / FPS
+        inicios.append(t)
+        for w, (a, b) in zip(fa["texto"].split(), tempos):
             palavras_abs.append((w, t + a, t + b))
-        pad = np.zeros(int(round(L * SR)) - len(x), dtype=np.int16)
-        audio.append(np.concatenate([x, pad]))
-        # trecho do vídeo original
+        audio.append(np.concatenate([x, np.zeros(max(0, int(round(L * SR)) - len(x)), dtype=np.int16)]))
         a, b = float(fa["src_inicio"]), float(fa["src_fim"])
         span = max(b - a, 0.5)
         vel = clamp(span / L, 0.9, 1.6)
@@ -412,7 +514,7 @@ def renderizar_parte(parte, idx, total_partes, video, vdur, pw, ph, cfg, trab, s
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
         w.writeframes(np.concatenate(audio).tobytes())
 
-    # 2) clipes do vídeo original, já no tamanho do painel
+    # 3) clipes do vídeo original, já no tamanho do painel
     lista = os.path.join(pasta, "clipes.txt")
     with open(lista, "w") as f:
         for k, (ini, gasto, vel, L) in enumerate(clipes):
@@ -425,11 +527,12 @@ def renderizar_parte(parte, idx, total_partes, video, vdur, pw, ph, cfg, trab, s
     painel = os.path.join(pasta, "painel.mp4")
     sh(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", lista, "-c", "copy", painel])
 
-    # 3) legenda + rótulo
+    # 4) legenda, efeitos, marca d'água
     leg = montar_legenda(palavras_abs, total, os.path.join(pasta, "leg"), cfg["cor_destaque"])
     py = int(cfg["painel_centro"] * H - ph / 2)
     cy = int(cfg["legenda_centro"] * H - 150)
     ent = ["-i", painel, "-i", wav_total, "-f", "concat", "-safe", "0", "-i", leg]
+    n_in = 3
     filtro = [
         "[0:v]split=2[p][b]",
         "[b]scale=270:480:force_original_aspect_ratio=increase,crop=270:480,gblur=sigma=6,"
@@ -438,43 +541,87 @@ def renderizar_parte(parte, idx, total_partes, video, vdur, pw, ph, cfg, trab, s
         f"[2:v]fps={FPS},format=rgba[c]",
         f"[v1][c]overlay=0:{cy}:format=auto:eof_action=pass[v2]",
     ]
-    ultimo, prox_in = "v2", 3
+    ultimo = "v2"
+
+    def sobrepor(png, x, y, enable=""):
+        nonlocal ent, n_in, ultimo
+        ent += ["-loop", "1", "-framerate", str(FPS), "-i", png]
+        novo = f"v{n_in}"
+        extra = f":enable='{enable}'" if enable else ""
+        filtro.append(f"[{ultimo}][{n_in}:v]overlay={x}:{y}:format=auto{extra}[{novo}]")
+        ultimo = novo
+        n_in += 1
+
+    if cfg.get("gancho_tela") and parte.get("gancho_tela"):
+        gp = os.path.join(pasta, "gancho.png")
+        gw, gh = gancho_tela_png(parte["gancho_tela"], gp)
+        sobrepor(gp, 0, max(py - gh - 30, 120), "lt(t,3.4)")
     if cfg["rotulo_parte"]:
         rp = os.path.join(pasta, "rotulo.png")
         rotulo_png(f"PARTE {idx}/{total_partes}", rp)
-        ent += ["-i", rp]
-        filtro.append(f"[{ultimo}][{prox_in}:v]overlay=0:{max(py - 230, 60)}:format=auto[v3]")
-        ultimo, prox_in = "v3", prox_in + 1
+        sobrepor(rp, 0, max(py - 230, 60))
+    mp = os.path.join(pasta, "marca.png")
+    dim = marca_png(cfg, mp)
+    if dim:
+        mx, my = posicao_marca((cfg.get("marca") or {}).get("posicao", "painel_dir"), dim[0], dim[1], py)
+        sobrepor(mp, mx, my)
     filtro.append(f"[{ultimo}]format=yuv420p[vf]")
-    musica = cfg.get("musica") and os.path.isfile(cfg["musica"])
-    if musica:
+
+    mix = ["[n]"]
+    filtro.append("[1:a]loudnorm=I=-16:TP=-1.5:LRA=11,aresample=44100[n]")
+    if cfg.get("sfx", "off") != "off":
+        efeitos = dub_sfx.carregar_efeitos()
+        ev = dub_sfx.planejar(inicios, falas, palavras_abs, total, cfg["sfx"])
+        sfx_wav = dub_sfx.mixar(ev, efeitos, total, os.path.join(pasta, "sfx.wav"))
+        ent += ["-i", sfx_wav]
+        mix.append(f"[{n_in}:a]")
+        n_in += 1
+        print(f"   efeitos: {len(ev)} ({', '.join(sorted({e[1] for e in ev}))})", flush=True)
+    if cfg.get("musica") and os.path.isfile(cfg["musica"]):
         ent += ["-stream_loop", "-1", "-i", cfg["musica"]]
-        filtro.append("[1:a]loudnorm=I=-16:TP=-1.5:LRA=11,aresample=44100[n]")
-        filtro.append(f"[{prox_in}:a]volume={cfg['vol_musica']}[m]")
-        filtro.append("[n][m]amix=inputs=2:duration=first:normalize=0[af]")
+        filtro.append(f"[{n_in}:a]volume={cfg['vol_musica']}[m]")
+        mix.append("[m]")
+        n_in += 1
+    if len(mix) > 1:
+        filtro.append("".join(mix) + f"amix=inputs={len(mix)}:duration=first:normalize=0,alimiter=limit=0.95[af]")
     else:
-        filtro.append("[1:a]loudnorm=I=-16:TP=-1.5:LRA=11,aresample=44100[af]")
+        filtro[-1] = filtro[-1].replace("[n]", "[af]")
+
     saida_arq = os.path.join(saida, f"parte_{pid}.mp4")
     sh(["ffmpeg", "-y", "-v", "error", *ent, "-filter_complex", ";".join(filtro), "-map", "[vf]", "-map", "[af]",
         "-t", f"{total:.3f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
         "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", saida_arq])
     print(f"RENDERIZADO parte {pid}: {total:.1f}s, {len(falas)} falas, {len(palavras_abs)} palavras", flush=True)
-    if total > 90:
-        print(f"   AVISO parte {pid} passou de 90 s ({total:.0f}s): divida no roteiro.json ou aumente o ritmo", flush=True)
+    if total > 175:
+        print(f"   AVISO parte {pid} passou de 3 min: não conta como Short. Divida no roteiro.json", flush=True)
     return total
 
 
+# ------------------------------------------------------------------ texto para publicar
 def publicacao(rot, partes_ok, saida):
     cred = f"Vídeo original: {rot.get('titulo_original', '')} - {rot.get('canal', '')} - {rot.get('url', '')}".strip(" -")
-    linhas = [f"# {rot.get('titulo_serie') or rot.get('titulo_original') or 'Resumo dublado'}\n"]
-    if rot.get("descricao"):
-        linhas.append(rot["descricao"] + "\n")
-    tags = " ".join(rot.get("hashtags") or [])
+    L = [f"# {rot.get('titulo_serie') or rot.get('titulo_original') or 'Resumo dublado'}\n",
+         "Antes de postar: dê crédito ao vídeo original (já vai na descrição), confira os fatos do roteiro e poste "
+         "nas horas de mais movimento do seu público. Responda os primeiros comentários na primeira hora.\n"]
     for p in partes_ok:
-        linhas.append(f"## Parte {p['id']} - {p.get('titulo', '')}\n")
-        linhas.append(f"Título: {p.get('titulo', '')}")
-        linhas.append(f"Descrição: {p.get('descricao') or p.get('gancho') or ''}\n{cred}\n{tags}\n")
-    open(os.path.join(saida, "publicacao.md"), "w", encoding="utf-8").write("\n".join(linhas))
+        tags = " ".join(p.get("hashtags") or rot.get("hashtags_gerais") or [])
+        desc = p.get("descricao") or p.get("gancho") or ""
+        L.append(f"## Parte {p['id']}: {p.get('titulo', '')}\n")
+        L.append("**YouTube Shorts**")
+        L.append(f"- Título: {p.get('titulo', '')}")
+        for alt in p.get("titulos_alternativos") or []:
+            L.append(f"- Título alternativo (teste A/B): {alt}")
+        L.append(f"- Descrição:\n\n{desc}\n\n{cred}\n\n{tags}\n")
+        if p.get("comentario_fixado"):
+            L.append(f"- Comentário fixado: {p['comentario_fixado']}")
+        if p.get("palavras_chave"):
+            L.append(f"- Palavras-chave (use no título, na descrição e FALE no vídeo): {', '.join(p['palavras_chave'])}")
+        legenda = (p.get("gancho_tela") or p.get("titulo") or "").capitalize()
+        tt = " ".join((p.get("hashtags") or [])[:4] + ["#fyp"])
+        L.append(f"\n**TikTok** (legenda curta; ative o conteúdo original, sem duetos):\n\n{legenda}. {p.get('comentario_fixado', '')} {tt}\n")
+        L.append(f"**Instagram Reels**:\n\n{legenda}. {p.get('comentario_fixado', '')} {' '.join((p.get('hashtags') or [])[:5])}\n")
+        L.append("---\n")
+    open(os.path.join(saida, "publicacao.md"), "w", encoding="utf-8").write("\n".join(L))
 
 
 def main():
@@ -485,15 +632,29 @@ def main():
     ap.add_argument("--tts", default="edge", choices=["edge", "fake"])
     ap.add_argument("--voz", default="")
     ap.add_argument("--ritmo", default="")
+    ap.add_argument("--tom", default="")
+    ap.add_argument("--min-parte", type=float, default=None, help="duração mínima de cada vídeo em segundos")
+    ap.add_argument("--sfx", default="", choices=["", "off", "leve", "medio", "forte"])
+    ap.add_argument("--marca-texto", default="")
+    ap.add_argument("--marca-pos", default="")
+    ap.add_argument("--marca-opacidade", type=float, default=None)
     ap.add_argument("--saida", default="")
     a = ap.parse_args()
 
     rot = json.load(open(os.path.join("jobs", a.job, "roteiro.json"), encoding="utf-8"))
     cfg = {**PADRAO, **(rot.get("config") or {})}
-    if a.voz:
-        cfg["voz"] = a.voz
-    if a.ritmo:
-        cfg["ritmo"] = a.ritmo
+    cfg["marca"] = {**PADRAO["marca"], **((rot.get("config") or {}).get("marca") or {})}
+    for k, v in (("voz", a.voz), ("ritmo", a.ritmo), ("tom", a.tom), ("sfx", a.sfx)):
+        if v:
+            cfg[k] = v
+    if a.min_parte is not None:
+        cfg["min_parte"] = a.min_parte
+    if a.marca_texto:
+        cfg["marca"]["texto"] = a.marca_texto
+    if a.marca_pos:
+        cfg["marca"]["posicao"] = a.marca_pos
+    if a.marca_opacidade is not None:
+        cfg["marca"]["opacidade"] = a.marca_opacidade
     saida = a.saida or os.path.join("saida", a.job)
     os.makedirs(saida, exist_ok=True)
     trab = os.path.join("tmp", "dub", a.job)
@@ -505,7 +666,7 @@ def main():
         pw, ph = 1080, int(round(1080 * vh / vw / 2) * 2)
     else:
         ph, pw = 1100, int(round(1100 * vw / vh / 2) * 2)
-    print(f"fonte {vw}x{vh} {vdur / 60:.1f} min -> painel {pw}x{ph}", flush=True)
+    print(f"fonte {vw}x{vh} {vdur / 60:.1f} min -> painel {pw}x{ph} | voz {cfg['voz']} {cfg['ritmo']} | efeitos: {cfg['sfx']}", flush=True)
 
     so = {x.strip() for x in a.so.split(",") if x.strip()}
     partes = rot["partes"]
@@ -518,7 +679,7 @@ def main():
             ok.append(p)
         except Exception as e:
             print(f"ERRO_DUB parte {p['id']}: {e}", flush=True)
-    publicacao(rot, [p for p in partes if so == set() or p["id"] in so], saida)
+    publicacao(rot, [p for p in partes if not so or p["id"] in so], saida)
     if not ok:
         sys.exit("ERRO_DUB nenhuma parte foi renderizada")
 

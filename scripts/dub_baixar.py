@@ -48,7 +48,8 @@ def main():
     else:
         import yt_dlp
         o = {"quiet": True, "no_warnings": True, "noplaylist": True, "merge_output_format": "mp4",
-             "format": "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b[height<=1080]/b",
+             "format": "bv*[height<=1080]+ba/b[height<=1080]/bv*+ba/b",
+             "remote_components": ["ejs:github"],
              "outtmpl": saida.replace(".mp4", ".%(ext)s"), "concurrent_fragment_downloads": 8}
         if COOKIES:
             o["cookiefile"] = COOKIES
@@ -61,6 +62,11 @@ def main():
                 sys.exit("ERRO_YOUTUBE_BLOQUEOU: o YouTube bloqueou o servidor do GitHub. Crie o segredo YT_COOKIES "
                          "(cookies do seu navegador, formato Netscape) ou baixe o vídeo no seu PC, suba numa Release "
                          "e use  release:<tag>/<arquivo.mp4>  no lugar do link.")
+            if "format is not available" in msg:
+                print("\nFormatos que o YouTube ofereceu (diagnóstico):", flush=True)
+                subprocess.run(["yt-dlp", "--list-formats"] + (["--cookies", COOKIES] if COOKIES else []) + [a.fonte])
+                sys.exit("ERRO_FORMATO: confira se o passo 'denoland/setup-deno' está no workflow e se o yt-dlp está "
+                         "atualizado. Se o diagnóstico acima só mostrar 'storyboard/images', falta o interpretador de JS.")
             raise
         if not os.path.isfile(saida):  # yt-dlp pode ter gravado .mkv/.webm
             for ext in ("mkv", "webm", "mov"):
